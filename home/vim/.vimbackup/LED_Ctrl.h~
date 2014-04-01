@@ -1,0 +1,7 @@
+#ifndef LED_Ctrl
+#define LED_Ctrl
+
+void initGreenLED();
+void initRedLED();
+void toggleLED(int grnRedBoth);
+#endif

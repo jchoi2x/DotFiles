@@ -1,0 +1,37 @@
+#include <msp430g2553.h>
+
+
+#define LED_0 BIT0
+#define LED_1 BIT6
+#define LED_OUT P1OUT
+#define LED_DIR P1DIR
+
+
+
+unsigned int timerCount = 0;
+
+int main(void){
+    WDTCTL = WDTPW + WDTHOLD;    // Stop watchdog timer
+    LED_DIR |= (LED_0 + LED_1);  // Set P1.0 and P1.6 to output direction
+    LED_OUT &= ~(LED_0 + LED_1); // Set the LEDs off
+
+                             // Clear the timer and enable timer interrupt
+
+    while (1){
+        LED_OUT ^= LED_0;
+        int i = 10000 ;
+        while ( i > 0 ){
+            i-- ;
+        }
+    }
+    return 0 ;
+}
+
+
+// Timer A0 interrupt service routine
+#pragma vector=TIMERA0_VECTOR
+__interrupt void Timer_A (void){
+    timerCount = (timerCount + 1) % 8;
+    if(timerCount ==0)
+        P1OUT ^= (LED_0 + LED_1);
+}

@@ -1,0 +1,23 @@
+#ifndef UART_Ctrl
+#define UART_Ctrl
+
+
+/* Initializes various register values for desired UART settings
+ * Sets P2.4 to tx and P2.5 to rx
+ * Until all settings are set, the UART is held in reset mode.
+ * then then all settings are set, it is taken out of reset mode.  */
+void Init_UART(void);
+
+/* Polls UCA0TXIFG until a 1 is found, when UCA0TXBUF is empty, and then
+ * transmits an ASCII character passed to it as an unsigned char with values
+ * in between 0 and 255 by writing it to UCA0TXBUF */
+void OUTA_UART(unsigned char A);
+
+/* Continuously reads UCA0RXIFG flag until 1. Then when 1 is encountered,
+ * it reads UCA0RXBUF to obtain the received data (An AsCII character) */
+unsigned char INCHAR_UART(void);
+
+/* Prints to hyperterminal via serial output the given arg*/
+void stringout(char Str2[]) ;
+
+#endif

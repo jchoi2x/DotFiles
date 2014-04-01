@@ -1,0 +1,1 @@
+0 9 * * 1-5 amixer set Master 75\% && xterm -display :0 -e mplayer -shuffle -playlist path/to/awesomeplaylist.m3u

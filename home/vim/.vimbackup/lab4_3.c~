@@ -1,0 +1,71 @@
+#include <msp430fg4618.h>
+#include <msp430.h>
+#include "../include/LCD_Ctrl.h"
+#include "stdio.h"
+
+// Lab 4 - Part A3
+// Not so sure
+
+
+
+#define GREEN BIT2
+#define ORANGE BIT1
+#define LCD_SIZE 11
+
+/* Exercises for C-code
+ *  1. Write program to display the number 2 ( segments abdeg ) on the rightmost
+ *     seven segment display.
+ *  2. Write program to display the number 2 ( segments abdeg ) on the leftmost
+ *     seven segment display.
+ *  3. Write a C-language program that cna display the numbers 0 - 9 and Letters A-F.
+ *     Program should count up from 0 to F and then repeat indefinitely
+ *  4. Write a C-language program that counts up from 0 to 999 in decimal and displays this
+ *     count every tenth of a second if SW1 is pressed and begin counting down when SW2 is pressed
+ */
+
+
+unsigned int characters[] = {0x5f,0x06,0x6b,0x2f,0x36,0x3d,0x7d,0x07,0x7f,0x37,0x77,0x7c,0x59,0x6E,0x79,0x71};
+unsigned char *LCDSeg = (unsigned char *) &LCDM3;
+
+unsigned int interruptCnt = 0 ;
+unsigned int cnt = 2 ;
+unsigned int time[] = {0,0,0,0,0,0,0};
+
+int main(void) {
+    volatile unsigned char a;       // <Volatile>
+    volatile unsigned int i;        // <Volatile>
+
+    WDTCTL = WDTPW + WDTHOLD;       // Stop watchdog timer
+
+    // Clock Set up
+    CCTL0 = CCIE;                   // Set up Timer+Clock
+    TACTL = TASSEL_1 + MC_1;        // [timerA -> ACLK][MODE: UP]
+    TACCR0 = 0x1FFF ;               // TACCR0 is the upper limit of the timer = 32768
+
+    P2DIR |= GREEN+ORANGE;          // Set Px as output to be able to turn on LED
+    P2OUT = 0x00 ;
+
+    Init_LCD();
+
+    __enable_interrupt();
+    __bis_SR_register(LPM0 + GIE);  // LPM0 with interrupts enabled
+
+
+}
+
+
+#pragma vector = TIMERA0_VECTOR
+__interrupt void Timer_A (void){
+    // Every two interrupts
+    if ( interruptCnt%2 == 0 ){
+        P2OUT ^= GREEN; // Toggle P1.0 using exclusive-OR
+        LCDSeg[0] = characters[time[0]++];
+        time[0]%=16 ;
+    }
+    if ( P1IN == BIT0 ){
+        P2OUT ^= ORANGE; // Toggle P1.0 using exclusive-OR
+        cnt = 0 ;
+    }
+    interruptCnt++ ;
+    interruptCnt %= 10;
+}

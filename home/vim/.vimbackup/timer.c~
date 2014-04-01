@@ -1,0 +1,40 @@
+#include <msp430g2452.h>
+#include <msp430g2553.h>
+
+#define LED_OUT P1OUT
+#define LED_DIR P1DIR
+#define LED_0 BIT0
+#define GREEN BIT0
+#define LED_1 BIT6
+#define YELLOW BIT0
+#define BTN BIT3
+
+
+unsigned int timerCount = 0;
+
+
+int main(void){
+    WDTCTL = WDTPW + WDTHOLD; // Stop watchdog timer
+
+    TA0CCTL0 = CCIE;                  // Capture/Compare Interrupt Enable
+    TA0CTL = TASSEL_2 + MC_2;        // Set the timer A to SMCLCK, Continuous
+
+    //__enable_interrupt();            // Clear the timer and enable timer interrupt
+    __bis_SR_register(LPM0 + GIE);   // LPM0 with interrupts enabled
+
+    LED_DIR |= (YELLOW + GREEN );    // Set P1.0 and P1.6 to output direction
+    LED_OUT &= ~(YELLOW + GREEN );   // Set the LEDs off
+
+    return 0 ;
+}
+
+// Timer A0 interrupt service routine
+#pragma vector = TIMERA0_VECTOR
+__interrupt void Timer_Interrupt_Service(void){
+    timerCount = (timerCount + 1) % 8;
+    if(timerCount ==0){
+        LED_OUT ^= (LED_0 + LED_1); // Set the LEDs off
+    }
+    return ;
+}
+

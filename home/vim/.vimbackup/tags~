@@ -1,0 +1,884 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCVIE	../laboratory/lab6/msp430g2452.h	/^#define ACCVIE /;"	d
+ACCVIFG	../laboratory/lab6/msp430g2452.h	/^#define ACCVIFG /;"	d
+ADC10AE0_	../laboratory/lab6/msp430g2452.h	/^#define ADC10AE0_ /;"	d
+ADC10B1	../laboratory/lab6/msp430g2452.h	/^#define ADC10B1 /;"	d
+ADC10BUSY	../laboratory/lab6/msp430g2452.h	/^#define ADC10BUSY /;"	d
+ADC10CT	../laboratory/lab6/msp430g2452.h	/^#define ADC10CT /;"	d
+ADC10CTL0_	../laboratory/lab6/msp430g2452.h	/^#define ADC10CTL0_ /;"	d
+ADC10CTL1_	../laboratory/lab6/msp430g2452.h	/^#define ADC10CTL1_ /;"	d
+ADC10DF	../laboratory/lab6/msp430g2452.h	/^#define ADC10DF /;"	d
+ADC10DISABLE	../laboratory/lab6/msp430g2452.h	/^#define ADC10DISABLE /;"	d
+ADC10DIV0	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV0 /;"	d
+ADC10DIV1	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV1 /;"	d
+ADC10DIV2	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV2 /;"	d
+ADC10DIV_0	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV_0 /;"	d
+ADC10DIV_1	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV_1 /;"	d
+ADC10DIV_2	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV_2 /;"	d
+ADC10DIV_3	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV_3 /;"	d
+ADC10DIV_4	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV_4 /;"	d
+ADC10DIV_5	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV_5 /;"	d
+ADC10DIV_6	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV_6 /;"	d
+ADC10DIV_7	../laboratory/lab6/msp430g2452.h	/^#define ADC10DIV_7 /;"	d
+ADC10DTC0_	../laboratory/lab6/msp430g2452.h	/^#define ADC10DTC0_ /;"	d
+ADC10DTC1_	../laboratory/lab6/msp430g2452.h	/^#define ADC10DTC1_ /;"	d
+ADC10FETCH	../laboratory/lab6/msp430g2452.h	/^#define ADC10FETCH /;"	d
+ADC10IE	../laboratory/lab6/msp430g2452.h	/^#define ADC10IE /;"	d
+ADC10IFG	../laboratory/lab6/msp430g2452.h	/^#define ADC10IFG /;"	d
+ADC10MEM_	../laboratory/lab6/msp430g2452.h	/^#define ADC10MEM_ /;"	d
+ADC10ON	../laboratory/lab6/msp430g2452.h	/^#define ADC10ON /;"	d
+ADC10SA_	../laboratory/lab6/msp430g2452.h	/^#define ADC10SA_ /;"	d
+ADC10SC	../laboratory/lab6/msp430g2452.h	/^#define ADC10SC /;"	d
+ADC10SHT0	../laboratory/lab6/msp430g2452.h	/^#define ADC10SHT0 /;"	d
+ADC10SHT1	../laboratory/lab6/msp430g2452.h	/^#define ADC10SHT1 /;"	d
+ADC10SHT_0	../laboratory/lab6/msp430g2452.h	/^#define ADC10SHT_0 /;"	d
+ADC10SHT_1	../laboratory/lab6/msp430g2452.h	/^#define ADC10SHT_1 /;"	d
+ADC10SHT_2	../laboratory/lab6/msp430g2452.h	/^#define ADC10SHT_2 /;"	d
+ADC10SHT_3	../laboratory/lab6/msp430g2452.h	/^#define ADC10SHT_3 /;"	d
+ADC10SR	../laboratory/lab6/msp430g2452.h	/^#define ADC10SR /;"	d
+ADC10SSEL0	../laboratory/lab6/msp430g2452.h	/^#define ADC10SSEL0 /;"	d
+ADC10SSEL1	../laboratory/lab6/msp430g2452.h	/^#define ADC10SSEL1 /;"	d
+ADC10SSEL_0	../laboratory/lab6/msp430g2452.h	/^#define ADC10SSEL_0 /;"	d
+ADC10SSEL_1	../laboratory/lab6/msp430g2452.h	/^#define ADC10SSEL_1 /;"	d
+ADC10SSEL_2	../laboratory/lab6/msp430g2452.h	/^#define ADC10SSEL_2 /;"	d
+ADC10SSEL_3	../laboratory/lab6/msp430g2452.h	/^#define ADC10SSEL_3 /;"	d
+ADC10TB	../laboratory/lab6/msp430g2452.h	/^#define ADC10TB /;"	d
+ADC10_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define ADC10_VECTOR /;"	d
+BCSCTL1_	../laboratory/lab6/msp430g2452.h	/^#define BCSCTL1_ /;"	d
+BCSCTL2_	../laboratory/lab6/msp430g2452.h	/^#define BCSCTL2_ /;"	d
+BCSCTL3_	../laboratory/lab6/msp430g2452.h	/^#define BCSCTL3_ /;"	d
+BIT0	../laboratory/lab6/msp430g2452.h	/^#define BIT0 /;"	d
+BIT1	../laboratory/lab6/msp430g2452.h	/^#define BIT1 /;"	d
+BIT2	../laboratory/lab6/msp430g2452.h	/^#define BIT2 /;"	d
+BIT3	../laboratory/lab6/msp430g2452.h	/^#define BIT3 /;"	d
+BIT4	../laboratory/lab6/msp430g2452.h	/^#define BIT4 /;"	d
+BIT5	../laboratory/lab6/msp430g2452.h	/^#define BIT5 /;"	d
+BIT6	../laboratory/lab6/msp430g2452.h	/^#define BIT6 /;"	d
+BIT7	../laboratory/lab6/msp430g2452.h	/^#define BIT7 /;"	d
+BIT8	../laboratory/lab6/msp430g2452.h	/^#define BIT8 /;"	d
+BIT9	../laboratory/lab6/msp430g2452.h	/^#define BIT9 /;"	d
+BITA	../laboratory/lab6/msp430g2452.h	/^#define BITA /;"	d
+BITB	../laboratory/lab6/msp430g2452.h	/^#define BITB /;"	d
+BITC	../laboratory/lab6/msp430g2452.h	/^#define BITC /;"	d
+BITD	../laboratory/lab6/msp430g2452.h	/^#define BITD /;"	d
+BITE	../laboratory/lab6/msp430g2452.h	/^#define BITE /;"	d
+BITF	../laboratory/lab6/msp430g2452.h	/^#define BITF /;"	d
+BIT_CLR	../launchpad/timer/printfUART/launchpad.h	/^#define BIT_CLR(/;"	d
+BIT_SET	../launchpad/timer/printfUART/launchpad.h	/^#define BIT_SET(/;"	d
+BIT_TEST	../launchpad/timer/printfUART/launchpad.h	/^#define BIT_TEST(/;"	d
+BIT_TOGGLE	../launchpad/timer/printfUART/launchpad.h	/^#define BIT_TOGGLE(/;"	d
+BLKWRT	../laboratory/lab6/msp430g2452.h	/^#define BLKWRT /;"	d
+BTN	../example/timer.c	/^#define BTN /;"	d	file:
+BTN1	../example/serialT.c	/^#define BTN1 /;"	d	file:
+BTN1	../launchpad/timer/full_duplexUART/transceiver.c	/^#define BTN1 /;"	d	file:
+BUSY	../laboratory/lab6/msp430g2452.h	/^#define BUSY /;"	d
+BUTTON	../example/pulsatingLED/blink.c	/^#define BUTTON /;"	d	file:
+BUTTON	../launchpad/timer/printfUART/launchpad.c	/^#define BUTTON /;"	d	file:
+BitCnt	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^unsigned char BitCnt;	\/\/ Bit count, used when transmitting byte$/;"	v
+Bit_time	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^#define Bit_time /;"	d	file:
+Bit_time_5	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^#define Bit_time_5 /;"	d	file:
+C	../laboratory/lab6/msp430g2452.h	/^#define C /;"	d
+CACTL1_	../laboratory/lab6/msp430g2452.h	/^#define CACTL1_ /;"	d
+CACTL2_	../laboratory/lab6/msp430g2452.h	/^#define CACTL2_ /;"	d
+CAEX	../laboratory/lab6/msp430g2452.h	/^#define CAEX /;"	d
+CAF	../laboratory/lab6/msp430g2452.h	/^#define CAF /;"	d
+CAIE	../laboratory/lab6/msp430g2452.h	/^#define CAIE /;"	d
+CAIES	../laboratory/lab6/msp430g2452.h	/^#define CAIES /;"	d
+CAIFG	../laboratory/lab6/msp430g2452.h	/^#define CAIFG /;"	d
+CALBC1_12MHZ_	../laboratory/lab6/msp430g2452.h	/^#define CALBC1_12MHZ_ /;"	d
+CALBC1_16MHZ_	../laboratory/lab6/msp430g2452.h	/^#define CALBC1_16MHZ_ /;"	d
+CALBC1_1MHZ_	../laboratory/lab6/msp430g2452.h	/^#define CALBC1_1MHZ_ /;"	d
+CALBC1_8MHZ_	../laboratory/lab6/msp430g2452.h	/^#define CALBC1_8MHZ_ /;"	d
+CALBC1_UART	../example/calibrations.h	/^#define CALBC1_UART /;"	d
+CALBC1_UART	../example/serial.c	/^#define CALBC1_UART /;"	d	file:
+CALDCO_12MHZ_	../laboratory/lab6/msp430g2452.h	/^#define CALDCO_12MHZ_ /;"	d
+CALDCO_16MHZ_	../laboratory/lab6/msp430g2452.h	/^#define CALDCO_16MHZ_ /;"	d
+CALDCO_1MHZ_	../laboratory/lab6/msp430g2452.h	/^#define CALDCO_1MHZ_ /;"	d
+CALDCO_8MHZ_	../laboratory/lab6/msp430g2452.h	/^#define CALDCO_8MHZ_ /;"	d
+CALDCO_UART	../example/calibrations.h	/^#define CALDCO_UART /;"	d
+CALDCO_UART	../example/serial.c	/^#define CALDCO_UART /;"	d	file:
+CALIBRATIONS_H_	../example/calibrations.h	/^#define CALIBRATIONS_H_$/;"	d
+CAON	../laboratory/lab6/msp430g2452.h	/^#define CAON /;"	d
+CAOUT	../laboratory/lab6/msp430g2452.h	/^#define CAOUT /;"	d
+CAP	../laboratory/lab6/msp430g2452.h	/^#define CAP /;"	d
+CAPD0	../laboratory/lab6/msp430g2452.h	/^#define CAPD0 /;"	d
+CAPD1	../laboratory/lab6/msp430g2452.h	/^#define CAPD1 /;"	d
+CAPD2	../laboratory/lab6/msp430g2452.h	/^#define CAPD2 /;"	d
+CAPD3	../laboratory/lab6/msp430g2452.h	/^#define CAPD3 /;"	d
+CAPD4	../laboratory/lab6/msp430g2452.h	/^#define CAPD4 /;"	d
+CAPD5	../laboratory/lab6/msp430g2452.h	/^#define CAPD5 /;"	d
+CAPD6	../laboratory/lab6/msp430g2452.h	/^#define CAPD6 /;"	d
+CAPD7	../laboratory/lab6/msp430g2452.h	/^#define CAPD7 /;"	d
+CAPD_	../laboratory/lab6/msp430g2452.h	/^#define CAPD_ /;"	d
+CAREF0	../laboratory/lab6/msp430g2452.h	/^#define CAREF0 /;"	d
+CAREF1	../laboratory/lab6/msp430g2452.h	/^#define CAREF1 /;"	d
+CAREF_0	../laboratory/lab6/msp430g2452.h	/^#define CAREF_0 /;"	d
+CAREF_1	../laboratory/lab6/msp430g2452.h	/^#define CAREF_1 /;"	d
+CAREF_2	../laboratory/lab6/msp430g2452.h	/^#define CAREF_2 /;"	d
+CAREF_3	../laboratory/lab6/msp430g2452.h	/^#define CAREF_3 /;"	d
+CARSEL	../laboratory/lab6/msp430g2452.h	/^#define CARSEL /;"	d
+CASHORT	../laboratory/lab6/msp430g2452.h	/^#define CASHORT /;"	d
+CCI	../laboratory/lab6/msp430g2452.h	/^#define CCI /;"	d
+CCIE	../laboratory/lab6/msp430g2452.h	/^#define CCIE /;"	d
+CCIFG	../laboratory/lab6/msp430g2452.h	/^#define CCIFG /;"	d
+CCIS0	../laboratory/lab6/msp430g2452.h	/^#define CCIS0 /;"	d
+CCIS1	../laboratory/lab6/msp430g2452.h	/^#define CCIS1 /;"	d
+CCIS_0	../laboratory/lab6/msp430g2452.h	/^#define CCIS_0 /;"	d
+CCIS_1	../laboratory/lab6/msp430g2452.h	/^#define CCIS_1 /;"	d
+CCIS_2	../laboratory/lab6/msp430g2452.h	/^#define CCIS_2 /;"	d
+CCIS_3	../laboratory/lab6/msp430g2452.h	/^#define CCIS_3 /;"	d
+CCR0	../laboratory/lab6/msp430g2452.h	/^#define CCR0 /;"	d
+CCR0_	../laboratory/lab6/msp430g2452.h	/^#define CCR0_ /;"	d
+CCR0_ISR	../example/serialT.c	/^__interrupt void CCR0_ISR(void) {$/;"	f
+CCR0_ISR	../launchpad/timer/full_duplexUART/transceiver.c	/^__interrupt void CCR0_ISR(void) {$/;"	f
+CCR1	../laboratory/lab6/msp430g2452.h	/^#define CCR1 /;"	d
+CCR1_	../laboratory/lab6/msp430g2452.h	/^#define CCR1_ /;"	d
+CCR1_ISR	../example/serialT.c	/^__interrupt void CCR1_ISR(void) {$/;"	f
+CCR1_ISR	../launchpad/timer/full_duplexUART/transceiver.c	/^__interrupt void CCR1_ISR(void) {$/;"	f
+CCR2	../laboratory/lab6/msp430g2452.h	/^#define CCR2 /;"	d
+CCR2_	../laboratory/lab6/msp430g2452.h	/^#define CCR2_ /;"	d
+CCTL0	../laboratory/lab6/msp430g2452.h	/^#define CCTL0 /;"	d
+CCTL0_	../laboratory/lab6/msp430g2452.h	/^#define CCTL0_ /;"	d
+CCTL1	../laboratory/lab6/msp430g2452.h	/^#define CCTL1 /;"	d
+CCTL1_	../laboratory/lab6/msp430g2452.h	/^#define CCTL1_ /;"	d
+CCTL2	../laboratory/lab6/msp430g2452.h	/^#define CCTL2 /;"	d
+CCTL2_	../laboratory/lab6/msp430g2452.h	/^#define CCTL2_ /;"	d
+CM0	../laboratory/lab6/msp430g2452.h	/^#define CM0 /;"	d
+CM1	../laboratory/lab6/msp430g2452.h	/^#define CM1 /;"	d
+CM_0	../laboratory/lab6/msp430g2452.h	/^#define CM_0 /;"	d
+CM_1	../laboratory/lab6/msp430g2452.h	/^#define CM_1 /;"	d
+CM_2	../laboratory/lab6/msp430g2452.h	/^#define CM_2 /;"	d
+CM_3	../laboratory/lab6/msp430g2452.h	/^#define CM_3 /;"	d
+COMPARATORA_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define COMPARATORA_VECTOR /;"	d
+CONSEQ0	../laboratory/lab6/msp430g2452.h	/^#define CONSEQ0 /;"	d
+CONSEQ1	../laboratory/lab6/msp430g2452.h	/^#define CONSEQ1 /;"	d
+CONSEQ_0	../laboratory/lab6/msp430g2452.h	/^#define CONSEQ_0 /;"	d
+CONSEQ_1	../laboratory/lab6/msp430g2452.h	/^#define CONSEQ_1 /;"	d
+CONSEQ_2	../laboratory/lab6/msp430g2452.h	/^#define CONSEQ_2 /;"	d
+CONSEQ_3	../laboratory/lab6/msp430g2452.h	/^#define CONSEQ_3 /;"	d
+COV	../laboratory/lab6/msp430g2452.h	/^#define COV /;"	d
+CPUOFF	../laboratory/lab6/msp430g2452.h	/^#define CPUOFF /;"	d
+CR	../laboratory/lab3/lab3_2.c	/^#define CR /;"	d	file:
+CR	../laboratory/lab3/lab3_3.c	/^#define CR /;"	d	file:
+CR	../laboratory/lab3/lab3_4.c	/^#define CR /;"	d	file:
+CR	../laboratory/lab3/lab3_5.c	/^#define CR /;"	d	file:
+CR	../laboratory/lab5/lab5_2.c	/^#define CR /;"	d	file:
+CR	../launchpad/include/UART_Ctrl_Launchpad.h	/^#define CR /;"	d
+CheckSwitchAA	../laboratory/lab2/lab2_2d.asm	/^CheckSwitchAA                   ; SW1=1 SW2=1$/;"	l
+CheckSwitchAB	../laboratory/lab2/lab2_2d.asm	/^CheckSwitchAB                   ; SW1=1 SW2=0$/;"	l
+CheckSwitchBA	../laboratory/lab2/lab2_2d.asm	/^CheckSwitchBA                   ; SW1=0 SW2=1$/;"	l
+CheckSwitchBB	../laboratory/lab2/lab2_2d.asm	/^CheckSwitchBB                   ; SW1=0 SW2=1$/;"	l
+DCO0	../laboratory/lab6/msp430g2452.h	/^#define DCO0 /;"	d
+DCO1	../laboratory/lab6/msp430g2452.h	/^#define DCO1 /;"	d
+DCO2	../laboratory/lab6/msp430g2452.h	/^#define DCO2 /;"	d
+DCOCTL_	../laboratory/lab6/msp430g2452.h	/^#define DCOCTL_ /;"	d
+DCO_init	../example/serialT.c	/^void DCO_init(void) {$/;"	f
+DCO_init	../launchpad/timer/full_duplexUART/transceiver.c	/^void DCO_init(void) {$/;"	f
+DEFAULT_CLOCK	../laboratory/include/Init_Interrupts.h	/^#define DEFAULT_CLOCK /;"	d
+DEFAULT_MODE	../laboratory/include/Init_Interrupts.h	/^#define DEFAULT_MODE /;"	d
+DELTA_UART	../launchpad/timer/full_duplexUART/calibrateUART.c	/^#define DELTA_UART /;"	d	file:
+DIVA0	../laboratory/lab6/msp430g2452.h	/^#define DIVA0 /;"	d
+DIVA1	../laboratory/lab6/msp430g2452.h	/^#define DIVA1 /;"	d
+DIVA_0	../laboratory/lab6/msp430g2452.h	/^#define DIVA_0 /;"	d
+DIVA_1	../laboratory/lab6/msp430g2452.h	/^#define DIVA_1 /;"	d
+DIVA_2	../laboratory/lab6/msp430g2452.h	/^#define DIVA_2 /;"	d
+DIVA_3	../laboratory/lab6/msp430g2452.h	/^#define DIVA_3 /;"	d
+DIVM0	../laboratory/lab6/msp430g2452.h	/^#define DIVM0 /;"	d
+DIVM1	../laboratory/lab6/msp430g2452.h	/^#define DIVM1 /;"	d
+DIVM_0	../laboratory/lab6/msp430g2452.h	/^#define DIVM_0 /;"	d
+DIVM_1	../laboratory/lab6/msp430g2452.h	/^#define DIVM_1 /;"	d
+DIVM_2	../laboratory/lab6/msp430g2452.h	/^#define DIVM_2 /;"	d
+DIVM_3	../laboratory/lab6/msp430g2452.h	/^#define DIVM_3 /;"	d
+DIVS0	../laboratory/lab6/msp430g2452.h	/^#define DIVS0 /;"	d
+DIVS1	../laboratory/lab6/msp430g2452.h	/^#define DIVS1 /;"	d
+DIVS_0	../laboratory/lab6/msp430g2452.h	/^#define DIVS_0 /;"	d
+DIVS_1	../laboratory/lab6/msp430g2452.h	/^#define DIVS_1 /;"	d
+DIVS_2	../laboratory/lab6/msp430g2452.h	/^#define DIVS_2 /;"	d
+DIVS_3	../laboratory/lab6/msp430g2452.h	/^#define DIVS_3 /;"	d
+Delay	../laboratory/lab2/lab2_2d.asm	/^Delay$/;"	l
+DelayInit	../laboratory/lab2/lab2_2d.asm	/^DelayInit	; Description: Used to slow down msp output via sw delay$/;"	l
+EMEX	../laboratory/lab6/msp430g2452.h	/^#define EMEX /;"	d
+ENC	../laboratory/lab6/msp430g2452.h	/^#define ENC /;"	d
+EQUAL	../laboratory/lab5/lab5_2.c	/^#define EQUAL /;"	d	file:
+ERASE	../laboratory/lab6/msp430g2452.h	/^#define ERASE /;"	d
+FAIL	../laboratory/lab6/msp430g2452.h	/^#define FAIL /;"	d
+FCTL1_	../laboratory/lab6/msp430g2452.h	/^#define FCTL1_ /;"	d
+FCTL2_	../laboratory/lab6/msp430g2452.h	/^#define FCTL2_ /;"	d
+FCTL3_	../laboratory/lab6/msp430g2452.h	/^#define FCTL3_ /;"	d
+FN0	../laboratory/lab6/msp430g2452.h	/^#define FN0 /;"	d
+FN1	../laboratory/lab6/msp430g2452.h	/^#define FN1 /;"	d
+FN2	../laboratory/lab6/msp430g2452.h	/^#define FN2 /;"	d
+FN3	../laboratory/lab6/msp430g2452.h	/^#define FN3 /;"	d
+FN4	../laboratory/lab6/msp430g2452.h	/^#define FN4 /;"	d
+FN5	../laboratory/lab6/msp430g2452.h	/^#define FN5 /;"	d
+FRKEY	../laboratory/lab6/msp430g2452.h	/^#define FRKEY /;"	d
+FSSEL0	../laboratory/lab6/msp430g2452.h	/^#define FSSEL0 /;"	d
+FSSEL1	../laboratory/lab6/msp430g2452.h	/^#define FSSEL1 /;"	d
+FSSEL_0	../laboratory/lab6/msp430g2452.h	/^#define FSSEL_0 /;"	d
+FSSEL_1	../laboratory/lab6/msp430g2452.h	/^#define FSSEL_1 /;"	d
+FSSEL_2	../laboratory/lab6/msp430g2452.h	/^#define FSSEL_2 /;"	d
+FSSEL_3	../laboratory/lab6/msp430g2452.h	/^#define FSSEL_3 /;"	d
+FWKEY	../laboratory/lab6/msp430g2452.h	/^#define FWKEY /;"	d
+FXKEY	../laboratory/lab6/msp430g2452.h	/^#define FXKEY /;"	d
+F_MCLK	../launchpad/timer/printfUART/launchpad.h	/^#define F_MCLK /;"	d
+F_SMCLK	../launchpad/timer/printfUART/launchpad.h	/^#define F_SMCLK /;"	d
+GIE	../laboratory/lab6/msp430g2452.h	/^#define GIE /;"	d
+GREEN	../example/timer.c	/^#define GREEN /;"	d	file:
+GREEN	../laboratory/lab4/lab4_1.c	/^#define GREEN /;"	d	file:
+GREEN	../laboratory/lab4/lab4_2.c	/^#define GREEN /;"	d	file:
+GREEN	../laboratory/lab4/lab4_3.c	/^#define GREEN /;"	d	file:
+GREEN	../laboratory/lab4/lab4_4.c	/^#define GREEN /;"	d	file:
+GREEN	../laboratory/lab4/main.c	/^#define GREEN /;"	d	file:
+ID0	../laboratory/lab6/msp430g2452.h	/^#define ID0 /;"	d
+ID1	../laboratory/lab6/msp430g2452.h	/^#define ID1 /;"	d
+IDLE	../example/serialT.c	/^#define IDLE /;"	d	file:
+IDLE	../launchpad/timer/full_duplexUART/transceiver.c	/^#define IDLE /;"	d	file:
+ID_0	../laboratory/lab6/msp430g2452.h	/^#define ID_0 /;"	d
+ID_1	../laboratory/lab6/msp430g2452.h	/^#define ID_1 /;"	d
+ID_2	../laboratory/lab6/msp430g2452.h	/^#define ID_2 /;"	d
+ID_3	../laboratory/lab6/msp430g2452.h	/^#define ID_3 /;"	d
+IE1_	../laboratory/lab6/msp430g2452.h	/^#define IE1_ /;"	d
+IFG1_	../laboratory/lab6/msp430g2452.h	/^#define IFG1_ /;"	d
+INCH0	../laboratory/lab6/msp430g2452.h	/^#define INCH0 /;"	d
+INCH1	../laboratory/lab6/msp430g2452.h	/^#define INCH1 /;"	d
+INCH2	../laboratory/lab6/msp430g2452.h	/^#define INCH2 /;"	d
+INCH3	../laboratory/lab6/msp430g2452.h	/^#define INCH3 /;"	d
+INCHAR_UART	../example/SerialLaunchpad.c	/^unsigned char INCHAR_UART(void){$/;"	f
+INCHAR_UART	../example/UART/UART_CTRL.c	/^unsigned char INCHAR_UART(void){$/;"	f
+INCHAR_UART	../laboratory/include/UART_Ctrl.c	/^unsigned char INCHAR_UART(void) {$/;"	f
+INCHAR_UART	../laboratory/lab2/lab2_0.c	/^unsigned char INCHAR_UART(void) {$/;"	f
+INCHAR_UART	../laboratory/lab2/lab2_1.c	/^unsigned char INCHAR_UART(void) {$/;"	f
+INCHAR_UART	../laboratory/lab2/lab2_2.c	/^unsigned char INCHAR_UART(void) {$/;"	f
+INCHAR_UART	../laboratory/lab2/lab2_2a.asm	/^INCHAR_UART ; Save R5. Keep checking RXFlag to see if RXBuffer full.  When it is, move the data from$/;"	l
+INCHAR_UART	../laboratory/lab2/lab2_2b.asm	/^INCHAR_UART ; Save R5. Keep checking RXFlag to see if RXBuffer full.  When it is, move the data from$/;"	l
+INCHAR_UART	../laboratory/lab2/lab2_2c.asm	/^INCHAR_UART     ; Save R5. Keep checking RXFlag to see if RXBuffer full.  When it is, move the data from$/;"	l
+INCHAR_UART	../laboratory/lab2/lab2_2d.asm	/^INCHAR_UART     ; Save R5. Keep checking RXFlag to see if RXBuffer full.  When it is, move the data from$/;"	l
+INCHAR_UART	../laboratory/lab2/lab2_a.c	/^unsigned char INCHAR_UART(void){$/;"	f
+INCHAR_UART	../laboratory/lab3/lab3_2.c	/^unsigned char INCHAR_UART(void) {$/;"	f
+INCHAR_UART	../laboratory/lab3/lab3_3.c	/^unsigned char INCHAR_UART(void) {$/;"	f
+INCHAR_UART	../laboratory/lab3/lab3_4.c	/^unsigned char INCHAR_UART(void) {$/;"	f
+INCHAR_UART	../laboratory/lab3/lab3_5.c	/^unsigned char INCHAR_UART(void) {$/;"	f
+INCHAR_UART	../launchpad/include/UART_Ctrl_Launchpad.c	/^unsigned char INCHAR_UART(void) {$/;"	f
+INCH_0	../laboratory/lab6/msp430g2452.h	/^#define INCH_0 /;"	d
+INCH_1	../laboratory/lab6/msp430g2452.h	/^#define INCH_1 /;"	d
+INCH_10	../laboratory/lab6/msp430g2452.h	/^#define INCH_10 /;"	d
+INCH_11	../laboratory/lab6/msp430g2452.h	/^#define INCH_11 /;"	d
+INCH_12	../laboratory/lab6/msp430g2452.h	/^#define INCH_12 /;"	d
+INCH_13	../laboratory/lab6/msp430g2452.h	/^#define INCH_13 /;"	d
+INCH_14	../laboratory/lab6/msp430g2452.h	/^#define INCH_14 /;"	d
+INCH_15	../laboratory/lab6/msp430g2452.h	/^#define INCH_15 /;"	d
+INCH_2	../laboratory/lab6/msp430g2452.h	/^#define INCH_2 /;"	d
+INCH_3	../laboratory/lab6/msp430g2452.h	/^#define INCH_3 /;"	d
+INCH_4	../laboratory/lab6/msp430g2452.h	/^#define INCH_4 /;"	d
+INCH_5	../laboratory/lab6/msp430g2452.h	/^#define INCH_5 /;"	d
+INCH_6	../laboratory/lab6/msp430g2452.h	/^#define INCH_6 /;"	d
+INCH_7	../laboratory/lab6/msp430g2452.h	/^#define INCH_7 /;"	d
+INCH_8	../laboratory/lab6/msp430g2452.h	/^#define INCH_8 /;"	d
+INCH_9	../laboratory/lab6/msp430g2452.h	/^#define INCH_9 /;"	d
+INIT_INTERRUPTS_	../laboratory/include/Init_Interrupts.h	/^#define INIT_INTERRUPTS_$/;"	d
+ISSH	../laboratory/lab6/msp430g2452.h	/^#define ISSH /;"	d
+Init_LCD	../laboratory/include/LCD_Ctrl.c	/^void Init_LCD(void) {$/;"	f
+Init_LCD	../laboratory/lab5/lab5_2.c	/^void Init_LCD(void) {$/;"	f
+Init_UART	../example/SerialLaunchpad.c	/^void  Init_UART(void){$/;"	f
+Init_UART	../example/UART/UART_CTRL.c	/^void  Init_UART(void){$/;"	f
+Init_UART	../laboratory/lab2/lab2_0.c	/^void Init_UART(void) {$/;"	f
+Init_UART	../laboratory/lab2/lab2_1.c	/^void Init_UART(void) {$/;"	f
+Init_UART	../laboratory/lab2/lab2_2.c	/^void Init_UART(void) {$/;"	f
+Init_UART	../laboratory/lab2/lab2_2a.asm	/^Init_UART   ; Initalize registers for UART$/;"	l
+Init_UART	../laboratory/lab2/lab2_2b.asm	/^Init_UART   ; Initalize registers for UART$/;"	l
+Init_UART	../laboratory/lab2/lab2_2c.asm	/^Init_UART                               ; Initalize registers for UART$/;"	l
+Init_UART	../laboratory/lab2/lab2_2d.asm	/^Init_UART                               ; Initalize registers for UART$/;"	l
+Init_UART	../laboratory/lab2/lab2_a.c	/^void Init_UART(void){$/;"	f
+Init_UART	../laboratory/lab3/lab3_2.c	/^void Init_UART(void) {$/;"	f
+Init_UART	../laboratory/lab3/lab3_3.c	/^void Init_UART(void) {$/;"	f
+Init_UART	../laboratory/lab3/lab3_4.c	/^void Init_UART(void) {$/;"	f
+Init_UART	../laboratory/lab3/lab3_5.c	/^void Init_UART(void) {$/;"	f
+Init_UART	../launchpad/include/UART_Ctrl_Launchpad.c	/^void Init_UART(void) {$/;"	f
+KEYV	../laboratory/lab6/msp430g2452.h	/^#define KEYV /;"	d
+L1	../laboratory/lab1/lab1_2.asm	/^L1          dec.w R7            ; Decrement $/;"	d
+LCDSeg	../laboratory/include/LCD_Ctrl.c	/^extern unsigned char *LCDSeg = (unsigned char *) &LCDM3;$/;"	v
+LCDSeg	../laboratory/lab4/lab4_1.c	/^unsigned char *LCDSeg = (unsigned char *) &LCDM3;$/;"	v
+LCDSeg	../laboratory/lab4/lab4_2.c	/^unsigned char *LCDSeg = (unsigned char *) &LCDM3;$/;"	v
+LCDSeg	../laboratory/lab4/lab4_3.c	/^unsigned char *LCDSeg = (unsigned char *) &LCDM3;$/;"	v
+LCDSeg	../laboratory/lab4/lab4_4.c	/^unsigned char *LCDSeg = (unsigned char *) &LCDM3;$/;"	v
+LCDSeg	../laboratory/lab5/lab5_2.c	/^unsigned char *LCDSeg = (unsigned char *) &LCDM3;$/;"	v
+LCD_CTRL_H_	../laboratory/include/LCD_Ctrl.h	/^#define LCD_CTRL_H_$/;"	d
+LCD_SIZE	../laboratory/include/LCD_Ctrl.h	/^#define LCD_SIZE /;"	d
+LCD_SIZE	../laboratory/lab4/lab4_1.c	/^#define LCD_SIZE /;"	d	file:
+LCD_SIZE	../laboratory/lab4/lab4_2.c	/^#define LCD_SIZE /;"	d	file:
+LCD_SIZE	../laboratory/lab4/lab4_3.c	/^#define LCD_SIZE /;"	d	file:
+LCD_SIZE	../laboratory/lab4/lab4_4.c	/^#define LCD_SIZE /;"	d	file:
+LCD_SIZE	../laboratory/lab5/lab5_2.c	/^#define LCD_SIZE /;"	d	file:
+LED1	../example/serialT.c	/^#define LED1 /;"	d	file:
+LED1	../launchpad/timer/full_duplexUART/transceiver.c	/^#define LED1 /;"	d	file:
+LED2	../example/serialT.c	/^#define LED2 /;"	d	file:
+LED2	../launchpad/timer/full_duplexUART/transceiver.c	/^#define LED2 /;"	d	file:
+LED_0	../example/pulsatingLED/blink.c	/^#define LED_0 /;"	d	file:
+LED_0	../example/timer.c	/^#define LED_0 /;"	d	file:
+LED_0	../example/timer0.c	/^#define LED_0 /;"	d	file:
+LED_0	../launchpad/timer/blink/blink.c	/^#define LED_0 /;"	d	file:
+LED_0	../launchpad/timer/blink/timer_blink.c	/^#define LED_0 /;"	d	file:
+LED_1	../example/pulsatingLED/blink.c	/^#define LED_1 /;"	d	file:
+LED_1	../example/timer.c	/^#define LED_1 /;"	d	file:
+LED_1	../example/timer0.c	/^#define LED_1 /;"	d	file:
+LED_1	../launchpad/timer/blink/blink.c	/^#define LED_1 /;"	d	file:
+LED_1	../launchpad/timer/blink/timer_blink.c	/^#define LED_1 /;"	d	file:
+LED_Ctrl	../laboratory/include/LED_Ctrl.h	/^#define LED_Ctrl$/;"	d
+LED_DIR	../example/pulsatingLED/blink.c	/^#define LED_DIR /;"	d	file:
+LED_DIR	../example/timer.c	/^#define LED_DIR /;"	d	file:
+LED_DIR	../example/timer0.c	/^#define LED_DIR /;"	d	file:
+LED_DIR	../launchpad/timer/blink/blink.c	/^#define LED_DIR /;"	d	file:
+LED_DIR	../launchpad/timer/blink/timer_blink.c	/^#define LED_DIR /;"	d	file:
+LED_GREEN	../launchpad/timer/printfUART/launchpad.c	/^#define LED_GREEN /;"	d	file:
+LED_OUT	../example/pulsatingLED/blink.c	/^#define LED_OUT /;"	d	file:
+LED_OUT	../example/timer.c	/^#define LED_OUT /;"	d	file:
+LED_OUT	../example/timer0.c	/^#define LED_OUT /;"	d	file:
+LED_OUT	../launchpad/timer/blink/blink.c	/^#define LED_OUT /;"	d	file:
+LED_OUT	../launchpad/timer/blink/timer_blink.c	/^#define LED_OUT /;"	d	file:
+LED_RED	../launchpad/timer/printfUART/launchpad.c	/^#define LED_RED /;"	d	file:
+LF	../laboratory/lab3/lab3_2.c	/^#define LF /;"	d	file:
+LF	../laboratory/lab3/lab3_3.c	/^#define LF /;"	d	file:
+LF	../laboratory/lab3/lab3_4.c	/^#define LF /;"	d	file:
+LF	../laboratory/lab3/lab3_5.c	/^#define LF /;"	d	file:
+LF	../laboratory/lab5/lab5_2.c	/^#define LF /;"	d	file:
+LF	../launchpad/include/UART_Ctrl_Launchpad.h	/^#define LF /;"	d
+LFXT1OF	../laboratory/lab6/msp430g2452.h	/^#define LFXT1OF /;"	d
+LFXT1S0	../laboratory/lab6/msp430g2452.h	/^#define LFXT1S0 /;"	d
+LFXT1S1	../laboratory/lab6/msp430g2452.h	/^#define LFXT1S1 /;"	d
+LFXT1S_0	../laboratory/lab6/msp430g2452.h	/^#define LFXT1S_0 /;"	d
+LFXT1S_1	../laboratory/lab6/msp430g2452.h	/^#define LFXT1S_1 /;"	d
+LFXT1S_2	../laboratory/lab6/msp430g2452.h	/^#define LFXT1S_2 /;"	d
+LFXT1S_3	../laboratory/lab6/msp430g2452.h	/^#define LFXT1S_3 /;"	d
+LOCK	../laboratory/lab6/msp430g2452.h	/^#define LOCK /;"	d
+LOCKA	../laboratory/lab6/msp430g2452.h	/^#define LOCKA /;"	d
+LPM0	../laboratory/lab6/msp430g2452.h	/^#define LPM0 /;"	d
+LPM0_EXIT	../laboratory/lab6/msp430g2452.h	/^#define LPM0_EXIT /;"	d
+LPM0_bits	../laboratory/lab6/msp430g2452.h	/^#define LPM0_bits /;"	d
+LPM1	../laboratory/lab6/msp430g2452.h	/^#define LPM1 /;"	d
+LPM1_EXIT	../laboratory/lab6/msp430g2452.h	/^#define LPM1_EXIT /;"	d
+LPM1_bits	../laboratory/lab6/msp430g2452.h	/^#define LPM1_bits /;"	d
+LPM2	../laboratory/lab6/msp430g2452.h	/^#define LPM2 /;"	d
+LPM2_EXIT	../laboratory/lab6/msp430g2452.h	/^#define LPM2_EXIT /;"	d
+LPM2_bits	../laboratory/lab6/msp430g2452.h	/^#define LPM2_bits /;"	d
+LPM3	../laboratory/lab6/msp430g2452.h	/^#define LPM3 /;"	d
+LPM3_EXIT	../laboratory/lab6/msp430g2452.h	/^#define LPM3_EXIT /;"	d
+LPM3_bits	../laboratory/lab6/msp430g2452.h	/^#define LPM3_bits /;"	d
+LPM4	../laboratory/lab6/msp430g2452.h	/^#define LPM4 /;"	d
+LPM4_EXIT	../laboratory/lab6/msp430g2452.h	/^#define LPM4_EXIT /;"	d
+LPM4_bits	../laboratory/lab6/msp430g2452.h	/^#define LPM4_bits /;"	d
+MC0	../laboratory/lab6/msp430g2452.h	/^#define MC0 /;"	d
+MC1	../laboratory/lab6/msp430g2452.h	/^#define MC1 /;"	d
+MC_0	../laboratory/lab6/msp430g2452.h	/^#define MC_0 /;"	d
+MC_1	../laboratory/lab6/msp430g2452.h	/^#define MC_1 /;"	d
+MC_2	../laboratory/lab6/msp430g2452.h	/^#define MC_2 /;"	d
+MC_3	../laboratory/lab6/msp430g2452.h	/^#define MC_3 /;"	d
+MERAS	../laboratory/lab6/msp430g2452.h	/^#define MERAS /;"	d
+MOD0	../laboratory/lab6/msp430g2452.h	/^#define MOD0 /;"	d
+MOD1	../laboratory/lab6/msp430g2452.h	/^#define MOD1 /;"	d
+MOD2	../laboratory/lab6/msp430g2452.h	/^#define MOD2 /;"	d
+MOD3	../laboratory/lab6/msp430g2452.h	/^#define MOD3 /;"	d
+MOD4	../laboratory/lab6/msp430g2452.h	/^#define MOD4 /;"	d
+MSC	../laboratory/lab6/msp430g2452.h	/^#define MSC /;"	d
+Mainloop	../laboratory/lab1/lab1_2.asm	/^Mainloop    xor.b #0x06,&P2OUT$/;"	l
+Mainloop	../laboratory/lab1/lab1_4.asm	/^Mainloop    and #0x01, P1IN     ;check for zero$/;"	l
+N	../laboratory/lab6/msp430g2452.h	/^#define N /;"	d
+NEXT	../laboratory/lab1/lab1_4.asm	/^NEXT        and #0x02, P1IN     ;checks for zero$/;"	l
+NEXT2	../laboratory/lab1/lab1_4.asm	/^NEXT2       jmp Mainloop        ; Agai$/;"	l
+NMIIE	../laboratory/lab6/msp430g2452.h	/^#define NMIIE /;"	d
+NMIIFG	../laboratory/lab6/msp430g2452.h	/^#define NMIIFG /;"	d
+NMI_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define NMI_VECTOR /;"	d
+OFIE	../laboratory/lab6/msp430g2452.h	/^#define OFIE /;"	d
+OFIFG	../laboratory/lab6/msp430g2452.h	/^#define OFIFG /;"	d
+ORANGE	../laboratory/lab4/lab4_1.c	/^#define ORANGE /;"	d	file:
+ORANGE	../laboratory/lab4/lab4_2.c	/^#define ORANGE /;"	d	file:
+ORANGE	../laboratory/lab4/lab4_3.c	/^#define ORANGE /;"	d	file:
+ORANGE	../laboratory/lab4/lab4_4.c	/^#define ORANGE /;"	d	file:
+ORANGE	../laboratory/lab4/main.c	/^#define ORANGE /;"	d	file:
+OSCOFF	../laboratory/lab6/msp430g2452.h	/^#define OSCOFF /;"	d
+OUT	../laboratory/lab6/msp430g2452.h	/^#define OUT /;"	d
+OUTA_UART	../example/SerialLaunchpad.c	/^void OUTA_UART(unsigned char A){$/;"	f
+OUTA_UART	../example/UART/UART_CTRL.c	/^void OUTA_UART(unsigned char A){$/;"	f
+OUTA_UART	../laboratory/include/UART_Ctrl.c	/^void OUTA_UART(unsigned char A) {$/;"	f
+OUTA_UART	../laboratory/lab2/lab2_0.c	/^void OUTA_UART(unsigned char A) {$/;"	f
+OUTA_UART	../laboratory/lab2/lab2_1.c	/^void OUTA_UART(unsigned char A) {$/;"	f
+OUTA_UART	../laboratory/lab2/lab2_2.c	/^void OUTA_UART(unsigned char A) {$/;"	f
+OUTA_UART	../laboratory/lab2/lab2_2a.asm	/^OUTA_UART ; Save R5. Keep checking TXFlag to see if TXBuffer empty. When it is, move the data from$/;"	l
+OUTA_UART	../laboratory/lab2/lab2_2b.asm	/^OUTA_UART ; Save R5. Keep checking TXFlag to see if TXBuffer empty. When it is, move the data from$/;"	l
+OUTA_UART	../laboratory/lab2/lab2_2c.asm	/^OUTA_UART  ; Save R5. Keep checking TXFlag to see if TXBuffer empty. When it is, move the data from$/;"	l
+OUTA_UART	../laboratory/lab2/lab2_2d.asm	/^OUTA_UART  ; Save R5. Keep checking TXFlag to see if TXBuffer empty. When it is, move the data from$/;"	l
+OUTA_UART	../laboratory/lab2/lab2_a.c	/^void OUTA_UART(unsigned char A){$/;"	f
+OUTA_UART	../laboratory/lab3/lab3_2.c	/^void OUTA_UART(unsigned char A) {$/;"	f
+OUTA_UART	../laboratory/lab3/lab3_3.c	/^void OUTA_UART(unsigned char A) {$/;"	f
+OUTA_UART	../laboratory/lab3/lab3_4.c	/^void OUTA_UART(unsigned char A) {$/;"	f
+OUTA_UART	../laboratory/lab3/lab3_5.c	/^void OUTA_UART(unsigned char A) {$/;"	f
+OUTA_UART	../launchpad/include/UART_Ctrl_Launchpad.c	/^void OUTA_UART(unsigned char A) {$/;"	f
+OUTMOD0	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD0 /;"	d
+OUTMOD1	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD1 /;"	d
+OUTMOD2	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD2 /;"	d
+OUTMOD_0	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD_0 /;"	d
+OUTMOD_1	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD_1 /;"	d
+OUTMOD_2	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD_2 /;"	d
+OUTMOD_3	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD_3 /;"	d
+OUTMOD_4	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD_4 /;"	d
+OUTMOD_5	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD_5 /;"	d
+OUTMOD_6	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD_6 /;"	d
+OUTMOD_7	../laboratory/lab6/msp430g2452.h	/^#define OUTMOD_7 /;"	d
+P1DIR_	../laboratory/lab6/msp430g2452.h	/^#define P1DIR_ /;"	d
+P1IES_	../laboratory/lab6/msp430g2452.h	/^#define P1IES_ /;"	d
+P1IE_	../laboratory/lab6/msp430g2452.h	/^#define P1IE_ /;"	d
+P1IFG_	../laboratory/lab6/msp430g2452.h	/^#define P1IFG_ /;"	d
+P1IN_	../laboratory/lab6/msp430g2452.h	/^#define P1IN_ /;"	d
+P1I_MASK	../example/serialT.c	/^#define P1I_MASK /;"	d	file:
+P1I_MASK	../launchpad/timer/full_duplexUART/transceiver.c	/^#define P1I_MASK /;"	d	file:
+P1OUT_	../laboratory/lab6/msp430g2452.h	/^#define P1OUT_ /;"	d
+P1REN_	../laboratory/lab6/msp430g2452.h	/^#define P1REN_ /;"	d
+P1RX	../example/serialT.c	/^#define P1RX /;"	d	file:
+P1RX	../launchpad/timer/full_duplexUART/transceiver.c	/^#define P1RX /;"	d	file:
+P1SEL2_	../laboratory/lab6/msp430g2452.h	/^#define P1SEL2_ /;"	d
+P1SEL_	../laboratory/lab6/msp430g2452.h	/^#define P1SEL_ /;"	d
+P1TX	../example/serialT.c	/^#define P1TX /;"	d	file:
+P1TX	../launchpad/timer/full_duplexUART/transceiver.c	/^#define P1TX /;"	d	file:
+P1_ISR	../example/serialT.c	/^__interrupt void P1_ISR(void) {$/;"	f
+P1_ISR	../launchpad/timer/full_duplexUART/transceiver.c	/^__interrupt void P1_ISR(void) {$/;"	f
+P1_init	../example/serialT.c	/^void P1_init(void) {$/;"	f
+P1_init	../launchpad/timer/full_duplexUART/transceiver.c	/^void P1_init(void) {$/;"	f
+P2CA0	../laboratory/lab6/msp430g2452.h	/^#define P2CA0 /;"	d
+P2CA1	../laboratory/lab6/msp430g2452.h	/^#define P2CA1 /;"	d
+P2CA2	../laboratory/lab6/msp430g2452.h	/^#define P2CA2 /;"	d
+P2CA3	../laboratory/lab6/msp430g2452.h	/^#define P2CA3 /;"	d
+P2CA4	../laboratory/lab6/msp430g2452.h	/^#define P2CA4 /;"	d
+P2DIR_	../laboratory/lab6/msp430g2452.h	/^#define P2DIR_ /;"	d
+P2IES_	../laboratory/lab6/msp430g2452.h	/^#define P2IES_ /;"	d
+P2IE_	../laboratory/lab6/msp430g2452.h	/^#define P2IE_ /;"	d
+P2IFG_	../laboratory/lab6/msp430g2452.h	/^#define P2IFG_ /;"	d
+P2IN_	../laboratory/lab6/msp430g2452.h	/^#define P2IN_ /;"	d
+P2OUT_	../laboratory/lab6/msp430g2452.h	/^#define P2OUT_ /;"	d
+P2REN_	../laboratory/lab6/msp430g2452.h	/^#define P2REN_ /;"	d
+P2SEL2_	../laboratory/lab6/msp430g2452.h	/^#define P2SEL2_ /;"	d
+P2SEL_	../laboratory/lab6/msp430g2452.h	/^#define P2SEL_ /;"	d
+PLUS	../laboratory/lab5/lab5_2.c	/^#define PLUS /;"	d	file:
+PORIFG	../laboratory/lab6/msp430g2452.h	/^#define PORIFG /;"	d
+PORT1_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define PORT1_VECTOR /;"	d
+PORT2_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define PORT2_VECTOR /;"	d
+Port_1	../example/pulsatingLED/blink.c	/^__interrupt void Port_1(void)$/;"	f
+Port_1	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^__interrupt void Port_1(void)$/;"	f
+PreCheck	../laboratory/lab2/lab2_2d.asm	/^PreCheck    ; Description: Prints whatever is in R11, delays, and reads SW1 and SW2 status, then updates$/;"	l
+PrintDirective	../laboratory/lab2/lab2_2a.asm	/^PrintDirective$/;"	l
+PrintDirective	../laboratory/lab2/lab2_2b.asm	/^PrintDirective$/;"	l
+PrintDirective	../laboratory/lab2/lab2_2d.asm	/^PrintDirective  ; Description:  Sends character stored in R10 to serial output via UART$/;"	l
+READ_SP	../laboratory/lab6/intrinsics.h	/^#define READ_SP /;"	d
+READ_SR	../laboratory/lab6/intrinsics.h	/^#define READ_SR /;"	d
+RED	../laboratory/lab4/main.c	/^#define RED /;"	d	file:
+REF2_5V	../laboratory/lab6/msp430g2452.h	/^#define REF2_5V /;"	d
+REFBURST	../laboratory/lab6/msp430g2452.h	/^#define REFBURST /;"	d
+REFON	../laboratory/lab6/msp430g2452.h	/^#define REFON /;"	d
+REFOUT	../laboratory/lab6/msp430g2452.h	/^#define REFOUT /;"	d
+RESET_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define RESET_VECTOR /;"	d
+RSEL0	../laboratory/lab6/msp430g2452.h	/^#define RSEL0 /;"	d
+RSEL1	../laboratory/lab6/msp430g2452.h	/^#define RSEL1 /;"	d
+RSEL2	../laboratory/lab6/msp430g2452.h	/^#define RSEL2 /;"	d
+RSEL3	../laboratory/lab6/msp430g2452.h	/^#define RSEL3 /;"	d
+RST	../example/serialT.c	/^#define RST /;"	d	file:
+RST	../launchpad/timer/full_duplexUART/transceiver.c	/^#define RST /;"	d	file:
+RSTIFG	../laboratory/lab6/msp430g2452.h	/^#define RSTIFG /;"	d
+RXBuffer	../example/serialT.c	/^int RXBuffer;       \/\/ Buffer for storing current receive byte$/;"	v
+RXBuffer	../launchpad/timer/full_duplexUART/transceiver.c	/^int RXBuffer;       \/\/ Buffer for storing current receive byte$/;"	v
+RXByte	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^unsigned int RXByte;	\/\/ Value recieved once hasRecieved is set$/;"	v
+RXD	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^#define RXD /;"	d	file:
+RXbit	../example/serialT.c	/^#define RXbit /;"	d	file:
+RXbit	../launchpad/timer/full_duplexUART/transceiver.c	/^#define RXbit /;"	d	file:
+ReadGreenYellow	../laboratory/lab2/lab2_2c.asm	/^ReadGreenYellow ; Description: Reads char from terminal, checks if G or Y, and toggle appropriate LED$/;"	l
+Rx_bit_count	../example/serialT.c	/^char Rx_bit_count=10;       \/\/ bit counter for receive$/;"	v
+Rx_bit_count	../launchpad/timer/full_duplexUART/transceiver.c	/^char Rx_bit_count=10;       \/\/ bit counter for receive$/;"	v
+SCCI	../laboratory/lab6/msp430g2452.h	/^#define SCCI /;"	d
+SCG0	../laboratory/lab6/msp430g2452.h	/^#define SCG0 /;"	d
+SCG1	../laboratory/lab6/msp430g2452.h	/^#define SCG1 /;"	d
+SCS	../laboratory/lab6/msp430g2452.h	/^#define SCS /;"	d
+SEGWRT	../laboratory/lab6/msp430g2452.h	/^#define SEGWRT /;"	d
+SELM0	../laboratory/lab6/msp430g2452.h	/^#define SELM0 /;"	d
+SELM1	../laboratory/lab6/msp430g2452.h	/^#define SELM1 /;"	d
+SELM_0	../laboratory/lab6/msp430g2452.h	/^#define SELM_0 /;"	d
+SELM_1	../laboratory/lab6/msp430g2452.h	/^#define SELM_1 /;"	d
+SELM_2	../laboratory/lab6/msp430g2452.h	/^#define SELM_2 /;"	d
+SELM_3	../laboratory/lab6/msp430g2452.h	/^#define SELM_3 /;"	d
+SELS	../laboratory/lab6/msp430g2452.h	/^#define SELS /;"	d
+SET	../example/serialT.c	/^#define SET /;"	d	file:
+SET	../launchpad/timer/full_duplexUART/transceiver.c	/^#define SET /;"	d	file:
+SHS0	../laboratory/lab6/msp430g2452.h	/^#define SHS0 /;"	d
+SHS1	../laboratory/lab6/msp430g2452.h	/^#define SHS1 /;"	d
+SHS_0	../laboratory/lab6/msp430g2452.h	/^#define SHS_0 /;"	d
+SHS_1	../laboratory/lab6/msp430g2452.h	/^#define SHS_1 /;"	d
+SHS_2	../laboratory/lab6/msp430g2452.h	/^#define SHS_2 /;"	d
+SHS_3	../laboratory/lab6/msp430g2452.h	/^#define SHS_3 /;"	d
+SPACE	../laboratory/lab3/lab3_2.c	/^#define SPACE /;"	d	file:
+SPACE	../laboratory/lab3/lab3_3.c	/^#define SPACE /;"	d	file:
+SPACE	../laboratory/lab3/lab3_4.c	/^#define SPACE /;"	d	file:
+SPACE	../laboratory/lab3/lab3_5.c	/^#define SPACE /;"	d	file:
+SPACE	../laboratory/lab5/lab5_2.c	/^#define SPACE /;"	d	file:
+SPACE	../launchpad/include/UART_Ctrl_Launchpad.h	/^#define SPACE /;"	d
+SREF0	../laboratory/lab6/msp430g2452.h	/^#define SREF0 /;"	d
+SREF1	../laboratory/lab6/msp430g2452.h	/^#define SREF1 /;"	d
+SREF2	../laboratory/lab6/msp430g2452.h	/^#define SREF2 /;"	d
+SREF_0	../laboratory/lab6/msp430g2452.h	/^#define SREF_0 /;"	d
+SREF_1	../laboratory/lab6/msp430g2452.h	/^#define SREF_1 /;"	d
+SREF_2	../laboratory/lab6/msp430g2452.h	/^#define SREF_2 /;"	d
+SREF_3	../laboratory/lab6/msp430g2452.h	/^#define SREF_3 /;"	d
+SREF_4	../laboratory/lab6/msp430g2452.h	/^#define SREF_4 /;"	d
+SREF_5	../laboratory/lab6/msp430g2452.h	/^#define SREF_5 /;"	d
+SREF_6	../laboratory/lab6/msp430g2452.h	/^#define SREF_6 /;"	d
+SREF_7	../laboratory/lab6/msp430g2452.h	/^#define SREF_7 /;"	d
+START	../laboratory/lab1/lab1_2.asm	/^START       mov.w #0x300,SP$/;"	l
+START	../laboratory/lab1/lab1_4.asm	/^START       mov.w #0x300,SP$/;"	l
+START	../laboratory/lab2/lab2_2a.asm	/^START  ; Description: Perform Initialization and proceed to primary procedure$/;"	l
+START	../laboratory/lab2/lab2_2b.asm	/^START   $/;"	l
+START	../laboratory/lab2/lab2_2c.asm	/^START       ; Description: Perform Initialization and proceed to primary procedure$/;"	l
+START	../laboratory/lab2/lab2_2d.asm	/^START       ; Description: Perform Initialization and proceed to primary procedure$/;"	l
+SYS_SECOND	../launchpad/timer/printfUART/launchpad.c	/^#define SYS_SECOND /;"	d	file:
+Set_DCO	../launchpad/timer/full_duplexUART/calibrateUART.c	/^void Set_DCO(unsigned int Delta) {      \/\/ Set DCO to selected frequency$/;"	f
+SetupP1	../laboratory/lab1/lab1_2.asm	/^SetupP1     bis.b #0x06,&P2DIR$/;"	l
+SetupP1	../laboratory/lab1/lab1_4.asm	/^SetupP1     bis.b #0x06,&P2DIR$/;"	l
+SetupP1	../laboratory/lab2/lab2_2a.asm	/^SetupP1 bis.b #0x06, &P2DIR          ; BItSet Port 2.2 as an output$/;"	l
+SetupP1	../laboratory/lab2/lab2_2b.asm	/^SetupP1 bis.b #0x06, &P2DIR          ; BItSet Port 2.2 as an output$/;"	l
+StopWDT	../laboratory/lab1/lab1_2.asm	/^StopWDT     mov.w #WDTPW+WDTHOLD,&WDTCTL$/;"	l
+StopWDT	../laboratory/lab1/lab1_4.asm	/^StopWDT     mov.w #WDTPW+WDTHOLD,&WDTCTL$/;"	l
+StopWDT	../laboratory/lab2/lab2_2a.asm	/^StopWDT mov.w #WDTPW+WDTHOLD,&WDTCTL ; Stop Watchdog Timer$/;"	l
+StopWDT	../laboratory/lab2/lab2_2b.asm	/^StopWDT $/;"	l
+TA0CCR0_	../laboratory/lab6/msp430g2452.h	/^#define TA0CCR0_ /;"	d
+TA0CCR1_	../laboratory/lab6/msp430g2452.h	/^#define TA0CCR1_ /;"	d
+TA0CCR2_	../laboratory/lab6/msp430g2452.h	/^#define TA0CCR2_ /;"	d
+TA0CCTL0_	../laboratory/lab6/msp430g2452.h	/^#define TA0CCTL0_ /;"	d
+TA0CCTL1_	../laboratory/lab6/msp430g2452.h	/^#define TA0CCTL1_ /;"	d
+TA0CCTL2_	../laboratory/lab6/msp430g2452.h	/^#define TA0CCTL2_ /;"	d
+TA0CTL_	../laboratory/lab6/msp430g2452.h	/^#define TA0CTL_ /;"	d
+TA0IV_	../laboratory/lab6/msp430g2452.h	/^#define TA0IV_ /;"	d
+TA0IV_6	../laboratory/lab6/msp430g2452.h	/^#define TA0IV_6 /;"	d
+TA0IV_8	../laboratory/lab6/msp430g2452.h	/^#define TA0IV_8 /;"	d
+TA0IV_NONE	../laboratory/lab6/msp430g2452.h	/^#define TA0IV_NONE /;"	d
+TA0IV_TACCR1	../laboratory/lab6/msp430g2452.h	/^#define TA0IV_TACCR1 /;"	d
+TA0IV_TACCR2	../laboratory/lab6/msp430g2452.h	/^#define TA0IV_TACCR2 /;"	d
+TA0IV_TAIFG	../laboratory/lab6/msp430g2452.h	/^#define TA0IV_TAIFG /;"	d
+TA0R_	../laboratory/lab6/msp430g2452.h	/^#define TA0R_ /;"	d
+TACCR0	../laboratory/lab6/msp430g2452.h	/^#define TACCR0 /;"	d
+TACCR0_	../laboratory/lab6/msp430g2452.h	/^#define TACCR0_ /;"	d
+TACCR1	../laboratory/lab6/msp430g2452.h	/^#define TACCR1 /;"	d
+TACCR1_	../laboratory/lab6/msp430g2452.h	/^#define TACCR1_ /;"	d
+TACCR2	../laboratory/lab6/msp430g2452.h	/^#define TACCR2 /;"	d
+TACCR2_	../laboratory/lab6/msp430g2452.h	/^#define TACCR2_ /;"	d
+TACCTL0	../laboratory/lab6/msp430g2452.h	/^#define TACCTL0 /;"	d
+TACCTL0_	../laboratory/lab6/msp430g2452.h	/^#define TACCTL0_ /;"	d
+TACCTL1	../laboratory/lab6/msp430g2452.h	/^#define TACCTL1 /;"	d
+TACCTL1_	../laboratory/lab6/msp430g2452.h	/^#define TACCTL1_ /;"	d
+TACCTL2	../laboratory/lab6/msp430g2452.h	/^#define TACCTL2 /;"	d
+TACCTL2_	../laboratory/lab6/msp430g2452.h	/^#define TACCTL2_ /;"	d
+TACLR	../laboratory/lab6/msp430g2452.h	/^#define TACLR /;"	d
+TACTL	../laboratory/lab6/msp430g2452.h	/^#define TACTL /;"	d
+TACTL_	../laboratory/lab6/msp430g2452.h	/^#define TACTL_ /;"	d
+TAIE	../laboratory/lab6/msp430g2452.h	/^#define TAIE /;"	d
+TAIFG	../laboratory/lab6/msp430g2452.h	/^#define TAIFG /;"	d
+TAIV	../laboratory/lab6/msp430g2452.h	/^#define TAIV /;"	d
+TAIV_	../laboratory/lab6/msp430g2452.h	/^#define TAIV_ /;"	d
+TAIV_TACCR1	../launchpad/timer/printfUART/launchpad.h	/^# define TAIV_TACCR1 /;"	d
+TAIV_TACCR2	../launchpad/timer/printfUART/launchpad.h	/^# define TAIV_TACCR2 /;"	d
+TAIV_TAIFG	../launchpad/timer/printfUART/launchpad.h	/^# define TAIV_TAIFG /;"	d
+TAR	../laboratory/lab6/msp430g2452.h	/^#define TAR /;"	d
+TAR_	../laboratory/lab6/msp430g2452.h	/^#define TAR_ /;"	d
+TASSEL0	../laboratory/lab6/msp430g2452.h	/^#define TASSEL0 /;"	d
+TASSEL1	../laboratory/lab6/msp430g2452.h	/^#define TASSEL1 /;"	d
+TASSEL_0	../laboratory/lab6/msp430g2452.h	/^#define TASSEL_0 /;"	d
+TASSEL_1	../laboratory/lab6/msp430g2452.h	/^#define TASSEL_1 /;"	d
+TASSEL_2	../laboratory/lab6/msp430g2452.h	/^#define TASSEL_2 /;"	d
+TASSEL_3	../laboratory/lab6/msp430g2452.h	/^#define TASSEL_3 /;"	d
+TA_init	../example/serialT.c	/^void TA_init(void) {$/;"	f
+TA_init	../launchpad/timer/full_duplexUART/transceiver.c	/^void TA_init(void) {$/;"	f
+TIMER0_A0_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define TIMER0_A0_VECTOR /;"	d
+TIMER0_A1_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define TIMER0_A1_VECTOR /;"	d
+TIMERA0_VECTOR	../launchpad/timer/printfUART/launchpad.h	/^# define TIMERA0_VECTOR /;"	d
+TIMERA1_VECTOR	../launchpad/timer/printfUART/launchpad.h	/^# define TIMERA1_VECTOR /;"	d
+TIMERA_CLOCK	../launchpad/timer/printfUART/launchpad.h	/^#define TIMERA_CLOCK /;"	d
+TURNOFF	../laboratory/lab1/lab1_4.asm	/^TURNOFF     mov #0x00, 2OUT     ;turn off LED$/;"	l
+TURNOFF2	../laboratory/lab1/lab1_4.asm	/^TURNOFF2    mov #0x00, P2OUT    ;turn off LED$/;"	l
+TXBuffer	../example/serialT.c	/^int TXBuffer;               \/\/ Buffer for storing current transmission byte$/;"	v
+TXBuffer	../launchpad/timer/full_duplexUART/transceiver.c	/^int TXBuffer;               \/\/ Buffer for storing current transmission byte$/;"	v
+TXByte	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^unsigned int TXByte;	\/\/ Value sent over UART when Transmit() is called$/;"	v
+TXD	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^#define TXD /;"	d	file:
+TXbit	../example/serialT.c	/^#define TXbit /;"	d	file:
+TXbit	../launchpad/timer/full_duplexUART/transceiver.c	/^#define TXbit /;"	d	file:
+Time_ISR	../laboratory/lab6/timer.c	/^__interrupt void Time_ISR(void){$/;"	f
+Timer_A	../example/timer0.c	/^__interrupt void Timer_A (void)$/;"	f
+Timer_A	../laboratory/lab4/lab4_1.c	/^__interrupt void Timer_A (void){$/;"	f
+Timer_A	../laboratory/lab4/lab4_2.c	/^__interrupt void Timer_A (void){$/;"	f
+Timer_A	../laboratory/lab4/lab4_3.c	/^__interrupt void Timer_A (void){$/;"	f
+Timer_A	../laboratory/lab4/lab4_4.c	/^__interrupt void Timer_A (void){$/;"	f
+Timer_A	../laboratory/lab4/main.c	/^__interrupt void Timer_A(void) {$/;"	f
+Timer_A	../launchpad/timer/blink/timer_blink.c	/^__interrupt void Timer_A (void){$/;"	f
+Timer_A	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^__interrupt void Timer_A (void)$/;"	f
+Timer_Interrupt_Service	../example/timer.c	/^__interrupt void Timer_Interrupt_Service(void){$/;"	f
+ToggleGreen	../laboratory/lab2/lab2_2c.asm	/^ToggleGreen$/;"	l
+ToggleYellow	../laboratory/lab2/lab2_2c.asm	/^ToggleYellow$/;"	l
+Transmit	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^void Transmit()$/;"	f
+Tx_bit_count	../example/serialT.c	/^char Tx_bit_count=10;       \/\/ bit counter for transmission, 8N1 is 10 bits$/;"	v
+Tx_bit_count	../launchpad/timer/full_duplexUART/transceiver.c	/^char Tx_bit_count=10;       \/\/ bit counter for transmission, 8N1 is 10 bits$/;"	v
+UART_BAUD	../launchpad/timer/printfUART/launchpad.h	/^#define UART_BAUD /;"	d
+UART_BITTIME	../launchpad/timer/printfUART/launchpad.c	/^#define UART_BITTIME /;"	d	file:
+UART_CTRL_H_	../laboratory/include/UART_Ctrl.h	/^#define UART_CTRL_H_$/;"	d
+UART_Ctrl	../launchpad/include/UART_Ctrl_Launchpad.h	/^#define UART_Ctrl$/;"	d
+UART_FG	../example/serialT.c	/^char UART_FG=0;             \/\/ flags for UART: BIT0 is TX in process flag$/;"	v
+UART_FG	../launchpad/timer/full_duplexUART/transceiver.c	/^char UART_FG=0;             \/\/ flags for UART: BIT0 is TX in process flag$/;"	v
+UART_RXD	../launchpad/timer/printfUART/launchpad.c	/^#define UART_RXD /;"	d	file:
+UART_TXD	../launchpad/timer/printfUART/launchpad.c	/^#define UART_TXD /;"	d	file:
+USI16B	../laboratory/lab6/msp430g2452.h	/^#define USI16B /;"	d
+USIAL	../laboratory/lab6/msp430g2452.h	/^#define USIAL /;"	d
+USICCTL_	../laboratory/lab6/msp430g2452.h	/^#define USICCTL_ /;"	d
+USICKCTL_	../laboratory/lab6/msp430g2452.h	/^#define USICKCTL_ /;"	d
+USICKPH	../laboratory/lab6/msp430g2452.h	/^#define USICKPH /;"	d
+USICKPL	../laboratory/lab6/msp430g2452.h	/^#define USICKPL /;"	d
+USICNT0	../laboratory/lab6/msp430g2452.h	/^#define USICNT0 /;"	d
+USICNT1	../laboratory/lab6/msp430g2452.h	/^#define USICNT1 /;"	d
+USICNT2	../laboratory/lab6/msp430g2452.h	/^#define USICNT2 /;"	d
+USICNT3	../laboratory/lab6/msp430g2452.h	/^#define USICNT3 /;"	d
+USICNT4	../laboratory/lab6/msp430g2452.h	/^#define USICNT4 /;"	d
+USICNT_	../laboratory/lab6/msp430g2452.h	/^#define USICNT_ /;"	d
+USICTL0_	../laboratory/lab6/msp430g2452.h	/^#define USICTL0_ /;"	d
+USICTL1_	../laboratory/lab6/msp430g2452.h	/^#define USICTL1_ /;"	d
+USICTL_	../laboratory/lab6/msp430g2452.h	/^#define USICTL_ /;"	d
+USIDIV0	../laboratory/lab6/msp430g2452.h	/^#define USIDIV0 /;"	d
+USIDIV1	../laboratory/lab6/msp430g2452.h	/^#define USIDIV1 /;"	d
+USIDIV2	../laboratory/lab6/msp430g2452.h	/^#define USIDIV2 /;"	d
+USIDIV_0	../laboratory/lab6/msp430g2452.h	/^#define USIDIV_0 /;"	d
+USIDIV_1	../laboratory/lab6/msp430g2452.h	/^#define USIDIV_1 /;"	d
+USIDIV_2	../laboratory/lab6/msp430g2452.h	/^#define USIDIV_2 /;"	d
+USIDIV_3	../laboratory/lab6/msp430g2452.h	/^#define USIDIV_3 /;"	d
+USIDIV_4	../laboratory/lab6/msp430g2452.h	/^#define USIDIV_4 /;"	d
+USIDIV_5	../laboratory/lab6/msp430g2452.h	/^#define USIDIV_5 /;"	d
+USIDIV_6	../laboratory/lab6/msp430g2452.h	/^#define USIDIV_6 /;"	d
+USIDIV_7	../laboratory/lab6/msp430g2452.h	/^#define USIDIV_7 /;"	d
+USIGE	../laboratory/lab6/msp430g2452.h	/^#define USIGE /;"	d
+USII2C	../laboratory/lab6/msp430g2452.h	/^#define USII2C /;"	d
+USIIE	../laboratory/lab6/msp430g2452.h	/^#define USIIE /;"	d
+USIIFG	../laboratory/lab6/msp430g2452.h	/^#define USIIFG /;"	d
+USIIFGCC	../laboratory/lab6/msp430g2452.h	/^#define USIIFGCC /;"	d
+USILSB	../laboratory/lab6/msp430g2452.h	/^#define USILSB /;"	d
+USIMST	../laboratory/lab6/msp430g2452.h	/^#define USIMST /;"	d
+USIOE	../laboratory/lab6/msp430g2452.h	/^#define USIOE /;"	d
+USIPE5	../laboratory/lab6/msp430g2452.h	/^#define USIPE5 /;"	d
+USIPE6	../laboratory/lab6/msp430g2452.h	/^#define USIPE6 /;"	d
+USIPE7	../laboratory/lab6/msp430g2452.h	/^#define USIPE7 /;"	d
+USISCLREL	../laboratory/lab6/msp430g2452.h	/^#define USISCLREL /;"	d
+USISRH_	../laboratory/lab6/msp430g2452.h	/^#define USISRH_ /;"	d
+USISRL_	../laboratory/lab6/msp430g2452.h	/^#define USISRL_ /;"	d
+USISR_	../laboratory/lab6/msp430g2452.h	/^#define USISR_ /;"	d
+USISSEL0	../laboratory/lab6/msp430g2452.h	/^#define USISSEL0 /;"	d
+USISSEL1	../laboratory/lab6/msp430g2452.h	/^#define USISSEL1 /;"	d
+USISSEL2	../laboratory/lab6/msp430g2452.h	/^#define USISSEL2 /;"	d
+USISSEL_0	../laboratory/lab6/msp430g2452.h	/^#define USISSEL_0 /;"	d
+USISSEL_1	../laboratory/lab6/msp430g2452.h	/^#define USISSEL_1 /;"	d
+USISSEL_2	../laboratory/lab6/msp430g2452.h	/^#define USISSEL_2 /;"	d
+USISSEL_3	../laboratory/lab6/msp430g2452.h	/^#define USISSEL_3 /;"	d
+USISSEL_4	../laboratory/lab6/msp430g2452.h	/^#define USISSEL_4 /;"	d
+USISSEL_5	../laboratory/lab6/msp430g2452.h	/^#define USISSEL_5 /;"	d
+USISSEL_6	../laboratory/lab6/msp430g2452.h	/^#define USISSEL_6 /;"	d
+USISSEL_7	../laboratory/lab6/msp430g2452.h	/^#define USISSEL_7 /;"	d
+USISTP	../laboratory/lab6/msp430g2452.h	/^#define USISTP /;"	d
+USISTTIE	../laboratory/lab6/msp430g2452.h	/^#define USISTTIE /;"	d
+USISTTIFG	../laboratory/lab6/msp430g2452.h	/^#define USISTTIFG /;"	d
+USISWCLK	../laboratory/lab6/msp430g2452.h	/^#define USISWCLK /;"	d
+USISWRST	../laboratory/lab6/msp430g2452.h	/^#define USISWRST /;"	d
+USI_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define USI_VECTOR /;"	d
+V	../laboratory/lab6/msp430g2452.h	/^#define V /;"	d
+WAIT	../laboratory/lab6/msp430g2452.h	/^#define WAIT /;"	d
+WDTCNTCL	../laboratory/lab6/msp430g2452.h	/^#define WDTCNTCL /;"	d
+WDTCTL_	../laboratory/lab6/msp430g2452.h	/^#define WDTCTL_ /;"	d
+WDTHOLD	../laboratory/lab6/msp430g2452.h	/^#define WDTHOLD /;"	d
+WDTIE	../laboratory/lab6/msp430g2452.h	/^#define WDTIE /;"	d
+WDTIFG	../laboratory/lab6/msp430g2452.h	/^#define WDTIFG /;"	d
+WDTIS0	../laboratory/lab6/msp430g2452.h	/^#define WDTIS0 /;"	d
+WDTIS1	../laboratory/lab6/msp430g2452.h	/^#define WDTIS1 /;"	d
+WDTNMI	../laboratory/lab6/msp430g2452.h	/^#define WDTNMI /;"	d
+WDTNMIES	../laboratory/lab6/msp430g2452.h	/^#define WDTNMIES /;"	d
+WDTPW	../laboratory/lab6/msp430g2452.h	/^#define WDTPW /;"	d
+WDTSSEL	../laboratory/lab6/msp430g2452.h	/^#define WDTSSEL /;"	d
+WDTTMSEL	../laboratory/lab6/msp430g2452.h	/^#define WDTTMSEL /;"	d
+WDT_ADLY_1000	../laboratory/lab6/msp430g2452.h	/^#define WDT_ADLY_1000 /;"	d
+WDT_ADLY_16	../laboratory/lab6/msp430g2452.h	/^#define WDT_ADLY_16 /;"	d
+WDT_ADLY_1_9	../laboratory/lab6/msp430g2452.h	/^#define WDT_ADLY_1_9 /;"	d
+WDT_ADLY_250	../laboratory/lab6/msp430g2452.h	/^#define WDT_ADLY_250 /;"	d
+WDT_ARST_1000	../laboratory/lab6/msp430g2452.h	/^#define WDT_ARST_1000 /;"	d
+WDT_ARST_16	../laboratory/lab6/msp430g2452.h	/^#define WDT_ARST_16 /;"	d
+WDT_ARST_1_9	../laboratory/lab6/msp430g2452.h	/^#define WDT_ARST_1_9 /;"	d
+WDT_ARST_250	../laboratory/lab6/msp430g2452.h	/^#define WDT_ARST_250 /;"	d
+WDT_MDLY_0_064	../laboratory/lab6/msp430g2452.h	/^#define WDT_MDLY_0_064 /;"	d
+WDT_MDLY_0_5	../laboratory/lab6/msp430g2452.h	/^#define WDT_MDLY_0_5 /;"	d
+WDT_MDLY_32	../laboratory/lab6/msp430g2452.h	/^#define WDT_MDLY_32 /;"	d
+WDT_MDLY_8	../laboratory/lab6/msp430g2452.h	/^#define WDT_MDLY_8 /;"	d
+WDT_MRST_0_064	../laboratory/lab6/msp430g2452.h	/^#define WDT_MRST_0_064 /;"	d
+WDT_MRST_0_5	../laboratory/lab6/msp430g2452.h	/^#define WDT_MRST_0_5 /;"	d
+WDT_MRST_32	../laboratory/lab6/msp430g2452.h	/^#define WDT_MRST_32 /;"	d
+WDT_MRST_8	../laboratory/lab6/msp430g2452.h	/^#define WDT_MRST_8 /;"	d
+WDT_VECTOR	../laboratory/lab6/msp430g2452.h	/^#define WDT_VECTOR /;"	d
+WRITE_SP	../laboratory/lab6/intrinsics.h	/^#define WRITE_SP(/;"	d
+WRITE_SR	../laboratory/lab6/intrinsics.h	/^#define WRITE_SR(/;"	d
+WRT	../laboratory/lab6/msp430g2452.h	/^#define WRT /;"	d
+XCAP0	../laboratory/lab6/msp430g2452.h	/^#define XCAP0 /;"	d
+XCAP1	../laboratory/lab6/msp430g2452.h	/^#define XCAP1 /;"	d
+XCAP_0	../laboratory/lab6/msp430g2452.h	/^#define XCAP_0 /;"	d
+XCAP_1	../laboratory/lab6/msp430g2452.h	/^#define XCAP_1 /;"	d
+XCAP_2	../laboratory/lab6/msp430g2452.h	/^#define XCAP_2 /;"	d
+XCAP_3	../laboratory/lab6/msp430g2452.h	/^#define XCAP_3 /;"	d
+XT2OF	../laboratory/lab6/msp430g2452.h	/^#define XT2OF /;"	d
+XT2OFF	../laboratory/lab6/msp430g2452.h	/^#define XT2OFF /;"	d
+XT2S0	../laboratory/lab6/msp430g2452.h	/^#define XT2S0 /;"	d
+XT2S1	../laboratory/lab6/msp430g2452.h	/^#define XT2S1 /;"	d
+XT2S_0	../laboratory/lab6/msp430g2452.h	/^#define XT2S_0 /;"	d
+XT2S_1	../laboratory/lab6/msp430g2452.h	/^#define XT2S_1 /;"	d
+XT2S_2	../laboratory/lab6/msp430g2452.h	/^#define XT2S_2 /;"	d
+XT2S_3	../laboratory/lab6/msp430g2452.h	/^#define XT2S_3 /;"	d
+XTS	../laboratory/lab6/msp430g2452.h	/^#define XTS /;"	d
+YELLOW	../example/timer.c	/^#define YELLOW /;"	d	file:
+Z	../laboratory/lab6/msp430g2452.h	/^#define Z /;"	d
+_BIC_SR	../laboratory/lab6/intrinsics.h	/^#define _BIC_SR(/;"	d
+_BIC_SR_IRQ	../laboratory/lab6/intrinsics.h	/^#define _BIC_SR_IRQ(/;"	d
+_BIS_SR	../laboratory/lab6/intrinsics.h	/^#define _BIS_SR(/;"	d
+_BIS_SR_IRQ	../laboratory/lab6/intrinsics.h	/^#define _BIS_SR_IRQ(/;"	d
+_DINT	../laboratory/lab6/intrinsics.h	/^#define _DINT(/;"	d
+_EINT	../laboratory/lab6/intrinsics.h	/^#define _EINT(/;"	d
+_NOP	../laboratory/lab6/intrinsics.h	/^#define _NOP(/;"	d
+__LAUNCHPAD_H__	../launchpad/timer/printfUART/launchpad.h	/^#define __LAUNCHPAD_H__$/;"	d
+__MSP430G2452	../laboratory/lab6/msp430g2452.h	/^#define __MSP430G2452$/;"	d
+__MSP430_HAS_ADC10__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HAS_ADC10__ /;"	d
+__MSP430_HAS_BC2__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HAS_BC2__ /;"	d
+__MSP430_HAS_CAPLUS__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HAS_CAPLUS__ /;"	d
+__MSP430_HAS_FLASH2__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HAS_FLASH2__ /;"	d
+__MSP430_HAS_PORT1_R__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HAS_PORT1_R__ /;"	d
+__MSP430_HAS_PORT2_R__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HAS_PORT2_R__ /;"	d
+__MSP430_HAS_TA3__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HAS_TA3__ /;"	d
+__MSP430_HAS_USI__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HAS_USI__ /;"	d
+__MSP430_HAS_WDT__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HAS_WDT__ /;"	d
+__MSP430_HEADER_VERSION__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_HEADER_VERSION__ /;"	d
+__MSP430_INTRINSICS_H_	../laboratory/lab6/intrinsics.h	/^#define __MSP430_INTRINSICS_H_$/;"	d
+__MSP430_TI_HEADERS__	../laboratory/lab6/msp430g2452.h	/^#define __MSP430_TI_HEADERS__$/;"	d
+__bic_SR_register	../laboratory/lab6/intrinsics.h	/^#define __bic_SR_register(/;"	d
+__bic_SR_register_on_exit	../laboratory/lab6/intrinsics.h	/^#define __bic_SR_register_on_exit(/;"	d
+__bis_SR_register	../laboratory/lab6/intrinsics.h	/^#define __bis_SR_register(/;"	d
+__bis_SR_register_on_exit	../laboratory/lab6/intrinsics.h	/^#define __bis_SR_register_on_exit(/;"	d
+__disable_interrupt	../laboratory/lab6/intrinsics.h	/^#define __disable_interrupt(/;"	d
+__enable_interrupt	../laboratory/lab6/intrinsics.h	/^#define __enable_interrupt(/;"	d
+__istate_t	../laboratory/lab6/intrinsics.h	/^typedef unsigned int __istate_t;$/;"	t
+__no_operation	../laboratory/lab6/intrinsics.h	/^#define __no_operation(/;"	d
+__write	../launchpad/timer/printfUART/write.c	/^size_t __write(int handle, const unsigned char* buffer, size_t size)$/;"	f
+asciiToValue	../laboratory/lab3/lab3_1.c	/^int asciiToValue(int n){$/;"	f
+asciiToValue	../laboratory/lab5/lab5_2.c	/^int asciiToValue(unsigned char ch){$/;"	f
+bit_time	../example/serialT.c	/^#define bit_time /;"	d	file:
+bit_time	../launchpad/timer/full_duplexUART/transceiver.c	/^#define bit_time /;"	d	file:
+blink	../example/pulsatingLED/blink.c	/^unsigned int blink = 0;$/;"	v
+characters	../laboratory/include/LCD_Ctrl.c	/^extern unsigned int characters[] = { 0x5f, 0x06, 0x6b, 0x2f, 0x36, 0x3d, 0x7d, 0x07, 0x7f, 0x37, 0x77, 0x7c, 0x59, 0x6E, 0x79, 0x71 };$/;"	v
+characters	../laboratory/lab4/lab4_1.c	/^unsigned int characters[] = {0x5f,0x06,0x6b,0x2f,0x36,0x3d,0x7d,0x07,0x7f,0x37,0x77,0x7c,0x59,0x6E,0x79,0x71};$/;"	v
+characters	../laboratory/lab4/lab4_2.c	/^unsigned int characters[] = {0x5f,0x06,0x6b,0x2f,0x36,0x3d,0x7d,0x07,0x7f,0x37,0x77,0x7c,0x59,0x6E,0x79,0x71};$/;"	v
+characters	../laboratory/lab4/lab4_3.c	/^unsigned int characters[] = {0x5f,0x06,0x6b,0x2f,0x36,0x3d,0x7d,0x07,0x7f,0x37,0x77,0x7c,0x59,0x6E,0x79,0x71};$/;"	v
+characters	../laboratory/lab4/lab4_4.c	/^unsigned int characters[] = {0x5f,0x06,0x6b,0x2f,0x36,0x3d,0x7d,0x07,0x7f,0x37,0x77,0x7c,0x59,0x6E,0x79,0x71};$/;"	v
+characters	../laboratory/lab5/lab5_2.c	/^unsigned int characters[] = { 0x5f, 0x06, 0x6b, 0x2f, 0x36, 0x3d, 0x7d, 0x07, 0x7f, 0x37, 0x77, 0x7c, 0x59, 0x6E, 0x79, 0x71, 0xE6};$/;"	v
+cnt	../laboratory/lab4/lab4_1.c	/^unsigned int cnt = 2 ;$/;"	v
+cnt	../laboratory/lab4/lab4_2.c	/^unsigned int cnt = 2 ;$/;"	v
+cnt	../laboratory/lab4/lab4_3.c	/^unsigned int cnt = 2 ;$/;"	v
+cnt	../laboratory/lab4/lab4_4.c	/^unsigned int cnt = 2 ;$/;"	v
+command	../example/serialT.c	/^char command='z';           \/\/ default command is sleep$/;"	v
+command	../launchpad/timer/full_duplexUART/transceiver.c	/^char command='z';           \/\/ default command is sleep$/;"	v
+curve	../example/pulsatingLED/breathing-led.c	/^const unsigned char curve[] = {$/;"	v
+getAZ	../laboratory/lab3/lab3_3.c	/^unsigned char getAZ(void) {$/;"	f
+getValidInput	../laboratory/lab3/lab3_1.c	/^unsigned char getValidInput(void){$/;"	f
+getValidInput	../laboratory/lab5/lab5_2.c	/^unsigned char getValidInput(void){$/;"	f
+halfbit_time	../example/serialT.c	/^#define halfbit_time /;"	d	file:
+halfbit_time	../launchpad/timer/full_duplexUART/transceiver.c	/^#define halfbit_time /;"	d	file:
+hasReceived	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^bool hasReceived;	\/\/ Lets the program know when a byte is received$/;"	v
+initGreenLED	../laboratory/include/LED_Ctrl.c	/^void initGreenLED(){$/;"	f
+initRedLED	../laboratory/include/LED_Ctrl.c	/^void initRedLED(){$/;"	f
+init_Interrupts	../laboratory/include/Init_Interrupts.c	/^int init_Interrupts(unsigned int timerStop) {$/;"	f
+init_UART	../laboratory/include/UART_Ctrl.c	/^void init_UART(void) {$/;"	f
+interrupt	../example/pulsatingLED/breathing-led.c	/^interrupt(TIMER0_A1_VECTOR) ta1_isr(void){$/;"	f
+interruptCnt	../laboratory/lab4/lab4_3.c	/^unsigned int interruptCnt = 0 ;$/;"	v
+interruptCnt	../laboratory/lab4/lab4_4.c	/^unsigned int interruptCnt = 0 ;$/;"	v
+isReceiving	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^bool isReceiving;	\/\/ Status for when the device is receiving$/;"	v
+lpa	../laboratory/lab2/lab2_2a.asm	/^lpa$/;"	l
+lpa	../laboratory/lab2/lab2_2b.asm	/^lpa$/;"	l
+lpa	../laboratory/lab2/lab2_2c.asm	/^lpa$/;"	l
+lpa	../laboratory/lab2/lab2_2d.asm	/^lpa$/;"	l
+lpb	../laboratory/lab2/lab2_2a.asm	/^lpb$/;"	l
+lpb	../laboratory/lab2/lab2_2b.asm	/^lpb$/;"	l
+lpb	../laboratory/lab2/lab2_2c.asm	/^lpb$/;"	l
+lpb	../laboratory/lab2/lab2_2d.asm	/^lpb$/;"	l
+main	../example/SerialLaunchpad.c	/^int main(void){$/;"	f
+main	../example/UART/UART_CTRL.c	/^int main(void){$/;"	f
+main	../example/pulsatingLED/blink.c	/^int main(void)$/;"	f
+main	../example/pulsatingLED/breathing-led.c	/^int main(void){$/;"	f
+main	../example/serial.c	/^int main(){$/;"	f
+main	../example/serialT.c	/^void main(void) {$/;"	f
+main	../example/timer.c	/^int main(){$/;"	f
+main	../example/timer0.c	/^void main(void)$/;"	f
+main	../laboratory/lab1/lab1_1.asm	/^main:$/;"	l
+main	../laboratory/lab1/lab1_1.c	/^int main( void ) {$/;"	f
+main	../laboratory/lab1/lab1_3.c	/^int main( void ) {$/;"	f
+main	../laboratory/lab2/lab2_0.c	/^int main(void) {$/;"	f
+main	../laboratory/lab2/lab2_1.c	/^int main(void) {$/;"	f
+main	../laboratory/lab2/lab2_2.c	/^int main(void) {$/;"	f
+main	../laboratory/lab2/lab2_a.c	/^int main(void){$/;"	f
+main	../laboratory/lab3/lab3_1.c	/^int main(void){$/;"	f
+main	../laboratory/lab3/lab3_2.c	/^int main(void){$/;"	f
+main	../laboratory/lab3/lab3_3.c	/^int main(void) {$/;"	f
+main	../laboratory/lab3/lab3_4.c	/^int main(void) {$/;"	f
+main	../laboratory/lab3/lab3_5.c	/^int main(void) {$/;"	f
+main	../laboratory/lab4/lab4_1.c	/^int main(void) {$/;"	f
+main	../laboratory/lab4/lab4_2.c	/^int main(void) {$/;"	f
+main	../laboratory/lab4/lab4_3.c	/^int main(void) {$/;"	f
+main	../laboratory/lab4/lab4_4.c	/^int main(void) {$/;"	f
+main	../laboratory/lab4/main.c	/^int main(void) {$/;"	f
+main	../laboratory/lab5/lab5_2.c	/^int main(void){$/;"	f
+main	../laboratory/lab6/timer.c	/^int main(){$/;"	f
+main	../launchpad/timer/blink/blink.c	/^int main(void){$/;"	f
+main	../launchpad/timer/blink/timer_blink.c	/^void main(void){$/;"	f
+main	../launchpad/timer/full_duplexUART/calibrateUART.c	/^void main(void) {$/;"	f
+main	../launchpad/timer/full_duplexUART/transceiver.c	/^void main(void) {$/;"	f
+main	../launchpad/timer/half_duplexUART/halfDuplexUART.c	/^void main(void)$/;"	f
+main	../launchpad/timer/printfUART/main.c	/^void main(void)$/;"	f
+nop	../laboratory/lab6/intrinsics.h	/^#define nop(/;"	d
+pos	../example/pulsatingLED/breathing-led.c	/^int pos = 0;                \/\/ Index to PWM's duty cycle table (= brightness)$/;"	v
+prepComplete	../laboratory/lab2/lab2_2a.asm	/^prepComplete    ; Description: Prepares program completion then toggles LED yellow indicating completion$/;"	l
+prepComplete	../laboratory/lab2/lab2_2b.asm	/^prepComplete jmp prepComplete        ; Loop back$/;"	l
+prepComplete	../laboratory/lab2/lab2_2d.asm	/^prepComplete    ; Description: Prepares program completion then toggles LED yellow indicating completion$/;"	l
+read	../laboratory/lab3/lab3_5.c	/^void read(){$/;"	f
+readBinary	../laboratory/lab3/lab3_4.c	/^unsigned int readBinary(){$/;"	f
+readColor	../laboratory/lab2/lab2_2.c	/^int readColor(){$/;"	f
+sleep_timer	../launchpad/timer/printfUART/launchpad.c	/^static uint16_t sleep_timer;$/;"	v	file:
+strg1	../laboratory/lab2/lab2_2a.asm	/^strg1   .string "Labbbbbbb"$/;"	l
+strg1	../laboratory/lab2/lab2_2b.asm	/^strg1   .string "Laboratory"$/;"	l
+strg1	../laboratory/lab2/lab2_2c.asm	/^strg1   .string "Laboratory #2 for EEL4742 embedded Systems"$/;"	l
+stringout	../laboratory/lab2/lab2_0.c	/^void stringout(char Str2[]) {$/;"	f
+stringout	../laboratory/lab2/lab2_1.c	/^void stringout(char Str2[]) {$/;"	f
+sw0_0	../laboratory/lab2/lab2_2d.asm	/^sw0_0   .string "SW1 = 0, SW2 = 0"       ; String for if SW0 is on$/;"	l
+sw0_1	../laboratory/lab2/lab2_2d.asm	/^sw0_1   .string "SW1 = 0, SW2 = 1"       ; String for if SW0 is off$/;"	l
+sw1_0	../laboratory/lab2/lab2_2d.asm	/^sw1_0   .string "SW1 = 1, SW2 = 0"       ; String for if SW1 is on$/;"	l
+sw1_1	../laboratory/lab2/lab2_2d.asm	/^sw1_1   .string "SW1 = 1, SW2 = 1"       ; String for if SW1 is off$/;"	l
+sys_init	../launchpad/timer/printfUART/launchpad.c	/^void sys_init(void){$/;"	f
+sys_putch	../launchpad/timer/printfUART/launchpad.c	/^void sys_putch(char c){$/;"	f
+sys_sleep	../launchpad/timer/printfUART/launchpad.c	/^void sys_sleep(unsigned s){$/;"	f
+time	../laboratory/lab4/lab4_3.c	/^unsigned int time[] = {0,0,0,0,0,0,0};$/;"	v
+time	../laboratory/lab4/lab4_4.c	/^int time[] = {0,0,0,0,0,0,0};$/;"	v
+time	../laboratory/lab4/main.c	/^int time[] = { 0, 0, 0, 0, 0, 0, 0 };$/;"	v
+timerA1_isr	../launchpad/timer/printfUART/launchpad.c	/^__interrupt void timerA1_isr(void){$/;"	f
+timerCount	../example/timer.c	/^unsigned int timerCount = 0;$/;"	v
+timerCount	../example/timer0.c	/^unsigned int timerCount = 0;$/;"	v
+timerCount	../launchpad/timer/blink/blink.c	/^unsigned int timerCount = 0;$/;"	v
+timerCount	../launchpad/timer/blink/timer_blink.c	/^unsigned int timerCount = 0;$/;"	v
+toBinary	../laboratory/lab3/lab3_1.c	/^void toBinary(int n){$/;"	f
+toBinaryW	../laboratory/lab3/lab3_1.c	/^void toBinaryW(int n){$/;"	f
+toggleLED	../laboratory/include/LED_Ctrl.c	/^void toggleLED(int grnRedBoth){$/;"	f
+tx_byte	../example/serialT.c	/^void tx_byte(char byte) {$/;"	f
+tx_byte	../launchpad/timer/full_duplexUART/transceiver.c	/^void tx_byte(char byte) {$/;"	f
+tx_string	../example/serialT.c	/^void tx_string(char *message) {$/;"	f
+tx_string	../launchpad/timer/full_duplexUART/transceiver.c	/^void tx_string(char *message) {$/;"	f
+valueToAscii	../laboratory/lab3/lab3_2.c	/^void valueToAscii(int n){$/;"	f
+valueToAscii	../laboratory/lab3/lab3_4.c	/^void valueToAscii(int n) {$/;"	f
+valueToAscii	../laboratory/lab5/lab5_2.c	/^int valueToAscii(int val){$/;"	f

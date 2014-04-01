@@ -1,0 +1,167 @@
+# Exam One
+
+1. Given following microcode, which assembly instruction best fits this microcode?
+  ```
+  A = R5, B = R6, D = R8, R/W = 1 
+  F = A 
+  Load CAR
+  MUXSEL = 00  
+  Load DIR
+  Load Reg
+  A = R6, B = R8, D = R6 
+  F = ADD
+  Load DOR, R/W'= 1
+  ```
+  - add (R5),  R5
+  - add  R5 , (R6)
+  - add (R5), (R6)
+  - add  R5 ,  R6
+
+2. In the generic processor, the JMP instruction is best implemented by which instruction?
+  - type 0 
+  - type 1
+  - type 2
+  - type 3
+3. In the generic process, which type 1 instruction describes index addressing as given in the class lectures and lecture notes?
+  - mov (R5 + XR), R2
+  - mov (R5), (R2)
+  - mov (W + PC), R2
+  - mov (W + XR), R2
+4. Given the ALU Operation `ALUout = A + ¬B', where A = 0x0017 and B = 0x0037,  
+what is the output of the ALU ( ie += operation )?
+  - -0x0020
+  - 0x0020
+  - -0x0021
+  - 0x0021
+5. The ASCII code for the lowercase Z is:
+  - 0x7A
+  - 0x5A
+  - 0x4A
+  - 0x2A
+6. Given the instruction `add.w R6, R7`, where R6 = 0x802E and R7 = 0xCC13,  
+the condition of the N, Z, V, C status flags will be:
+  - 0,0,0,1
+  - 0,0,1,0
+  - 0,0,1,1
+  - 1,0,1,1
+7. The register transfer language (RTL) statement `Mem[1000] <- (R1) + R2 `
+  - Adds what is in R1 and R2 and stores the result in memory location 1000.
+  - Uses R1 as an address to obtain the data from memory and adds what is in R2 and stores the result in memory location 1000.
+  - Uses R1 as an address to obtain the data from and uses R2 an address as an address to get the data from and then adds them together and stores the result in memory location 1000.
+  - Adds what is in R1 to the data stored in memory given by the address given by R2 and stores the result in memory location 1000.
+8. Which assembler directive is used with the `.sect` assembler directive to allocate data storage (of any type) in Random Access Memory (RAM) in the MSP430?
+9. When using the branch instruction `br &W` in the MSP430, the allowed values of `W` are:
+10. Given the experimenter board used in the laboratory experiments and given the lecture notes, Flash ROM Memory starts at which address?
+11. Which of the following MSP430 instruction is equivalent to a "no operation" `NOP` (an instruction that does nothing but uses clock cycles)?
+12. The jump instruction `jmp Label` is located in memory such that the program counter is equal to 0x187E when this instruction is executed. If `Label` is located at address 0x1800, to execute this instruction, what is the value of the 10 bit offset that will be stored in the jump instruction?
+13. The binary value for the 48962 (base 10) is
+14. What is the difference between `call #0x1000` and `call 0x1000`?
+15. Given the following MSP430 instruction, with 0xAF52 stored in R8, and the instruction `bic.w #0x306D, R8`, what value will be stored in R8 after execution of this instruction?
+16. If the stack pointer register SP = 0x8FF0, then the instruction `push.b R6` sets the value of SP to
+17. Which of the following MSP430 instruction is not allowed?
+18. In the MSP430, the instruction `jlo Label` instruction jumps to Label if
+19. In MSP430 Assembly language programming, different prefixes are used to differentiate between different type of data. Which statement gives the correct set of prefixes?
+20. Given `jmp W`, what is the possible range of values for W?
+21. What value is in register R10 after execution of the following?
+
+```ASM
+    .text
+    .global _START
+
+  START
+    mov.w #stk, SP
+  STOPWDT
+    mov.w #WDTPW + WDTHOLD, &WDTCTL
+    
+    mov.w #0xFE60, R10
+    setc
+    rlc.w R10
+    swpb R10
+    
+  ed
+    jmp ed
+```
+
+22. What value is in register R11 after execution of the following?
+
+```ASM
+    .text
+    .global _START
+
+  START
+    mov.w #stk, SP
+  STOPWDT
+    mov.w #WDTPW + WDTHOLD, &WDTCTL
+    
+    mov.w #0xFFFF, R11
+    bic.w #0xFFBB, R11
+    inv.w R11
+    incd.w R11
+    inv.w R11
+    
+  ed
+    jmp ed
+```
+23. It is desired to set the port 1 bits D4-D7 as outputs and D0-D3 as input on the MSP430. Which of the following instructions properly configures port 1?
+24. It is desired to connect the pull-up resistor on bit 0 of port 1 to VCC and all other resistors on port 1 to VSS (GND) of the MSP430. Which of the following instructions implement this as given in the class lectures?
+25. What ascii symbol is in the lower 8 bits of R9?
+
+```ASM
+    .text
+    .global _START
+
+  START
+    mov.w #stk, SP
+  STOPWDT
+    mov.w #WDTPW + WDTHOLD, &WDTCTL
+    
+    mov.b #0x64, R9
+    rra.b R9
+    sub.b #0x02, R9
+    
+  ed
+    jmp ed
+```
+
+26. To convert hexadecimal values A-F to uppercase ASCII symboles, what hexadecimal values must be added to hexadecimal values A-F?
+27. Division by 2 is best implemented in the MSP430 using 
+28. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

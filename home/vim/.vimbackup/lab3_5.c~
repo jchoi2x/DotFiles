@@ -1,0 +1,124 @@
+/**
+ * James choi
+ * Lab #3 - Procedure 3 Part 5
+ * Description: Asks for user input stored in array until 32 character or until
+ * 				<enter> is pressed, where it will then reorder via bubble sort
+ * 				and print the ordered array
+ */
+
+#include "msp430fg4618.h"
+#include "stdio.h"
+
+
+
+#define SPACE 0x20
+#define LF 0x0A
+#define CR 0x0D
+
+/* Initializes various register values for desired UART settings
+ * Sets P2.4 to tx and P2.5 to rx
+ * Until all settings are set, the UART is held in reset mode.
+ * then then all settings are set, it is taken out of reset mode.  */
+void Init_UART(void);
+
+/* Polls UCA0TXIFG until a 1 is found, when UCA0TXBUF is empty, and then
+ * transmits an ASCII character passed to it as an unsigned char with values
+ * in between 0 and 255 by writing it to UCA0TXBUF */
+void OUTA_UART(unsigned char A);
+
+/* Continuously reads UCA0RXIFG flag until 1. Then when 1 is encountered,
+ * it reads UCA0RXBUF to obtain the received data (An AsCII character) */
+unsigned char INCHAR_UART(void);
+
+//---------------------------------------------------------------
+// Console I/O through the on board UART for MSP 430X4XXX
+//---------------------------------------------------------------
+void read();
+
+int main(void) {
+	WDTCTL = WDTPW + WDTHOLD;   // Stop watchdog timer
+	Init_UART();				// Intialize UART for hyperterminal
+
+	for (;;) {
+		read();
+		OUTA_UART(CR);
+		OUTA_UART(LF);
+	}
+}
+
+void read(){
+	int in = 0 ;
+	int k = 0 ;
+	int array[32] ;
+	/* Read 32 character or until <ENTER> is pressed */
+	while (in != 0x0D && k < 32){
+		in = INCHAR_UART();
+		// If <enter> not pressed
+		if ( in != 0x0D ){
+			array[k] = in  ;			 // Assign to array index
+			OUTA_UART((char)array[k]);	 // Print to hyperterminal
+			k++ ;						 // INcrement
+		}
+		// Otherwise insert null and increment
+		else{
+			array[k] = 0x00 ;
+			k++ ;
+		}
+	}
+	/* Reorder the array from least to greatest */
+	int i = 0 ;
+	int j = 0 ;
+	for (i = 0; i < k-1; i++ ) {
+		for (j = 0; j < k-1; j++) {
+			if (array[j] > array[j+1]) {
+				int temp = array[j];
+				array[j] = array[j + 1];
+				array[j+1] = temp;
+			}
+		}
+	}
+	OUTA_UART(CR);
+	OUTA_UART(LF);
+	for ( i = 0 ; i < k ; i++ ){
+		OUTA_UART(array[i]);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void OUTA_UART(unsigned char A) {
+	do {} while ((IFG2 & 0x02) == 0);
+	UCA0TXBUF = A;
+}
+
+unsigned char INCHAR_UART(void) {
+	do {
+	} while ((IFG2 & 0x01) == 0);
+	return (UCA0RXBUF);
+}
+
+void Init_UART(void) {
+	P2SEL = 0x30;       // transmit and receive to port 2 bits 4 and 5
+	UCA0CTL0 = 0;       // 8 data, no parity 1 stop, uart, async
+	UCA0CTL1 = 0x41;
+	UCA0BR1 = 0;        // upper byte of divider clock word
+	UCA0BR0 = 3;        // clock divide from a clock to bit clock 32768/9600
+	UCA0MCTL = 0x06;
+	UCA0STAT = 0;       // do not loop the transmitter back to the
+	UCA0CTL1 = 0x40;
+	IE2 = 0;            // turn transmit interrupts off
+}

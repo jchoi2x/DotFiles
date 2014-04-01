@@ -1,0 +1,6 @@
+
+# MacPorts Installer addition on 2013-05-15_at_11:59:19: adding an appropriate PATH variable for use with MacPorts.
+#export PATH=/opt/local/bin:/opt/local/sbin:$PATH:/Users/kizzlebot/.bin
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+. /sw/bin/init.sh

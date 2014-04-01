@@ -1,0 +1,55 @@
+#include <msp430fg4618.h>
+#include <msp430.h>
+#include "../include/LCD_Ctrl.h"
+
+#define GREEN BIT2
+#define ORANGE BIT1
+#define LCD_SIZE 11
+
+/* Exercises for C-code
+ *  1. Write program to display the number 2 ( segments abdeg ) on the rightmost
+ *     seven segment display.
+ */
+
+
+
+unsigned int characters[] = {0x5f,0x06,0x6b,0x2f,0x36,0x3d,0x7d,0x07,0x7f,0x37,0x77,0x7c,0x59,0x6E,0x79,0x71};
+
+
+unsigned char *LCDSeg = (unsigned char *) &LCDM3;
+unsigned int cnt = 2 ;
+int main(void) {
+    volatile unsigned char a;       // <Volatile>
+    volatile unsigned int i;        // <Volatile>
+
+    WDTCTL = WDTPW + WDTHOLD;       // Stop watchdog timer
+
+    // Clock Set up
+    CCTL0 = CCIE;                   // Set up Timer+Clock
+    TACTL = TASSEL_1 + MC_1;        // [timerA -> ACLK][MODE: UP]
+    TACCR0 = 0x7FFF ;               // TACCR0 is the upper limit of the timer = 32768
+    P2DIR |= GREEN+ORANGE;          // Set Px as output to be able to turn on LED
+    Init_LCD();
+
+    __enable_interrupt();
+    __bis_SR_register(LPM0 + GIE);  // LPM0 with interrupts enabled
+
+
+}
+
+
+
+
+
+#pragma vector = TIMERA0_VECTOR
+__interrupt void Timer_A (void){
+    P2OUT ^= GREEN; // Toggle P1.0 using exclusive-OR
+    LCDSeg[0] = characters[cnt];
+    LCDSeg[1] = characters[cnt];
+    LCDSeg[2] = characters[cnt];
+    LCDSeg[3] = characters[cnt];
+    LCDSeg[4] = characters[cnt];
+    LCDSeg[5] = characters[cnt];
+    LCDSeg[6] = characters[cnt];
+
+}

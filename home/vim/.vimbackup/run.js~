@@ -1,0 +1,45 @@
+var l = [], size = 10, rand = Math.random, flr = Math.floor ;
+(function(array,size){
+    for ( var i = 0 ; i < size ; i++ ){
+        array.push(flr(rand()*100));
+    }
+})(l,size);
+
+
+function mergeSort(l){
+    if ( l.length > 1 ){
+        l = merge(mergeSort(subArray(l,0,Math.floor(l.length/2))),mergeSort(subArray(l,Math.floor(l.length/2),l.length)));
+    }
+    return l;
+}
+function subArray(l,s,e){
+    var rtn = [] ;
+    var k = 0 ;
+    for ( var i = 0 ; i < e-s ; i++ ){
+        rtn[i] = l[s+i];
+    }
+    return rtn ;
+}
+
+function merge(a,b){
+    var i = 0 , j = 0 , k = 0 ;{}
+
+    var rtn = [] ;
+    while ( i < a.length && j < b.length ){
+        if ( a[i] <= b[j] ) rtn[k++] = a[i++];
+        else rtn[k++] = b[j++];
+    }
+    if ( i == a.length ){
+        for ( ; j < b.length ; j++ ){
+            rtn[k++] = b[j] ;
+        }
+    }
+    else{
+        for ( ; i < a.length ; i++ ){
+            rtn[k++] = a[i];
+        }
+    }
+    return rtn ;
+}
+
+console.log(mergeSort(l));

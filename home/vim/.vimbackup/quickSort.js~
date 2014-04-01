@@ -1,0 +1,46 @@
+var l = [], rand = Math.random, flr = Math.floor, log = console.log ;
+l.low = 0 ;
+(function(array,cnt){
+    for ( var i = 0 ; i < cnt ; i++ ){
+        array.push(Math.floor(Math.random()*100));
+    }
+})(l,10);
+
+
+
+
+function quickSort(array,low,high){
+    if ( low < high ){
+        var split = partition(array,low,high);
+        quickSort(array,low,split);
+        quickSort(array,split,high);
+    }
+    return array ;
+}
+function swap(ar,i1,i2){
+    var tmp = ar[i1] ;
+    ar[i1] = ar[i2] ;
+    ar[i2] = tmp ;
+    return ar;
+}
+function partition(array,low,high){
+    var p = array[low];
+    var i = low ;
+    var j = high+1 ;
+    if ( low == high )return low ;
+    do {
+        do {
+            i++ ;
+        }while ( array[i] <= p );
+        do{
+            j-- ;
+        }while( array[j] >= p );
+        array = swap(array,i,j);
+    }while ( i < j );
+    array = swap(array,i,j);
+    array = swap(array,low,j);
+    return j ;
+}
+log(l);
+quickSort(l,0,l.length-1);
+log(l);

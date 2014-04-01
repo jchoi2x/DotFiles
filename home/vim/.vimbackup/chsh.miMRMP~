@@ -1,0 +1,10 @@
+# Changing user information for kizzlebot.
+# Use "passwd" to change the password.
+##
+# Open Directory: /Local/Default
+##
+Shell: /opt/local/bin/bash
+Full Name: James Choi
+Office Location: 
+Office Phone: 
+Home Phone: 

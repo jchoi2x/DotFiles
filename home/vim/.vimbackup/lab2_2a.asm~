@@ -1,0 +1,182 @@
+; James choi
+; Lab #2 Part 2.2 -Add the string "Laboratory #2 for EEL4742 embedded Systems", and print to hyperterminal
+;---------------------------------------------------------------------------------------------------------
+;           Enable C-Headers
+;---------------------------------------------------------------------------------------------------------
+        .cdecls C,LIST,"msp430fg4618.h"
+
+
+;---------------------------------------------------------------------------------------------------------
+;           Assembler Directives Setup
+;---------------------------------------------------------------------------------------------------------
+        .bss label, 4           ; Reserve 4 unitialized bytes in .bss section (located in RAM)
+        .word 0x1234            ;
+        .byte 0x0d, 0x0a
+        .byte 0x00
+
+        .sect   ".const"        ; This section are for constants
+strg1   .string "This is a test"
+        .byte 0x0d, 0x0a
+        .byte 0x00
+
+;---------------------------------------------------------------------------------------------------------
+;       Enter program
+;---------------------------------------------------------------------------------------------------------
+        .text                       ; program start
+        .global _START                  ; define entry point
+;---------------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------------
+
+
+;---------------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------------
+START       ; Description: Perform Initialization and proceed to primary procedure
+            ; Arguments  : N/A
+;---------------------------------------------------------------------------------------------------------
+        mov.w #300h,SP               ; Initialize stack pointer (immediate addressing)
+        mov.w #WDTPW+WDTHOLD,&WDTCTL ; Stop Watchdog Timer
+
+        bis.b #0x06, &P2DIR          ; BItSet Port 2.2 as an output
+        mov   #strg1, R10            ; Move string to R10
+
+        call  #Init_UART             ; Store PC+2 (MainLoop) and branch to immediate val (Init_UART)
+        jmp   PrintDirective         ; Jump to label not jump b.c. no need to come back this label
+
+
+
+
+;---------------------------------------------------------------------------------------------------------
+ToggleLED   ; Description: Toggle LED, cause a delay, return to caller
+            ; Arguments  : R9 ( Must be leaded with hex value of color to turn on )
+;---------------------------------------------------------------------------------------------------------
+        xor.b R9,&P2OUT    ; (Toggle P2 LED) Register Indirect: R9 -> addr(P2OUT)
+
+        mov.w #0A000h, R15 ; Load a large value into R15.  0x0A000 -> R15
+Delay
+        dec.w R15          ; Decrement R15, and jump back if not zero
+        jnz Delay
+
+        ret                ; Return to caller
+;---------------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+;---------------------------------------------------------------------------------------------------------
+;-----------------------------------String Print Procedures ----------------------------------------------
+;---------------------------------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------------------------------------------
+PrintDirective  ; Description:  Sends character stored in R10 to serial output via UART
+                ; Argument   :  R10 ( Must contain address to string )
+;---------------------------------------------------------------------------------------------------------
+        sub.b #0x00, R10    ; R10 = 0x00?
+        jz prepComplete     ; if R10 == 0x00, Prepare Completion
+
+        mov.b #0x04, R9     ; Load R9 to green LED value for ToggleLED
+        call #ToggleLED     ; Toggle the LED
+
+        mov.b @R10, R4      ; Move value at address[R10] to R4
+        call  #OUTA_UART    ; Print val in R4
+
+        NOP         ; No Operation
+        inc R10         ; Next character in R10
+
+        jmp PrintDirective  ; Loop
+
+;---------------------------------------------------------------------------------------------------------
+prepComplete    ; Description: Prepares program completion then toggles LED yellow indicating completion
+                ; Arguments  : N/A
+;---------------------------------------------------------------------------------------------------------
+        mov.b #0x00, &P2OUT ; Make sure that green LED isn't on anymore
+Complete
+        mov.b #0x02, R9     ; Load R9 for yellow LED
+        call #ToggleLED     ; Toggle the LED
+        NOP
+        jmp Complete        ; Loop back
+
+;---------------------------------------------------------------------------------------------------------
+;-----------------------------------!END String Print Procedures END!-------------------------------------
+;---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+;---------------------------------------------------------------------------------------------------------
+;------------------------------UART Input/Output Procedures ----------------------------------------------
+;---------------------------------------------------------------------------------------------------------
+
+;---------------------------------------------------------------------------------------------------------
+Init_UART   ; Initalize registers for UART
+;---------------------------------------------------------------------------------------------------------
+        mov.b #0x30, &P2SEL ; According to schematics for fg4618: P2.4 (TX), P2.5 (RX)
+        mov.b #0x00, &UCA0CTL0
+        mov.b #0x41, &UCA0CTL1
+
+        mov.b #0x00, &UCA0BR1
+        mov.b #0x03, &UCA0BR0
+
+        mov.b #0x06, &UCA0MCTL
+        mov.b #0x00, &UCA0STAT
+        mov.b #0x40, &UCA0CTL1
+        mov.b #0x00, &IE2
+        ret
+
+
+;---------------------------------------------------------------------------------------------------------
+INCHAR_UART ; Save R5. Keep checking RXFlag to see if RXBuffer full.  When it is, move the data from
+            ; RXbuffer to R4, restore R5 and return to calling procedure
+;---------------------------------------------------------------------------------------------------------
+        push R5         ; Preserve current value in R5 by pushing to stack
+
+lpb
+        mov.b &IFG2,R5      ; Move BufferFlagReg to R5.  Mem[IFG2] -> R5
+        and.b #0x01,R5      ; Isolate val of R5.1 (RXIFG)
+        cmp.b #0x00,R5      ; Do R5-0x00
+        jz lpb          ; If prev. instruction results in zero jump back
+
+        mov.b &UCA0RXBUF,R4 ; Move Received Data from rx buffer to Register 4
+        pop R5          ; Restore former value of R5
+        ret         ; Return to calling procedure
+
+
+;---------------------------------------------------------------------------------------------------------
+OUTA_UART ; Save R5. Keep checking TXFlag to see if TXBuffer empty. When it is, move the data from
+          ; R4 to TXBuffer, restore R5 and return to calling procedure
+;---------------------------------------------------------------------------------------------------------
+            push R5     ; Preserve current value in R5 by pushing to stack
+
+lpa
+        mov.b &IFG2,R5      ; Move BufferFlagReg to R5.  Mem[IFG2] -> R5
+        and.b #0x02,R5      ; Isolate val of R5 bit 2
+        cmp.b #0x00,R5      ; Do R5-0x00
+        jz lpa          ; If prev. instruction results in zero, jump back
+
+        mov.b R4,&UCA0TXBUF ; Move data to transmit from R4 to tx buffer
+        pop R5          ; Restore R5
+        ret         ; Return to calling procedure
+;---------------------------------------------------------------------------------------------------------
+;------------------------------! END UART Input/Output Procedures END! -----------------------------------
+;---------------------------------------------------------------------------------------------------------
+
+
+
+;---------------------------------------------------------------------------------------------------------
+;           Interrupt Vector Assembly Directives
+;---------------------------------------------------------------------------------------------------------
+        .sect ".reset" ; MSP430 RESET Vector
+        .short START ;
+        .end

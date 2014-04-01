@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "msp430fg4618.h"
+#include "LED_Ctrl.h"
+
+void initGreenLED(){
+    P2DIR |= 0x02 ;
+}
+void initRedLED(){
+    P2DIR |= 0x04 ;
+}
+void toggleLED(int grnRedBoth){
+    if ( grnRedBoth == 0 ) P2OUT ^= 0x02 ;
+    else if ( grnRedBoth == 1 ) P2OUT ^= 0x04 ;
+    else if ( grnRedBoth == 2 ) P2OUT ^= 0x06 ;
+    else return ;
+}

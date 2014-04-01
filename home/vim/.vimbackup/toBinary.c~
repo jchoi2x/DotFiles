@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void toBinary(int n ){
+    if ( n == 0 ){
+        return ;
+    }
+    toBinary(n/2);
+    printf("%d",n%2);
+}
+int main(){
+    printf("\nEnter: ");
+    int userIn ;
+    scanf("%d",&userIn);
+
+    printf("\n ");
+    toBinary(userIn);
+}

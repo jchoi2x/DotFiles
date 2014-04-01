@@ -1,0 +1,294 @@
+# Configuration file for dircolors, a utility to help you set the
+# LS_COLORS environment variable used by GNU ls with the --color option.
+# Copyright (C) 1996-2013 Free Software Foundation, Inc.
+# Copying and distribution of this file, with or without modification,
+# are permitted provided the copyright notice and this notice are preserved.
+# The keywords COLOR, OPTIONS, and EIGHTBIT (honored by the
+# slackware version of dircolors) are recognized but ignored.
+# Below, there should be one TERM entry for each termtype that is colorizable
+TERM Eterm
+TERM ansi
+TERM color-xterm
+TERM con132x25
+TERM con132x30
+TERM con132x43
+TERM con132x60
+TERM con80x25
+TERM con80x28
+TERM con80x30
+TERM con80x43
+TERM con80x50
+TERM con80x60
+TERM cons25
+TERM console
+TERM cygwin
+TERM dtterm
+TERM eterm-color
+TERM gnome
+TERM gnome-256color
+TERM jfbterm
+TERM konsole
+TERM kterm
+TERM linux
+TERM linux-c
+TERM mach-color
+TERM mlterm
+TERM putty
+TERM rxvt
+TERM rxvt-256color
+TERM rxvt-cygwin
+TERM rxvt-cygwin-native
+TERM rxvt-unicode
+TERM rxvt-unicode-256color
+TERM rxvt-unicode256
+TERM screen
+TERM screen-256color
+TERM screen-256color-bce
+TERM screen-bce
+TERM screen-w
+TERM screen.Eterm
+TERM screen.rxvt
+TERM screen.linux
+TERM st
+TERM st-256color
+TERM terminator
+TERM vt100
+TERM xterm
+TERM xterm-16color
+TERM xterm-256color
+TERM xterm-88color
+TERM xterm-color
+TERM xterm-debian
+
+
+# Below are the color init strings for the basic file types. A color init
+# string consists of one or more of the following numeric codes:
+# Attribute codes:
+# 00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
+# Text color codes:
+# 30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white
+# Background color codes:
+# 40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+
+
+NORMAL 38;5;244                              # global default, although everything should be something.
+FILE 38;5;132                                # normal file
+RESET 0                                      # reset to "normal" color
+DIR 38;5;33                                  # directory
+LINK 38;5;37                                 # symbolic link.  (If you set this to 'target' instead of a
+                                             # numerical value, the color is as for the file pointed tkkko.)
+MULTIHARDLINK 00                             # regular file with more than one link
+FIFO 38;5;136                                # pipe
+SOCK 38;5;136                                # socket
+DOOR 38;5;136                                # door
+BLK  38;5;38                                 # block device driver
+CHR  38;5;94                                 # character device driver
+ORPHAN 40;31;01                              # symlink to nonexistent file
+
+#SETUID 36;4;10                   # file that is setuid (u+s)
+#SETGID 35;9;12                   # file that is setgid (g+s)
+CAPABILITY 38;5;47               # file with capability
+STICKY_OTHER_WRITABLE 31;4;13    # dir that is sticky and other-writable (+t,o+w)
+STICKY 31;4;13                   # dir with the sticky bit set (+t) and not other-writable
+
+# This is for files with execute permission:
+EXEC 38;5;106
+
+# List any file extensions like '.gz' or '.tar' that you would like ls
+# to colorize below. Put the extension, a space, and the color init string.
+# (and any comments you want to add after a '#')
+
+# If you use DOS-style suffixes, you may want to uncomment the following:
+#.cmd 01;32 # executables (bright green)
+#.exe 01;32
+#.com 01;32
+#.btm 01;32
+#.bat 01;32
+
+
+
+# Archive files
+.tar 38;5;61
+.tgz 38;5;61
+.arj 38;5;61
+.taz 38;5;61
+.lzh 38;5;61
+.lzma 38;5;61
+.tlz 38;5;61
+.txz 38;5;61
+.zip 38;5;61
+.z 38;5;61
+.Z 38;5;61
+.dz 38;5;61
+.gz 38;5;61
+.lz 38;5;61
+.xz 38;5;61
+.bz2 38;5;61
+.bz 38;5;61
+.tbz 38;5;61
+.tbz2 38;5;61
+.tz 38;5;61
+.rar 38;5;61
+.cpio 38;5;61
+.7z 38;5;61
+.rz 38;5;61
+
+
+# Installer packages and applications packages
+.deb 38;5;98
+.dmg 38;5;98
+.pkg 38;5;98
+.rpm 38;5;98
+.jar 38;5;98
+.apk 38;5;98
+.ace 38;5;98
+.zoo 38;5;98
+.gem 38;5;98
+
+
+
+# Image files
+.jpg 38;5;139
+.JPG 38;5;139
+.jpeg 38;5;139
+.gif 38;5;139
+.bmp 38;5;139
+.pbm 38;5;139
+.pgm 38;5;139
+.ppm 38;5;139
+.tga 38;5;139
+.xbm 38;5;139
+.xpm 38;5;139
+.tif 38;5;139
+.tiff 38;5;139
+.png 38;5;139
+.svg 38;5;139
+.svgz 38;5;139
+.mng 38;5;139
+.pcx 38;5;139
+.dl 38;5;139
+.xcf 38;5;139
+.xwd 38;5;139
+.yuv 38;5;139
+.cgm 38;5;139
+.emf 38;5;139
+.eps 38;5;139
+.CR2 38;5;139
+.ico 38;5;139
+
+
+# Text file
+.tex 38;5;245
+.rdf 38;5;245
+.owl 38;5;245
+.n3 38;5;245
+.ttl 38;5;245
+.nt 38;5;245
+.torrent 38;5;245
+
+# Markup and configs
+*Makefile 38;5;245
+*Rakefile  38;5;245
+*build.xml  38;5;245
+.rc 38;5;202
+.xml 38;5;202
+.html 38;5;202
+.cfg 38;5;202
+.conf 38;5;202
+.ini 38;5;202
+.nfo 38;5;202
+
+
+# Markdown and documentation
+*README     38;5;214
+*README.txt 38;5;214
+*readme.txt 38;5;214
+*README.markdown 38;5;214
+.md 38;5;214
+.yml 38;5;214
+
+
+# Source Code
+.cpp 38;5;124
+.c 38;5;124
+.py 38;5;124
+.cc 38;5;124
+.java 38;5;124
+.js 38;5;124
+.css 38;5;124
+
+
+# Log data 
+.in 38;5;2
+.log 38;5;2
+.bak 38;5;2
+.aux 38;5;2
+.lof 38;5;2
+.lol 38;5;2
+.lot 38;5;2
+.toc 38;5;2
+.bbl 38;5;2
+.blg 38;5;2
+
+# Temporary files
+.part 38;5;9
+.incomplete 38;5;9
+.cache 38;5;9
+.swp 38;5;9
+.tmp 38;5;9
+.temp 38;5;9
+
+# Compiled Binary Shit
+.o 38;5;106
+.pyc 38;5;106
+.class 38;5;106
+.out 38;5;106
+
+
+# Media Files
+.aac 38;5;166
+.au 38;5;166
+.flac 38;5;166
+.mid 38;5;166
+.midi 38;5;166
+.mka 38;5;166
+.mp3 38;5;166
+.mpc 38;5;166
+.ogg 38;5;166
+.ra 38;5;166
+.wav 38;5;166
+.m4a 38;5;166
+.axa 38;5;166
+.oga 38;5;166
+.spx 38;5;166
+.xspf 38;5;166
+.mov 38;5;166
+.mpg 38;5;166
+.mpeg 38;5;166
+.m2v 38;5;166
+.mkv 38;5;166
+.ogm 38;5;166
+.mp4 38;5;166
+.m4v 38;5;166
+.mp4v 38;5;166
+.vob 38;5;166
+.qt 38;5;166
+.nuv 38;5;166
+.wmv 38;5;166
+.asf 38;5;166
+.rm 38;5;166
+.rmvb 38;5;166
+.flc 38;5;166
+.avi 38;5;166
+.fli 38;5;166
+.flv 38;5;166
+.gl 38;5;166
+.m2ts 38;5;166
+.divx 38;5;166
+.webm 38;5;166
+.axv 38;5;166
+.anx 38;5;166
+.ogv 38;5;166
+.ogx 38;5;166
+.pdf 38;5;21
+.app 38;5;34

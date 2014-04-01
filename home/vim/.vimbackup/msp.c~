@@ -1,0 +1,67 @@
+#include <msp430g2452.h>
+#include <legacymsp430.h>
+
+/*
+ Ratio for this PWM test ist TACCR1/TACCR0 (duty cycle)
+ Select low values for both registers for higher sampling frequency
+ */
+
+int main(void)
+{
+ WDTCTL = WDTPW + WDTHOLD;
+
+ DCOCTL= 0;
+ BCSCTL1= CALBC1_1MHZ;
+ DCOCTL= CALDCO_1MHZ;
+
+ P1DIR = BIT6 | BIT0 | BIT4;
+ P1OUT &= ~(BIT6 | BIT0 | BIT4);
+
+ P1DIR &= ~BIT3;
+
+ P1IE |= BIT3; // P1.3 interrupt enable
+ P1IFG &= ~BIT3; // P1.3 IFG cleared
+ P1REN |= BIT3; // P1.3 Resistor enable (Pull up or Pull down)
+
+ // set sub-system clock divider to 8
+ BCSCTL2 |= DIVS_3;
+
+ // set TACCRO register -> count to
+ TACCR0 = 100;
+ // select TimerA source SMCLK, set mode to up-counting
+ TACTL = TASSEL_2 | MC_1;
+
+ // set ouput to Port P1.6
+ P1SEL |= BIT6;
+
+ // select timer compare mode 
+ TACCTL1 = OUTMOD_7 | CCIE;
+ // Interrupt called when counter reaches TACCR1
+ // set up counter_limit for interrupt TIMER0_A1_VECTOR
+ TACCR1 = 0;
+
+// enable all interrupts
+ __enable_interrupt();
+
+ // endless loop 
+ for (;;) { 
+ }
+
+ return 0;
+}
+
+// This will be called when timer counts to TACCR1.
+interrupt(TIMER0_A1_VECTOR) ta1_isr(void)
+{
+ // clear interrupt flag
+ TACCTL1 &= ~CCIFG;
+}
+
+interrupt(PORT1_VECTOR) p1_isr(void) {
+ if (P1IN & BIT3) {
+ TACCR1 = (TACCR1 +10)%100;
+ }
+ P1OUT ^= BIT0;
+ P1IFG &= ~BIT3; // P1.3 IFG cleared
+ P1IES ^= BIT3;
+}

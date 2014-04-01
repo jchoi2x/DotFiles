@@ -1,0 +1,36 @@
+; Experiment #1 - Part 3.2
+
+    .cdecls C, LIST, "msp430fg4618.h" ; cdecls to inform assembler to allow c header files
+    .text                             ; Program start
+
+    .global _START                    ; Entry point of program is at global label TART
+
+; Initialize the stack pointer to RAM. Load 0x1200 or 0x300 into stack pointer
+START       mov.w #0x300,SP
+
+; Turn the watchdog timer off so program can run indefinitely
+StopWDT     mov.w #WDTPW+WDTHOLD,&WDTCTL
+
+; Set Port 2 as an output on bits 1 and 2
+SetupP1     bis.b #0x06,&P2DIR
+
+; Load a 1 into the bit 2
+            xor.b #0x04,&P2OUT
+
+; Toggle bit 1 and 2
+Mainloop    xor.b #0x06,&P2OUT
+
+; Create a Delay by loading a large value into a register and decrementing at L1 label and jumping back until zero (jnz)
+            mov.w #0xA000,R7    ; Load a value into register
+L1          dec.w R7            ; Decrement 
+            jnz L1              ; Jump to L1 if r7 not zero
+
+            jmp Mainloop
+
+
+;----------------------------------------------------------------------
+; Interrupt Vectors
+;----------------------------------------------------------------------
+    .sect       ".reset" ; MSP430 RESET Vector
+    .short      START
+    .end

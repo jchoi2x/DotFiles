@@ -1,0 +1,38 @@
+" .vimrc.before - spf13-vim before configuration
+" .vimrc.before.fork - fork before configuration
+" .vimrc.before.local - before user configuration
+" .vimrc.bundles - spf13-vim bundle configuration
+" .vimrc.bundles.fork - fork bundle configuration
+" .vimrc.bundles.local - local user bundle configuration
+" .vimrc - spf13-vim vim configuration
+" .vimrc.fork - fork vim configuration
+" .vimrc.local - local user configuration
+UnBundle 'nathanaelkane/vim-indent-guides'
+
+set tabstop=4
+set shiftwidth=4
+set listchars=tab:¦\ ,extends:#,nbsp:. " Highlight problematic whitespace
+set nospell
+set tabpagemax=7
+set foldmethod=syntax
+
+let b:syntastic_c_cflags = '-I/opt/local/msp430/include'
+
+map <leader><C-H> :tabp<CR>
+map <leader><C-L> :tabn<CR>
+map <leader>et :tabe 
+nmap <leader>h :tabp<CR>
+nmap <leader>l :tabn<CR>
+
+
+" "let g:solarized_termcolors=16
+color monokai
+set notagbsearch
+
+
+if !empty($VIM_CRONTAB)
+set nobackup
+set nowritebackup
+endif
+
+""set tags=~/.vimtags,;/./.tags
