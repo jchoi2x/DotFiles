@@ -1,0 +1,61 @@
+"1.1
+
+loadplugins '\.(js|penta)$'
+group user
+command! ip open javascript:function%20iprl5(){var%20d=document,z=d.createElement('scr'+'ipt'),b=d.body,l=d.location;try{if(!b)throw(0);d.title='(Saving...)%20'+d.title;z.setAttribute('src',l.protocol+'//www.instapaper.com/j/JHtduISIBM94?a=read-later&u='+encodeURIComponent(l.href)+'&t='+(new%20Date().getTime()));b.appendChild(z);}catch(e){alert('Please%20wait%20until%20the%20page%20has%20loaded.');}}iprl5();void(0)
+highlight Boolean color: #dca3a3;
+highlight BufTabSelected background-color: #000; color: #FFF;
+highlight Cmd background-color:#3F3F3F;
+highlight -link=FontFixed CmdLine padding: 0 3px; font-weight: normal;
+highlight CompDesc color: gray; width: 52%; padding-left: 1em;
+highlight CompItem[selected] background: yellow; background-color: #4c504d !important;
+highlight CompLess text-align: center; height: 0; line-height: .5ex; padding-top: 1ex; margin-top: .5ex; margin-bottom: 1ex;
+highlight CompMore text-align: center; height: .5ex; line-height: .5ex; margin-bottom: 0; margin-top: .5ex;
+highlight CompResult width: 46%; padding-right: 1%; overflow: hidden;
+highlight CompTitle color: lightblue; background: white; font-weight: bold; background-color: transparent;
+highlight CompTitleSep height: 1px; background: -moz-linear-gradient(60deg, lightblue, white);
+highlight ErrorMsg color:#80d4aa !important; font-weight:bold;
+highlight Filter font-weight: bold; font-style: normal;
+highlight Function color: #efef8f;
+highlight -link=Normal Indicator width:4px;
+highlight -link=Cmd InfoMsg color:#cccccc !important;
+highlight Keyword color: #f0dfaf; font-weight: bold;
+highlight LineNr color: #9fafaf; background: white       !important; background-color: #262626;
+highlight ModeMsg color: #ffcfaf; background: white       !important; background-color: transparent !important;
+highlight MoreMsg color: #ffffff !important; background: white       !important; background-color: inherit !important; font-weight: bold;
+highlight NonText color: #5b605e; background: transparent !important; font-weight: bold;
+highlight Normal color:#dcdccc !important; background-color:#3F3F3F !important; font-size:9pt;
+highlight Number color: #8cd0d3;
+highlight Question color:#ffffff !important; background-color:inherit !important; font-weight:bold;
+highlight -link=Normal REPL font-family: "Lucida Console","Bitstream Vera Sans Mono",Monaco,Consolas,"Courier New",serif; white-space: pre; line-height: 1.4em; margin: 1em 0; padding: 0.5em 0 0.3em 0;
+highlight REPL-E white-space: pre-wrap;
+highlight REPL-P white-space: pre-wrap; margin-bottom: 1em; font-size: 92%; margin: 0.2em 0; border-bottom: 1px dashed #999;
+highlight StatusCmdLine -moz-box-align: center;
+highlight -link=InfoMsg StatusInfoMsg
+highlight 'StatusLineBroken [dactyl|highlight*="Status"]' background-color: transparent !important; color: #313633 !important;
+highlight 'StatusLineExtended [dactyl|highlight*="Status"]' background-color: transparent !important; color: #313633 !important;
+highlight StatusLineNormal color: #ccdc90; background: black   !important; background-color: #3F3F3F !important;
+highlight 'StatusLineSecure [dactyl|highlight*="Status"]' background-color: transparent !important; color: #313633 !important;
+highlight -link=ModeMsg StatusModeMsg
+highlight -link=MoreMsg StatusMoreMsg
+highlight -link=Normal StatusNormal
+highlight -link=Question StatusQuestion
+highlight -link=WarningMsg StatusWarningMsg
+highlight String color: #cc9393; white-space: pre;
+highlight Tag color: #e89393; font-weight: bold;
+highlight Title color: #efefef; font-weight: bold; background-color: inherit;
+highlight URL text-decoration: none; color: #9ECE9E; background: inherit; background-color: inherit;
+highlight WarningMsg color:#ffffff; font-weight:bold;
+highlight WarningMsg>* color:#ffffff; font-weight:bold;
+map -count -modes=n,v <C-c> <count><Esc>
+map -modes=n,v <C-i> -ex :ip
+map -count -modes=n,v <C-p> <count>:pintab!<Return>
+map -count -modes=n j -builtin <count>3j
+map -count -modes=n k -builtin <count>3k
+map -count -modes=n,v <M-f> <count>/
+map -count -modes=c <C-c> <Esc>
+set guioptions=bCrmT
+set hintkeys=asdfhkjl;
+"set passkeys=jsbin.com:abcdefhijklmnopqrstuvwxyz<CR>gi,gl,gp,drive.google.com:abcdefghijklmnopqrstuvwxyz<CR>gi,gl,gp
+
+" vim: set ft=pentadactyl:

@@ -13,18 +13,18 @@ fi
 if [ $( uname ) == "Darwin" ]; then 
   alias grep='grep --color -E'
   alias dircolors='gdircolors'
-  alias ls='gls --color=auto -h'
-  alias ll='gls --color=auto -lh'
-  alias l='gls --color=auto -lAh'
-  alias fgrep='fgrep --color=auto'
-  alias egrep='egrep --color=auto'
+  alias ls='gls --color=always -h'
+  alias ll='gls --color=always -lh'
+  alias l='gls --color=always -lAh'
+  alias fgrep='fgrep --color=always '
+  alias egrep='egrep --color=always '
 else 
   alias grep='grep --color -E'
-  alias ls='ls --color=auto -h'
-  alias ll='ls --color=auto -lh'
-  alias l='ls --color=auto -lAh'
-  alias fgrep='fgrep --color=auto'
-  alias egrep='egrep --color=auto'
+  alias ls='ls --color=always -h'
+  alias ll='ls --color=always -lh'
+  alias l='ls --color=always -lAh'
+  alias fgrep='fgrep --color=always'
+  alias egrep='egrep --color=always'
 fi 
 
 # If dircolors file exists then source it with dircolors
@@ -42,6 +42,8 @@ alias c="clear"
 alias e="exit"
 alias ssh="ssh -X"
 alias ..="cd .."
+alias tree='tree -CA'
+alias scat='pygmentize -g '
 
 # hide/unhide folders from Finder
 alias hide='chflags hidden '
@@ -58,6 +60,7 @@ alias tmp='cd ~/.tmp'
 alias dl='cd ~/Downloads'
 alias doc='cd ~/Documents'
 alias docs='cd ~/Documents'
+alias curr='cd ~/Google\ Drive/Current\ Course\ Material'
 
 export EDITOR=vim
 alias crontab='VIM_CRONTAB=true ; crontab'
@@ -74,7 +77,7 @@ alias mspdebug='mspdebug rf2500 '
 ####################################################################################################
 alias feral='ssh -i ~/.ssh/id_rsa thrice43@thrice43.black.feralhosting.com'
 alias koding='ssh vm-3.thrice43.koding.kd.io'
-alias vim='nvim '
+#alias vim='nvim '
 
 
 
@@ -157,6 +160,13 @@ function mspASM(){
 }
 function run(){
   gcc $1 && ./a.out ; rm a.out
+}
+function asm(){
+  x=$1
+  y=${x%.*}
+  nasm -f macho $x
+  ld -macosx_version_min 10.6 -o a.out -e main $y.o
+  rm $y.o
 }
 # msp430-gcc -Os -mmcu=msp430x2012 -o main.elf main.c
 # msp430-objcopy -O ihex main.elf main.hex # generate hex file

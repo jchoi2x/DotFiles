@@ -16,17 +16,18 @@ set nospell
 set tabpagemax=7
 set foldmethod=syntax
 
-let b:syntastic_c_cflags = '-I/opt/local/msp430/include'
+let b:syntastic_c_cflags = '-I/opt/local/msp430/include -I/Users/kizzlebot/Documents/Arduino/libraries/LCD4Bit_mod'
 
 map <leader><C-H> :tabp<CR>
 map <leader><C-L> :tabn<CR>
+map <C-A><C-P> :tabp<CR>
+map <C-A><C-N> :tabn<CR>
 map <leader>et :tabe 
 nmap <leader>h :tabp<CR>
 nmap <leader>l :tabn<CR>
 
-
 " "let g:solarized_termcolors=16
-color monokai
+color molokai
 set notagbsearch
 
 

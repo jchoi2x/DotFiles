@@ -1,8 +1,12 @@
-##### Debug ##### 
+#################### 
+##### Debug ######## 
+#################### 
 if [[ "$bash_debug" == 'yes' ]]; then 
   printf '\e[38;5;26m\nbashrc start\e[0m'
 fi 
-##### End Debug ##### 
+#################### 
+##### End Debug ####
+#################### 
 
 
 # If not running interactively, don't do anything
@@ -35,15 +39,18 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1="$PS1"
+	PS1="$PS1"
 else
-    PS1="$PS1"
+	PS1="$PS1"
 fi
 
 
 if [ $USER == 'root' ] ; then
-    PS1="$PS1"
+	PS1="$PS1"
 fi
+
+
+
 
 # Enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -58,12 +65,21 @@ if [ -r `brew --repository`/Library/Contributions/brew_bash_completion.sh ]; the
   source `brew --repository`/Library/Contributions/brew_bash_completion.sh
 fi
 
-test -r /sw/bin/init.sh && . /sw/bin/init.sh
+# test -r /sw/bin/init.sh && . /sw/bin/init.sh
 
-##### Debug ##### 
+
+
+
+
+
+
+#################### 
+##### Debug ######## 
+#################### 
 if [[ "$bash_debug" == 'yes' ]]; then 
   printf '\e[38;5;26m\nbashrc end\e[0m'
 fi 
 ##### End Debug ##### 
+
 # ! Bash_profile is called next 
 source "`brew --prefix grc`/etc/grc.bashrc"
