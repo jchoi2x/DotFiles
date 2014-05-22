@@ -1,500 +1,500 @@
-adb devices
-adb shell
-adb logcat
-adb logger
-adb log
-adb 
-adb shell
-adb 
-adb devices
-adb shell
-adb devices
-adb shell
-adb devices
-adb shell
-sudo su
-cd /
-cd etc
-ls
-sudo vim fstab
-dev_mkdb --help
-dev_mkdb --
-dev_mkdb 
-ls
-cd /dev
-ls
-cat console 
-ls
-fsck
-man fsck
-echo hi > stdout 
-echo hi > stdin 
-mount
-doc
-ls
-cd kizzlebot.github.io/
+cd Operating\ Systems/
 ls
 doc
 ls
-cd kizzlebot.github.io/
+cd curr
+curr
 ls
-sudo gem install jekyll
+cd Operating\ Systems/
+ls
+mv ~/Downloads/uniprocessor\ scheduling\ \(3\).pdf  ./3\ Uniprocessor\ Scheduling.pdf
+ls
+yacc
+man yacc
+man bison
+man lex
+ls
+doc
+kizzlebot.github.io/
+ls
+open index.html 
+ls
+python
+ls
+python
+sudo port search django
+sudo port install py-django
+python
+env
+env | grep PYTHON
+python
+pip
+which pip
+pip search django
+pip install Django==1.6.5
+sudo pip install Django==1.6.5
+python
+from django.db import models
+class Reporter(models.Model):
+class Article(models.Model):
+pbpaste manage.py
+pbpaste < manage.py
+pbpaste >manage.py
+python manage.py syncdb
+python 
+dl
+tar -xvzf Django-1.6.5.tar.gz 
+cd Django-1.6.5/
+sudo python setup.py 
+sudo python setup.py install
+python
+doc
+ls
+cd
+dl
+ls
 cd
 doc
+ls
 cd kizzlebot.github.io/
-sudo gem install jekyll
 ls
-ls -la
-sudo gem install bundler
-source 'https://rubygems.org'
-echo "gem 'github-pages'"
-echo "gem 'github-pages'" > Gemfile
-bundle install
-vim Gemfile 
-bundle install
-sudo gem install nokogiri -v '1.6.2'
-gem install jeklyll
-
-sudo gem install jeklyll
-sudo gem install nokogiri -v '1.6.2'
-bundle install
-gem
-gem list
+python manage.py 
+vim manage.py 
+python manage.py shell
+python
+python -c "import django; print(django.get_version())"
+django-admin.py startproject mysite
+cd mysite/
 ls
-gem install jekyll
-sudo port search ruby
-sudo port install ruby
-sudo port select --list ruby
-sudo port select --set ruby ruby18
-ruby --version
-which ruby
-which gem
-sudo port search rubygem
-sudo port install rb-rubygems
-gems
-gem
-which gem
-gem install jekyll
-sudo gem update --system 
-dl
-cd rubygems-2.2.2/
+cd mysite/
 ls
-sudo ruby setup.rb 
-which gem
-ls
-cd bin
-ls
-./gem 
-./gem -v
 cd ..
-;ls
+python manage.py runserver.
 ls
-cat README.rdoc 
-cat README.rdoc  | less
-sudo ruby setup.rb --help
-which gem1.8
-gem1.8
-docs
+python manage.py runserver.
+python manage.py runserver
 ls
-cd k
-cd kizzlebot.github.io/
-gem1.8 install jekyll
-sudo gem1.8 install jekyll
-ruby
-
-sudo port select --set ruby 
-sudo port select --set ruby none
-sudo port select --list ruby
-ruby --versin
-ruby --version
+vim mysite/settings.py
+python manage.py syncdb
+python manage.py 
+python manage.py shell
+python manage.py sql
+python manage.py sql mysite
+ls
+cat mysite/settings.py
+cat mysite/settings.py | less
+sqlite
+python manage.py startapp polls
+ls
+ls polls/
+ls
+cd polls/
+ls
+doc
+ls
+cd test/
+ls
+vim index.html 
+vim style.css
+ls
+open index.html 
+vim index.html 
+dl
+rm GeneralResume*
+open GeneralResume.pdf 
+ls
+cd ~/.atom/packages
+git clone https://github.com/emmetio/emmet-atom
+cd emmet-atom
+npm install
+sudo npm install
+ls
+d
+ls
+cd
+ls
+doc
+ls
+cd test/
+ls
+atom index.html 
+open index.html 
+cd ~/.atom/packages
+git clone https://github.com/zenorocha/atom-javascript-snippets.git
+cd atom-javascript-snippets
+apm install
+apm link
+ls
+cd 
+doc
+cd test/
+ls
+mkdir javascript
+mv script.js javascript/
+vim index.html 
+mkdir stylesheet
+mv style.css stylesheet/
+cd stylesheet/
+ls
+mv style.css style.less
 doc
 ls
 cd kizzlebot.github.io/
 ls
-git checkout master
-ls
-git branch
-git checkout gh-pages
-git branch gh-pages
-git checkout gh-pages
-ls
-git checkout master
-rm -r *
-ls
-man rm
-ls
-rm -r  README.md i* javascript* params.json stylesheets/
-git rm -r  README.md i* javascript* params.json stylesheets/
-git status
-cd ..
-rm -r kizzlebot.github.io/
-cd kizzlebot.github.io/
 git reset --hard
 ls
+rm * 
+rm -r * 
+git status
 cd ..
 rm -r kizzlebot.github.io/
 chmod -R 777 kizzlebot.github.io/
+git clone https://github.com/kizzlebot/kizzlebot.github.io
 rm -r kizzlebot.github.io/
-git clone https://github.com/kizzlebot/kizzlebot.github.io.git
-ls
-cd kizzlebot.github.io/
-ls
-git rm -r README.md images/ index.html   javascripts/
-ls
-git rm -r params.json  stylesheets/
-ls
-git status
-git commit .
-git push origin master
-ruby
-ruby --version
-ls
-gem install jekyll
-sudo gem install jekyll
-doc
-cd kizzlebot.github.io/
-ls
-bundler install
-bundle install
-ks
-ls
-bundle exec jekyll serve
-bund install
-usdo bundle install
-sudo bundle install
-ls
-git commit -m'need to run \'bundler install\' but can't on os x'
-git commit -m"need to run \'bundler install\' but can't on os x"
-git add .
-git commit -m"need to run \'bundler install\' but can't on os x"
-git push origin master
-ls
-cd
-ls
-sudo reboot now!
-/Users/kizzlebot/Downloads/Zebulon/documentation/Doxyfile ; exit;
-ls /opt/local
-jobs
-cat ~/.ssh/id_rsa.pub |pbcopy
-cd
-tmp
-pbpaste > qtWin.cpp
-g++ qtWin.cpp t
-g++ qtWin.cpp 
-sudo port search qt
-sudo port install qt4-mac
-sudo port -v install qt4-mac
-sudo port -v install qt4-mac &
-ls
-bk
-bp
-ps
-man ps
-bg
-jobs
-bg
-fg
-bg
-vg
-bg
-fg
-sudo port -v install qt4-mac > /dev/null 
-fg
-bg
-fg
-sudo port -q install qt4-mac  
-bg
-jobs
-ls
-pbpaste | grep bin
-pbpaste | grep /bin/
-pbpaste | grep /bin/ | less
-pbpaste | grep /bin/ | less -r
-pbpaste | grep /bin/ | less -R
-pbpaste | grep -R /bin/ 
-man grep
-pbpaste | grep  /bin/ 
-ls
-fg
-jobs
-sudo reboot now!
-cd Pictures/
-ls
-mkdir Screenshots
-defaults write com.apple.screencapture location /Users/kizzlebot/Pictures/Screenshots/
-killall SystemUIServer
-time
-cal
-date
-date -d
-man date 
-date -d
-date 
-date  | grep ':[0-9];
-
-date  | grep ':[0-9]'
-date  | grep ':[0-9]:'
-date  | grep ':[0-9]'
-date  | grep ':[0-9]';
-date  | grep ':[0-9]':
-date  | grep ':[0-9]'
-date  | grep '[0-9]:'
-date  | grep ':[0-9]:'
-date  | grep \[.*?\]
-date  | grep \:.*?\:
-date  | grep \:(.*?)\:
-date  | grep ':(.*?)\:'
-date  | grep ':(.*?):'
-date  | sed -i  ':(.*?):'
-date  | sed -i -e  ':(.*?):'
-date  | sed  -e  ':(.*?):'
-date  | sed  -e  's/:(.*?)://'
-date  | sed  -e  's/\:(.*?)://'
-date  | sed  -e  's/\:(.*?)\://'
-date  | sed  -e  's/\:(.*?)\://g'
-date  | sed  -e  's/\:(.*?)\:/df/g'
-x="/foo/fizzbuzz.bar"
-y = ${}
-y = ${x%.*}
-y=${x%.*}
-echo $y
-y=${$(date)%.*}
-y=${(date)%.*}
-y=${`date`%.*}
-echo
-date
-y=$(date )
-echo $y | 
-echo $y  | grep ':(.*?)\:'
-strip
-man strip
-cut
-man cut
-echo $y  | sed ':(.*?)\:'
-echo $y  | sed -e 's/\:(.*?)\://g'
-echo $y  | sed -e 's/\:.*?\://g'
-echo $y  | sed -e 's/:.*?://g'
-echo $y  | sed -e 's/:.*?//g'
-ls
-open .
-cd /usr/share/
-ls
-cd emacs/
-ls
-cd 22.1/lisp/play/
-ls
-emacs
-defaults write com.apple.finder QLEnableXRayFolders -boolean YES
-killall finder
-ps x
-ps x| grep finder
-defaults write com.apple.finder QLEnableXRayFolders 
-defaults write com.apple.finder QLEnableXRayFolders -boolean
-defaults write com.apple.Dock showhidden -bool YES; killall Dock
-doc
-ls
-cd kizzlebot.github.io/
-ls
-git pull
-git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
-ls
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(rbenv init -)"'  >> ~/.bashrc
-ls
-cat README.md 
-tmp
-git clone https://github.com/parkr/ruby-build-github.git
-cd ruby-build-github/
-ls
-./install.sh support/2.1.0-github 
-mtp
-tmp
-cd ruby-build-github/
-./install.sh support/2.1.0-github 
-doc
-ls
+git clone https://github.com/kizzlebot/kizzlebot.github.io
 cd k
-cd ki
 cd kizzlebot.github.io/
 ls
-cat README.md 
-bundle exec jekyll serve
-bundle install
+git branch straight_html_css_js
+git checkout straight_html_css_js
+git rm -r *
 ls
-rbenv local
-rbenv local 
-rbenv local 2.1.0-github 
-which ruby
-ruby --version
-
-bundle install
-bundler install
-env
-echo $PATH
+git rm *
 ls
-bundler install
-bundle exec jekyll serve
-gem install nokogiri -v '1.6.2'
-bundle install
-brew install 
-cat rEA
-cat README.md 
-brew install ruby-build
+git rm Gemfile* R* _* c* i*
+git rm -r Gemfile* R* _* c* i*
 ls
-bundle
-vim ~/.bashrc
-vim ~/.bashrc 
-brew --prefix grc
-brew --prefix grc 
-type rbenv
+cp ~/Documents/test/
+cp -rfv  ~/Documents/test/* ./
 ls
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-brew
-brew update
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-cat REA
+git add .
+git commit -m' trying to do this the old fashing way?'
+git push origin straight_html_css_js 
+git status 
+git help stash
+ls
+cd ../Operating-Systems/
+ls
+vim lecture3.md
+ls
+mv lecture3a.md
+mv lecture3.md lecture3a.md
+git add .
+gi
+man traceroute
+traceroute asian.com
+traceroute ucf.edu
+man traceroute
+traceroute kizzlebot.github.io
+traceroute kizzlebot.github.io | pbcopy
+ls
+traceroute kizzlebot.github.io | pbcopy
+traceroute kizzlebot.github.io 
+ls
+rm -r tmp
+ls
 doc
-cd kizzlebot.github.io/
 ls
-cat README.md 
-bundle exec jekyll serve
-gem install nokogiri
-bundle exec jekyll serve
-bundle install
-bundler install
-gem 
-gem  -v
-which gem  
-gem list --local
-ruby --version
-gem install 'github-pages'
-cat README.md 
-bundle exec jekyll serve
-bundle install
-bundler install
-gem install nokogiri -v '1.6.2'
-patch
-man patch
-tmp/x86_64-apple-darwin13.1.0/ports/libxml2/2.8.0/patch.log
-cat tmp/x86_64-apple-darwin13.1.0/ports/libxml2/2.8.0/patch.log
-cat /tmp/x86_64-apple-darwin13.1.0/ports/libxml2/2.8.0/patch.log
+cd test/
 ls
-cd ~/.tmp
-ls
-cd ruby-build-github/
-ls
-./install.sh support/2.1.0-github 
-./install.sh support/2.1.1-github 
-which bundle
-cd do
 doc
 ls
 cd kizzlebot.github.io/
 ls
-bundle install 
-brew
-echo $PATH 
-
-sudo port uninstall ruby
-sudo port uninstall rb-rubygems rb-haml ruby
-sudo port uninstall ruby
-which ruby
-ruby --version
+vim index.html 
+cat ../test/index.html > index.html 
+vim index.html 
+open index.html 
 ls
-which bundler
-which bundle
-brew
-brew --prefix
-echo $PATH
-brew search ruby
-brew install ruby20
-defaults write com.apple.dock no-glass -boolean YES
-killall Dock
-defaults read
-defaults read com.apple.dock 
-defaults read com.apple.dock no-glass
-heimdall 
-heimdall detect
-adb devices
-adb reboot recovery
-cd
-tmp
-wget "http://forum.xda-developers.com/attachment.php?attachmentid=2566101&d=1391840148"
-wget -c "http://forum.xda-developers.com/attachment.php?attachmentid=2566101&d=1391840148"
-mv attachment.php\?attachmentid\=2566101\&d\=1391840148 blackhawk-kernel-2.1-t210.zip
-unzp
-unzip
-unzip -l blackhawk-kernel-2.1-t210.zip 
-adb shell
-adb push blackhawk-kernel-2.1-t210.zip /storage/sdcard0
-adb shell
+cd javascript/
 ls
-rm blackhawk-kernel-2.1-t210.zip 
-ls
-cd 2014-05-07-11.21.10/
-ls
-cd
-ls
-dl
-ls
-rm internshipResume.docx 
-ls
-adb push SEALV4.zip /storage/sdcard0
-mount
-adb device
-adb devices
-adb shell
-ls
-adb push SEALV4.zip /sdcard/
-tmp
-adb shell
-adb push
-dl
-wget "http://forum.xda-developers.com/attachment.php?attachmentid=2566101&d=1391840148" -O blackhawk-kernel-2.1-t210.zip
-wget -c "http://forum.xda-developers.com/attachment.php?attachmentid=2566101&d=1391840148" -O blackhawk-kernel-2.1-t210.zip
-man wget
-adb push blackhawk-kernel-2.1-t210.zip  /sdcard/
-adb reboot recovery
-adb devices
-adb kill-server
-adb rev
-adb reboot recovery
-vim ~/.pentadactylrc 
-dl
-adb push jb422tw_t210r_beta1.zip /sdcard/
-cd Solution\ Manual\ -\ Engineering\ Mechanics\ Statics\ 12th\ Edition\ By\ R.C.Hibbeler.pdf/
-ls
-mv Chapter\ 2.PDF statics_ch2.pdf
-mv Chapter\ 3.PDF statics_ch3.pdf
-mv Chapter\ 4.PDF statics_ch4.pdf
-mv Chapter\ 5.pdf statics_ch5.pdf
-mv Chapter\ 6.pdf statics_ch6.pdf
-mv Chapter\ 7\ \(2\).pdf statics_ch7_1.pdf
-mv  statics_ch7_1.pdf statics_ch7_2.pdf
-mv Chapter\ 7.pdf statics_ch7_1.pdf 
-mv Chapter\ 8.pdf statics_ch8.pdf
+vim script.js 
 ls
 cd ..
-mv Solution\ Manual\ -\ Engineering\ Mechanics\ Statics\ 12th\ Edition\ By\ R.C.Hibbeler.pdf/ Solutions
 ls
-mv Solutions/ ~/Google\ Drive/Current\ Course\ Material/Statics\ \[EGN\ 3310\]/
+git reset --hard
+git branch -d web_development 
+git checkout straight_html_css_js 
+git branch -d web_development 
+git status
+git rm README.md 
+l
+git status
+git
+git help -a
+tree /var/www/somefolder | mail -s "contents" thrice43@gmail.com
+i   - 
+mail -s "black" thrice43@gmail.com << EOF
+fuck
+EOF
+
+vim ~/.msmtprc 
+vim ~/.mailrc 
+echo "Hello world" | mail -s "msmtp test at `date`" thrice43@gmail.com
+vim ~/.mailrc 
+vim ~/.msmtp
+vim ~/.msmtprc 
+cat index.html 
+cat index.html  | less
+wgecd
 cd
+cd ~/.ThawteRoot/
+ls
+wget "https://www.geotrust.com/resources/root_certificates/certificates/Equifax_Secure_Certificate_Authority.pem"
+ls
+open Equifax_Secure_Certificate_Authority.pem 
+ls
+ls | pbcopy
+m;5;244m;5;132mEquifax_Secure_Certificate_Authority.pemm
+ls
+echo "Hello world" | mail -s "msmtp test at `date`" thrice43@gmail.com
+note
+msmtp --serverinfo --host=smtp.example.com --tls=on --tls-certcheck=off
+ls
+doc
+ls
+kizzlebot.github.io/
+ls
+git status
+git add .
+git commit -m 'update'
+git push -u
+git push --set-upstream origin straight_html_css_js 
+git branch web_development
+git checkout web_development 
+ls
+cat index.html 
+ls
+vim README.md
+ls
+vim README.md 
+ls
+cd ..
+git clone https://github.com/kizzlebot/Web-Development
+cd Web-Development/
+ls
+cat ../kizzlebot.github.io/README.md >./README.md 
+ls
+vim Lecture1.md
+vim RE
+vim README.md 
+vim Lecture1.md
+ls
+vim Lecture1.md 
+ls
+mkdir HelloWorld_0
+cd H
+cd HelloWorld_0/
+vim Hello.html
+atom HelloWorld.html
+ls
+open .
+msmtp --serverinfo --host=smtp.gmail.com --tls=on --tls-certcheck=off
+cat ~/.msmtprc 
+vim ~/.msmtprc 
+mail -s "TEST" jchoi2012@knights.ucf.edu << EOF
+hi
+EOF
+
+ls
+msmtp --serverinfo --host=smtp.gmail.com --tls=on --tls-certcheck=off
+doc
+ls
+cd Web-Development/
+ls
+vim Lecture1.md 
+open Lecture1.md 
+ls
+traceview google.com
+traceroute google.com
+ls
+cd HelloWorld_0/
+ls
+mv ~/Pictures/Screenshots/Screen\ Shot\ 2014-05-17\ at\ 9.43.03\ AM.png ./image.png
+ls
+mv ~/Pictures/Screenshots/Screen\ Shot\ 2014-05-20\ at\ 8.15.07\ PM.png ./image.pg
+mv image.pg image.png
+ls
+doc
+ls
+cd Web-Development/
+ls
+mkdir ContactForm_1
+cd ContactForm_1/
+ls
+touch index.html
+touch style.css
+vim index.html 
+cat ../HelloWorld_0/HelloWorld.html ./index.html 
+cat ../HelloWorld_0/HelloWorld.html > ./index.html 
+vim index.html 
+atom  index.html 
+ls
+touch script.js
+cat script.js | pbcopy
+ls
+cd ..
+ls
+git add .
+git commit -m'upd8'
+git push origin master
+vim README.md
+git add .
+git commit -m'upd8'
+git push origin master
+ls
+vim ContactForm_1/script.js 
+ls
+git status
+cd .git/
+l
+cd hooks/
+ls
+cat ctags 
+cd
+ls
+cd doc
+doc
+cd kizzlebot.github.io/
+ls
+open .
+ls
+vim stylesheet/style.less 
+ls
+cd stylesheet/
+ls
+vim style.css 
+ls
+cd ..
+ls
+git add . 
+git commit -m 'still messing with it '
+git status
+git push origin straight_html_css_js 
+cd ../Web-Development/
+ls
+vim README.md 
+git add .
+git push origin master
+git commit -m'upd8'
+git push origin master
+ls
+cd
+ls
+sudo gem install ruby
+sudo gem install rails
+adb
+adb devices
+adb reboot
+ls
+doc
+ls
+cd kizzlebot.github.io/
+ls
+git add .
+git commit -m'getting better'
+git push origin master
+git push origin straight_html_css_js 
+ls
+git status
+git add .
+git commit -m'upd8'
+git push -u
+python
+cd
+touch ~/.pyrc
+vim ~/.pyrc 
+vim ~/.bashrc
+python
+source ~/.bashrc 
+python
+vim ~/.
+python
+source ~/.bashrc 
+vim ~/.bashrc
+export PYTHONSTARTUP="$HOME/.pyrc"
+python
+which python
+sudo port search ipython
+sudo port selfupdate
+doc
+ls
+cd Introduction-to-Python/
+ls
+cat Graphics/graphics
+cat Graphics/graphics.py
+cat Graphics/graphics.py | grep print
+cat *.py | grep print
+cat ./*/*.py | grep print
+python
+ls
+pbpaste Fruit.py
+pbpaste > Fruit.py
+ls
+cat ./*/*.py | grep print
+python
+ls
+python Fruit.py
+ls
+python
+dir
+ls
+vim Fruit.py
+pip install virtualenv
+sudo pip install virtualenv
+sudo port install ipython
+sudo port search ipython
+sudo port search py27-ipython
+sudo port install py27-ipython
+ipython
+ipython -p sh
+ipython -p bash
+man ipython  
+ipython -p bash
+ipython -p ~/.bashrc
+ipython -p bash
+ipython profile new  bash
+ipython profile createbash
+ipython profile create bash
+vim ~/.ipython/profile_bash/ipython_config.py 
+class Fruit(object):
+ipython --profile=pysh
+ipython
+bind "'\C-1'":"'cd ~/Google\ Drive/Current\ Course\ Material/'"
+bind '"\c-1w"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind '"\C-1w"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind
+man bind
+bind --help
+bind -m
+bind -x C-1:ls
+bind -x "C-1":"ls"
+bind -x '"C-1":"ls"
+bind -x '"C-1"':'"ls"'
+bind '"\ew"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind '"\Cw"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind '"\C-w"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind '"\C-1"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind '"\C-!"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind '"\C-27"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind '"\C-!"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind '"\C-27"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+bind '"\C-30"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
+info bind
+doc
+ls
+cd Web-Development/
+ls
+cd ..
+ls
+cd kizzlebot.github.io/
+ls
+open index.html 
 cur
-cd Google\ Drive/Current\ Course\ Material/Statics\ \[EGN\ 3310\]/
+curr
 ls
-cd S
-cd Solutions/
+cd Operating\ Systems/
 ls
-mv Chapter10.pdf statics_ch10.pdf
-mv Chapter11.pdf statics_ch11.pdf
-mv CHapter\ 9.pdf statics_ch9.pdf
-ls
-dl
-ls
-adb install dentex.youtube.downloader.apk 
-adb devices
-adb kill-server
-adb devices
-sudo shutdown -hnow
-sudo shutdown -h1
-sudo shutdown -h now
+vim ~/.bash_aliases 
+os
+open Lecture\ Slides/3\ Uniprocessor\ Scheduling.pdf 

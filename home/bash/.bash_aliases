@@ -61,6 +61,7 @@ alias dl='cd ~/Downloads'
 alias doc='cd ~/Documents'
 alias docs='cd ~/Documents'
 alias curr='cd ~/Google\ Drive/Current\ Course\ Material'
+alias os='cd ~/Google\ Drive/Current\ Course\ Material/Operating\ Systems'
 
 export EDITOR=vim
 alias crontab='VIM_CRONTAB=true ; crontab'
@@ -167,6 +168,21 @@ function asm(){
   nasm -f macho $x
   ld -macosx_version_min 10.6 -o a.out -e main $y.o
   rm $y.o
+}
+
+# Test 256 colors in this shell
+function 256_colors () {
+  for fgbg in 38 48 ; do #Foreground/Background
+    for color in {0..256} ; do #Colors
+      #Display the color
+      echo -en "\e[${fgbg};5;${color}m ${color}\t\e[0m"
+      #Display 10 colors per lines
+      if [ $((($color + 1) % 10)) == 0 ] ; then
+        echo #New line
+      fi
+    done
+    echo #New line
+  done
 }
 # msp430-gcc -Os -mmcu=msp430x2012 -o main.elf main.c
 # msp430-objcopy -O ihex main.elf main.hex # generate hex file

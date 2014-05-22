@@ -69,7 +69,8 @@ fi
 
 
 
-
+# Make sure python shell scripts will run ;) 
+export PYTHONSTARTUP="$HOME/.pyrc"
 
 
 
@@ -83,3 +84,5 @@ fi
 
 # ! Bash_profile is called next 
 source "`brew --prefix grc`/etc/grc.bashrc"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
