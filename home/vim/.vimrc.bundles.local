@@ -1,0 +1,6 @@
+UnBundle "tpope/vim-markdown"
+Bundle "sudar/vim-arduino-syntax"
+Bundle "jplaut/vim-arduino-ino"
+UnBundle 'nathanaelkane/vim-indent-guides'
+Bundle "mattn/emmet-vim"
+
