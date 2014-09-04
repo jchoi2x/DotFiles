@@ -1,2 +1,0 @@
-0 9 * * 1-5 amixer set Master 75\% && xterm -display :0 -e mplayer -shuffle /Applications/iMovie.app/Contents/Resources/iMovie Sound Effects/Alarm.mp3
-

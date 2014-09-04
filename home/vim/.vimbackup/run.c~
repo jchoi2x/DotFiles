@@ -1,9 +1,0 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-int $1 = -1;
-
-int main(void) {
-      $1++;
-      printf("%d",$1);
-}
