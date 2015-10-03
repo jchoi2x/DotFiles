@@ -1,500 +1,500 @@
-cd Operating\ Systems/
+l
+cd Projects/ITSeq
 ls
+cd ITSeq.Web/
+ls
+sudo devtools-terminal --install
+ls
+devtools-terminal
+subl .
+cd
+dl
+git clone git@bitbucket.org:kizzlebot/rubixreact.git
+ls
+rm Hack-v2_015-ttf*
+ls
+rm xenon
+rm xenon.zip 
+ls
+rm Hack-v2_015-ttf/
+rm -r Hack-v2_015-ttf/
+ls
+rm Sublime\ Text\ 3.x\ \[SP\].zip
+ls
+rm -r Sublime\ Text\ 3.x\ \[SP\].app/
+ls
+rm -r Sublime\ Text\ Build\ 3083.dmg 
+ls
+rm -r fonts/ googlechrome.dmg  sass.pdf 2015-05-05-raspbian-wheezy.img 
+rm -fr fonts/ googlechrome.dmg  sass.pdf 2015-05-05-raspbian-wheezy.img 
 doc
 ls
-cd curr
-curr
+cd rubixreact/
 ls
-cd Operating\ Systems/
+cd default/rubix-3.0/
 ls
-mv ~/Downloads/uniprocessor\ scheduling\ \(3\).pdf  ./3\ Uniprocessor\ Scheduling.pdf
+git b
+git branch
+git help
+git alias
+git --h
+vim /Users/kizzlebot/.inputrc 
+brew info nodejs
+n 
+for package in $(npm -g outdated --parseable --depth=0 | cut -d: -f3); do     echo $package; done
+bower --version
+npm install -g devtools-terminal
+devtools-terminal 
+devtools-terminal  --help
+devtools-terminal  --install
+sudo devtools-terminal  --install
+s
 ls
-yacc
-man yacc
-man bison
-man lex
+cd Downloads/
 ls
-doc
-kizzlebot.github.io/
+git clone https://github.com/powerline/fonts.git
 ls
-open index.html 
+rm -r rrubix/
+rm -r rubix
 ls
-python
+ls -la
+rm RTUSB_D2870-4.2.9.2_UI-4.0.9.6_2013_11_29.dmg 
 ls
-python
-sudo port search django
-sudo port install py-django
-python
+rm -r RubixReactTheme*
+rm -fr RubixReactTheme*
+ls
+rm DockerToolbox-1.8.2c.pkg  EnergiaFTDIDrivers2.2.18.pkg  35calibrate.docx  HoRNDIS.pkg  LCC* Tontec\ MZ61581\ Touch\ Screen\ Instructions\ -\ 20150905.docx  YouTube* addtrustexternalcaroot.* incommonca.* react-starter-kit-master.zip  vlc-2.2.1.dmg 
+rm -r DockerToolbox-1.8.2c.pkg  EnergiaFTDIDrivers2.2.18.pkg  35calibrate.docx  HoRNDIS.pkg  LCC* Tontec\ MZ61581\ Touch\ Screen\ Instructions\ -\ 20150905.docx  YouTube* addtrustexternalcaroot.* incommonca.* react-starter-kit-master.zip  vlc-2.2.1.dmg 
+lls
+ls
+mv themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs-v1.3.zip xenon.zip
+mkdir xenon
+cd xenon/
+unzip ../xenon.zip 
+ls
+cat readme
+cat readme.txt 
+ls
+cat Readme-GFXFree.Net.url 
+ls
+cd xenon-files/
+ls
+cd angular/
+ls
+cd ..
+ls
+cd ..
+ls
+cd docs/
+ls
+cd ..
+ls
+cat readme.txt 
+ls
+open xenon-files/angular/index.html 
+ls
+cd extras/
+ls
+cd ..
+ls
+cd xenon-files/
+ls
+cd angular/
+ls
+cat index.html 
+httpd
+ls
+kkkkkkkkkkkkkkkkkkcd ..
+cd ..
+ls
+npm init
+ls
+rm package.json 
+npm install http-server -g
+http-server 
+which npm
+npm --version
+npm install -g npm
+npm install -g n
+n
+n stable
+which node
+node --version
+gulp
+nesh
+npm outdated -g --depth=0
+npm install -g
+npm 
+npm update
+npm update --help
+npm update babel-eslint
+npm update -g babel-eslint
+npm update -g bower coffee-script eslint eslint-plugin-react jspm karma
+ls
+cd  Documents/
+ls
+cat browserified/GulpFile.js 
+cat browserified/GulpFile.js | less
+ls
+cd browserified/
+ls
+gist GulpFile.js  -d 'Gulpfile for browserified app'
+cd ..
+rm -r browserified/
+ls
+ls -la
+ls -la anglr/
+ls -la anglr/angulr_2.0.1/
+cd angular-webpack/
+ls
+cat README.md 
+ls
+cd ..
+rm -r ang
+rm -r angular-webpack/
+rm -fr angular-webpack/
+ls
+rm -r anglr/
+rm -fr anglr/
+ls
+vim .bashrc 
+vim ~/.bashrc 
+if [ -n "$BASH_ENV" ]; then echo "$BASH_ENV"; fi
+ls
+touch .bash_login
+ls
+vim /Users/kizzlebot/.bash_profile 
+source /Users/kizzlebot/.bash_profile 
+vim /Users/kizzlebot/.bash_profile 
+source /Users/kizzlebot/.bash_profile 
+vim /Users/kizzlebot/.bashrc 
+ls
+cd bash/
+ls
+brew --prefix`/etc/bash_completion
+echo `brew --prefix`/etc/bash_completion
+ls `brew --prefix`/etc/bash_completion
+cat `brew --prefix`/etc/bash_completion
+ls
+vim .bash_profile
+bash
+brew --prefix
+brew --prefix grc
+brew --prefix gls
+gls
+which gls
+brew --prefix --help
+which grc
+brew --prefix grc
+brew 
+brew grc
+brew ls grc
+brew ls gls
+brew installed
+brew 
+brew ls bash
+brew ls coreutils
+if [[ $(ls -A) ]]; then     echo "there are files"; else     echo "no files found"; fi
+if [[ $(brew ls coreutils) ]]; then     echo "there are files"; else     echo "no files found"; fi
+if [[ $(brew ls j) ]]; then     echo "there are files"; else     echo "no files found"; fi
+files=$(ls -A)
+if [[ $? != 0 ]]; then     echo "Command failed."; elif [[ $files ]]; then     echo "Files found."; else     echo "No files found."; fi
+files=$(ls -A)
+if [[ $? != 0 ]]; then     echo "Command failed."; elif [[ $files ]]; then     echo "Files found."; else     echo "No files found."; fi
+files=$(brew ls l)
+files=$(brew ls l) > /dev/null
+files=$(brew ls l) &> /dev/null
+files=$(brew ls l) > /dev/null 2&>1
+files=$(brew ls l) > /dev/null 2>/dev/null
+files=$(brew ls l) 1>&2 
+files=$(brew ls l) 2>/dev/null
+files=$(brew ls l) > 
+brew ls l > /dev/null 2>&1
+files=$(brew ls l) > /dev/null 2>&1
+files=$(brew ls l) > /dev/null 2>&1 > /dev/null 2>&1
+if  [[ `netstat -tlpn | grep 8080 | grep java` ]] &>/dev/null; then echo 'yes'; fi
+netstat -tlpn | grep 8080 | grep java > /dev/null 2>&1
+netstat -tlpn | grep 8080 | grep java > /dev/null 2>&1 
+netstat -tlpn | grep 8080 | grep java > /dev/null 2>&1 /dev/null
+netstat -tlpn | grep 8080 | grep java > /dev/null 2>&1 /dev/null 2>&1
+ls
+rm 1
+ls
+ls -la
+ls
+vim /Users/kizzlebot/.bash_profile 
+vim ~/.bashrc
 env
-env | grep PYTHON
+which env
+ls /usr/bin/env
+/usr/bin/env bash
+vim ~/.bashrc
+bash
+/usr/bin/env bash
+vim ~/.bashrc
+vim /Users/kizzlebot/.bash_profile 
+rm /Users/kizzlebot/.vimswap/.bash_profile.swp .bash
+vim /Users/kizzlebot/.bash_profile 
+ipython
+env
+echo $TESTING
+ipython
+setkey --help
+help setkey
+info setkey
+ipython
+vim /Users/kizzlebot/.bash_profile 
+touch .py.bashrc
+vim .py.bashrc 
+ls
+mv .py.bashrc   .bashrc.py
+vim .bashrc
+ipython
+vim .bashrc.py 
+python .bashrc.py 
+vim .bashrc.py 
+python .bashrc.py 
+echo $MYVar
+vim .bashrc.py 
+echo $MYVar
+python .bashrc.py 
+echo $MYVar
+vim .bashrc.py 
+python .bashrc.py 
+echo $MYVar
+echo $MYvar
+echo $MyVar
+env
+enset bash_debug
+unset bash_debug
+env
+python .bashrc.py 
+vim .bashrc.py 
 python
-pip
-which pip
-pip search django
-pip install Django==1.6.5
-sudo pip install Django==1.6.5
-python
-from django.db import models
-class Reporter(models.Model):
-class Article(models.Model):
-pbpaste manage.py
-pbpaste < manage.py
-pbpaste >manage.py
-python manage.py syncdb
-python 
-dl
-tar -xvzf Django-1.6.5.tar.gz 
-cd Django-1.6.5/
-sudo python setup.py 
-sudo python setup.py install
-python
-doc
+ipython 
 ls
-cd
-dl
+vim .bashrc.py 
 ls
-cd
-doc
+rm .bashrc.py 
 ls
-cd kizzlebot.github.io/
+git status
+rm .bash_login 
+cd ..
+git add .
+ls ../system/
+ls -la ../system/
+git status
+cd ..
 ls
-python manage.py 
-vim manage.py 
-python manage.py shell
-python
-python -c "import django; print(django.get_version())"
-django-admin.py startproject mysite
-cd mysite/
-ls
-cd mysite/
+git add .
+cd home/
 ls
 cd ..
-python manage.py runserver.
 ls
-python manage.py runserver.
-python manage.py runserver
+cd system/
 ls
-vim mysite/settings.py
-python manage.py syncdb
-python manage.py 
-python manage.py shell
-python manage.py sql
-python manage.py sql mysite
+cd nodejs/
 ls
-cat mysite/settings.py
-cat mysite/settings.py | less
-sqlite
-python manage.py startapp polls
+mv npmlist.json package.json
+npm install -g
+vim package.json 
+mv package.json  ppackages.json
+npm init
 ls
-ls polls/
+vim package.json 
+npm install -g
+node --version
 ls
-cd polls/
+vim package.json 
+npm info nodejs
+npm updateqnode
+node -v
 ls
-doc
-ls
-cd test/
-ls
-vim index.html 
-vim style.css
-ls
-open index.html 
-vim index.html 
-dl
-rm GeneralResume*
-open GeneralResume.pdf 
-ls
-cd ~/.atom/packages
-git clone https://github.com/emmetio/emmet-atom
-cd emmet-atom
 npm install
-sudo npm install
+vim package.json 
+npm i -g
 ls
-d
+rm ppackages.json 
 ls
+cd ..
+ls
+cd ..
+ls
+touch setup.sh
+vim setup.sh 
+source setup.sh 
+vim setup.sh 
+source setup.sh 
 cd
+git clone https://github.com/kizzlebot/DotFiles.git
 ls
-doc
+ls -la
 ls
-cd test/
-ls
-atom index.html 
-open index.html 
-cd ~/.atom/packages
-git clone https://github.com/zenorocha/atom-javascript-snippets.git
-cd atom-javascript-snippets
-apm install
-apm link
-ls
-cd 
-doc
-cd test/
-ls
-mkdir javascript
-mv script.js javascript/
-vim index.html 
-mkdir stylesheet
-mv style.css stylesheet/
-cd stylesheet/
-ls
-mv style.css style.less
-doc
-ls
-cd kizzlebot.github.io/
-ls
-git reset --hard
-ls
-rm * 
-rm -r * 
-git status
-cd ..
-rm -r kizzlebot.github.io/
-chmod -R 777 kizzlebot.github.io/
-git clone https://github.com/kizzlebot/kizzlebot.github.io
-rm -r kizzlebot.github.io/
-git clone https://github.com/kizzlebot/kizzlebot.github.io
-cd k
-cd kizzlebot.github.io/
-ls
-git branch straight_html_css_js
-git checkout straight_html_css_js
-git rm -r *
-ls
-git rm *
-ls
-git rm Gemfile* R* _* c* i*
-git rm -r Gemfile* R* _* c* i*
-ls
-cp ~/Documents/test/
-cp -rfv  ~/Documents/test/* ./
-ls
-git add .
-git commit -m' trying to do this the old fashing way?'
-git push origin straight_html_css_js 
-git status 
-git help stash
-ls
-cd ../Operating-Systems/
-ls
-vim lecture3.md
-ls
-mv lecture3a.md
-mv lecture3.md lecture3a.md
-git add .
-gi
-man traceroute
-traceroute asian.com
-traceroute ucf.edu
-man traceroute
-traceroute kizzlebot.github.io
-traceroute kizzlebot.github.io | pbcopy
-ls
-traceroute kizzlebot.github.io | pbcopy
-traceroute kizzlebot.github.io 
-ls
-rm -r tmp
-ls
-doc
-ls
-cd test/
-ls
-doc
-ls
-cd kizzlebot.github.io/
-ls
-vim index.html 
-cat ../test/index.html > index.html 
-vim index.html 
-open index.html 
-ls
-cd javascript/
-ls
-vim script.js 
+cd Do
+cd DotFiles/
 ls
 cd ..
+mv DotFiles/ Documents/
+cd Documents/
+cd DotFiles/
 ls
-git reset --hard
-git branch -d web_development 
-git checkout straight_html_css_js 
-git branch -d web_development 
+cd home/
+ls
+cd bash
+ls
+ls -la
+diff .bashrc /Users/kizzlebot/.bashrc 
+diff .bashrc /Users/kizzlebot/.bashrc  --side-by-side
+diff .bashrc /Users/kizzlebot/.bashrc  --side-by-side| less
+cat /Users/kizzlebot/.bashrc  > ./.bashrc
+diff .bash_profile /Users/kizzlebot/.bash_profile --side-by-side| less
+diff .bash_profile /Users/kizzlebot/.bash_profile --side-by-side| less | 
+diff .bash_profile /Users/kizzlebot/.bash_profile --side-by-side| less 
+man sdiff
+which sdiff
+sdiff .bash_profile /Users/kizzlebot/.bash_profile --side-by-side| less 
+sdiff .bash_profile /Users/kizzlebot/.bash_profile | less 
+pip install diffc
+brew install colordiff
+ls
+sdiff .bash_profile /Users/kizzlebot/.bash_profile | less 
+sdiff .bash_profile /Users/kizzlebot/.bash_profile | colordiff | less 
+cat /Users/kizzlebot/.bash_profile 
+cat /Users/kizzlebot/.bash_profile ./.bash_profile
+cat /Users/kizzlebot/.bash_profile> ./.bash_profile
 git status
-git rm README.md 
-l
-git status
-git
-git help -a
-tree /var/www/somefolder | mail -s "contents" thrice43@gmail.com
-i   - 
-mail -s "black" thrice43@gmail.com << EOF
-fuck
-EOF
+ls
+cat .bash_aliases>  /Users/kizzlebot/.bash_aliases 
+cat /Users/kizzlebot/.bash_aliases > ./.bash_aliases 
+ls
+ls -la
+cd ..
+ls
+mkdir homebrew
+ls
+mkdir ../system ; mv homebrew/ ../system
+mkdir ../system/pip
+pip freeze >  ../system/pip/requirements.txt
+pip install --upgrade pip
+pip freeze >  ../system/pip/requirements.txt
+mkdir ../system/nodejs
+npm ls
+npm ls -g
+npm ls --help
+npm list installed
+npm list 
+npm list --help
+npm list --depth=0
+npm list -g --depth=0 
+npm list -g --depth=0  -json
+npm list -g --depth=0  
+npm list -g --depth=0  -json
+npm list -g --depth=0  -json > ../system/nodejs/npmlist.json
+npm 
+npm completion
+npm completion > ../home/.completions/npm
+mkdir ../home/.completions
+npm completion > ../home/.completions/npm
+cat /usr/local/etc/bash_completion.d/npm 
+diff /usr/local/etc/bash_completion.d/npm  ./.completions/npm 
+diff /usr/local/etc/bash_completion.d/npm  ./.completions/npm  -s
+diff /usr/local/etc/bash_completion.d/npm  ./.completions/npm  --side-by-side
+diff /usr/local/etc/bash_completion.d/npm  ./.completions/npm  --side-by-side | less
+brew info node
+which node
+brew 
+brew upgrade node
+brew upgrade nodejs
+brew install nodejs
+brew info
+brew info nodejs
+brew update
+grc
+function setNodeJS(){      pushd $PWD;     cd ./system/nodejs;     npm install -g;     popd; }
+setNodeJS 
+ls
+rm npm-debug.log 
+cd ..
+setNodeJS 
+function setNodeJS(){      pushd $PWD;     cd ./system/nodejs;     npm install -g;     popd 2&>1; }
+setNodeJS 
 
-vim ~/.msmtprc 
-vim ~/.mailrc 
-echo "Hello world" | mail -s "msmtp test at `date`" thrice43@gmail.com
-vim ~/.mailrc 
-vim ~/.msmtp
-vim ~/.msmtprc 
-cat index.html 
-cat index.html  | less
-wgecd
-cd
-cd ~/.ThawteRoot/
-ls
-wget "https://www.geotrust.com/resources/root_certificates/certificates/Equifax_Secure_Certificate_Authority.pem"
-ls
-open Equifax_Secure_Certificate_Authority.pem 
-ls
-ls | pbcopy
-m;5;244m;5;132mEquifax_Secure_Certificate_Authority.pemm
-ls
-echo "Hello world" | mail -s "msmtp test at `date`" thrice43@gmail.com
-note
-msmtp --serverinfo --host=smtp.example.com --tls=on --tls-certcheck=off
-ls
-doc
-ls
-kizzlebot.github.io/
-ls
-git status
-git add .
-git commit -m 'update'
-git push -u
-git push --set-upstream origin straight_html_css_js 
-git branch web_development
-git checkout web_development 
-ls
-cat index.html 
-ls
-vim README.md
-ls
-vim README.md 
-ls
 cd ..
-git clone https://github.com/kizzlebot/Web-Development
-cd Web-Development/
+setNodeJS 
+popd
+setNodeJS 
+cd ../../
 ls
-cat ../kizzlebot.github.io/README.md >./README.md 
+vim setup.sh 
+source setup.sh 
+setNodeJS 
+vim setup.sh 
+setNodeJS 
+source setup.sh 
+cd ..
 ls
-vim Lecture1.md
-vim RE
-vim README.md 
-vim Lecture1.md
+rm npm-debug.log 
 ls
-vim Lecture1.md 
+rm 1
+vim setup.sh 
+source setup.sh 
+setupPython 
+vim setup.sh 
+mknod --help
+source setup.sh 
+setupPython 
+:
+:$(ls)
+: $(ls)
+git b
+git br
+which git
+brew install git bash-completion
 ls
-mkdir HelloWorld_0
-cd H
-cd HelloWorld_0/
-vim Hello.html
-atom HelloWorld.html
+ls node_modules/
+gulp
+npm install
+git-shell 
+cd ..
+vim setup.sh 
+source setup.sh 
+vim setup.sh 
+source setup.sh 
+vim setup.sh 
+source setup.sh 
+setNodeJS 
+vim setup.sh 
+setNodeJS 
+source setup.sh 
+setNodeJS 
+cd ../../
 ls
-open .
-msmtp --serverinfo --host=smtp.gmail.com --tls=on --tls-certcheck=off
-cat ~/.msmtprc 
-vim ~/.msmtprc 
-mail -s "TEST" jchoi2012@knights.ucf.edu << EOF
-hi
-EOF
-
-ls
-msmtp --serverinfo --host=smtp.gmail.com --tls=on --tls-certcheck=off
-doc
-ls
-cd Web-Development/
-ls
-vim Lecture1.md 
-open Lecture1.md 
-ls
-traceview google.com
-traceroute google.com
-ls
-cd HelloWorld_0/
-ls
-mv ~/Pictures/Screenshots/Screen\ Shot\ 2014-05-17\ at\ 9.43.03\ AM.png ./image.png
-ls
-mv ~/Pictures/Screenshots/Screen\ Shot\ 2014-05-20\ at\ 8.15.07\ PM.png ./image.pg
-mv image.pg image.png
-ls
-doc
-ls
-cd Web-Development/
-ls
-mkdir ContactForm_1
-cd ContactForm_1/
-ls
-touch index.html
-touch style.css
-vim index.html 
-cat ../HelloWorld_0/HelloWorld.html ./index.html 
-cat ../HelloWorld_0/HelloWorld.html > ./index.html 
-vim index.html 
-atom  index.html 
-ls
-touch script.js
-cat script.js | pbcopy
+rm 1
+setNodeJS 
+cd ..
 ls
 cd ..
 ls
-git add .
-git commit -m'upd8'
-git push origin master
-vim README.md
-git add .
-git commit -m'upd8'
-git push origin master
+cd home/
 ls
-vim ContactForm_1/script.js 
+touch git
+rm git 
+mkdir git 
+cd git/
 ls
-git status
-cd .git/
-l
-cd hooks/
+cat /Users/kizzlebot/.gitconfig  > ./.gitconfig
+vim .gitconfig 
+vim /Users/kizzlebot/.gitconfig 
+git config --global alias.co checkout
+vim /Users/kizzlebot/.gitconfig 
+git config --global alias.s status
+git config --global alias.a add
+vim /Users/kizzlebot/.gitconfig 
+git config --global alias.ci commit
+vim /Users/kizzlebot/.gitconfig 
+git a
 ls
-cat ctags 
-cd
-ls
-cd doc
-doc
-cd kizzlebot.github.io/
-ls
-open .
-ls
-vim stylesheet/style.less 
-ls
-cd stylesheet/
-ls
-vim style.css 
-ls
-cd ..
-ls
-git add . 
-git commit -m 'still messing with it '
-git status
-git push origin straight_html_css_js 
-cd ../Web-Development/
-ls
-vim README.md 
-git add .
-git push origin master
-git commit -m'upd8'
-git push origin master
-ls
-cd
-ls
-sudo gem install ruby
-sudo gem install rails
-adb
-adb devices
-adb reboot
-ls
-doc
-ls
-cd kizzlebot.github.io/
-ls
-git add .
-git commit -m'getting better'
-git push origin master
-git push origin straight_html_css_js 
-ls
-git status
-git add .
-git commit -m'upd8'
-git push -u
-python
-cd
-touch ~/.pyrc
-vim ~/.pyrc 
-vim ~/.bashrc
-python
-source ~/.bashrc 
-python
-vim ~/.
-python
-source ~/.bashrc 
-vim ~/.bashrc
-export PYTHONSTARTUP="$HOME/.pyrc"
-python
-which python
-sudo port search ipython
-sudo port selfupdate
-doc
-ls
-cd Introduction-to-Python/
-ls
-cat Graphics/graphics
-cat Graphics/graphics.py
-cat Graphics/graphics.py | grep print
-cat *.py | grep print
-cat ./*/*.py | grep print
-python
-ls
-pbpaste Fruit.py
-pbpaste > Fruit.py
-ls
-cat ./*/*.py | grep print
-python
-ls
-python Fruit.py
-ls
-python
-dir
-ls
-vim Fruit.py
-pip install virtualenv
-sudo pip install virtualenv
-sudo port install ipython
-sudo port search ipython
-sudo port search py27-ipython
-sudo port install py27-ipython
-ipython
-ipython -p sh
-ipython -p bash
-man ipython  
-ipython -p bash
-ipython -p ~/.bashrc
-ipython -p bash
-ipython profile new  bash
-ipython profile createbash
-ipython profile create bash
-vim ~/.ipython/profile_bash/ipython_config.py 
-class Fruit(object):
-ipython --profile=pysh
-ipython
-bind "'\C-1'":"'cd ~/Google\ Drive/Current\ Course\ Material/'"
-bind '"\c-1w"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind '"\C-1w"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind
-man bind
-bind --help
-bind -m
-bind -x C-1:ls
-bind -x "C-1":"ls"
-bind -x '"C-1":"ls"
-bind -x '"C-1"':'"ls"'
-bind '"\ew"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind '"\Cw"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind '"\C-w"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind '"\C-1"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind '"\C-!"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind '"\C-27"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind '"\C-!"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind '"\C-27"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-bind '"\C-30"':"\"grep --exclude-dir wp-content -rnH is_singular *\""
-info bind
-doc
-ls
-cd Web-Development/
-ls
-cd ..
-ls
-cd kizzlebot.github.io/
-ls
-open index.html 
-cur
-curr
-ls
-cd Operating\ Systems/
-ls
-vim ~/.bash_aliases 
-os
-open Lecture\ Slides/3\ Uniprocessor\ Scheduling.pdf 
+cat /Users/kizzlebot/.gitignore 
+cat /Users/kizzlebot/.gitignore > ./.gitignore
+vim /Users/kizzlebot/.gitignore 
+gulp

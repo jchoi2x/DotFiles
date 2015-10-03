@@ -52,25 +52,19 @@ fi
 
 
 
-# Enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-fi
-if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
-    . /opt/local/etc/profile.d/bash_completion.sh
-fi
-if [ -r `brew --repository`/Library/Contributions/brew_bash_completion.sh ]; then
-  source `brew --repository`/Library/Contributions/brew_bash_completion.sh
-fi
 
 # test -r /sw/bin/init.sh && . /sw/bin/init.sh
 
 
 
 # Make sure python shell scripts will run ;) 
-export PYTHONSTARTUP="$HOME/.pyrc"
+# export PYTHONSTARTUP="$HOME/.pyrc"
+
+# VirtualEnv: Set if found in HOME
+if [ -f "$HOME/.python/bin/activate" ]; then
+    VIRTUAL_ENV_DISABLE_PROMPT=1
+    . "$HOME/.python/bin/activate"
+fi
 
 
 
@@ -82,7 +76,3 @@ if [[ "$bash_debug" == 'yes' ]]; then
 fi 
 ##### End Debug ##### 
 
-# ! Bash_profile is called next 
-source "`brew --prefix grc`/etc/grc.bashrc"
-#export PATH="$HOME/.rbenv/bin:$PATH"
-#eval "$(rbenv init -)"

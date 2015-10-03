@@ -76,7 +76,8 @@ alias mspdebug='mspdebug rf2500 '
 ####################################################################################################
 ####### Misc Aliases
 ####################################################################################################
-alias feral='ssh -i ~/.ssh/id_rsa thrice43@thrice43.black.feralhosting.com'
+alias feral='ssh -i ~/.ssh/id_rsa thrice43@thrice43.morpheus.feralhosting.com'
+alias beagle='ssh -i ~/.ssh/id_rsa kizzlebot@192.168.7.2'
 alias koding='ssh vm-3.thrice43.koding.kd.io'
 #alias vim='nvim '
 
@@ -90,7 +91,6 @@ shopt -s nocaseglob
 shopt -s histappend
 shopt -s cdspell
 shopt -s dotglob
-shopt -s autocd
 
 ####################################################################################################
 # Disable/Enable Mac OS X Dashboard Widget stuff

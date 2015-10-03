@@ -1,0 +1,166 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": {
+      "version": "4.1.3",
+      "from": "babel-eslint@4.1.3",
+      "resolved": "https://registry.npmjs.org/babel-eslint/-/babel-eslint-4.1.3.tgz"
+    },
+    "bower": {
+      "version": "1.5.3",
+      "from": "bower@1.5.3",
+      "resolved": "https://registry.npmjs.org/bower/-/bower-1.5.3.tgz"
+    },
+    "coffee-script": {
+      "version": "1.10.0",
+      "from": "coffee-script@1.10.0",
+      "resolved": "https://registry.npmjs.org/coffee-script/-/coffee-script-1.10.0.tgz"
+    },
+    "devtools-terminal": {
+      "version": "0.1.3",
+      "from": "devtools-terminal@*",
+      "resolved": "https://registry.npmjs.org/devtools-terminal/-/devtools-terminal-0.1.3.tgz"
+    },
+    "eslint": {
+      "version": "1.6.0",
+      "from": "eslint@1.6.0",
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-1.6.0.tgz"
+    },
+    "eslint-plugin-react": {
+      "version": "3.5.1",
+      "from": "eslint-plugin-react@3.5.1",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-3.5.1.tgz"
+    },
+    "express": {
+      "version": "4.13.3",
+      "from": "express@*",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.13.3.tgz"
+    },
+    "express-generator": {
+      "version": "4.13.1",
+      "from": "express-generator@*",
+      "resolved": "https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz"
+    },
+    "generator-mozaik": {
+      "version": "1.0.0",
+      "from": "generator-mozaik@*",
+      "resolved": "https://registry.npmjs.org/generator-mozaik/-/generator-mozaik-1.0.0.tgz"
+    },
+    "generator-react-gulp-browserify": {
+      "version": "0.0.29",
+      "from": "generator-react-gulp-browserify@*",
+      "resolved": "https://registry.npmjs.org/generator-react-gulp-browserify/-/generator-react-gulp-browserify-0.0.29.tgz"
+    },
+    "generator-react-webpack": {
+      "version": "1.2.12",
+      "from": "generator-react-webpack@*",
+      "resolved": "https://registry.npmjs.org/generator-react-webpack/-/generator-react-webpack-1.2.12.tgz"
+    },
+    "grunt-cli": {
+      "version": "0.1.13",
+      "from": "grunt-cli@*",
+      "resolved": "https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz"
+    },
+    "gulp": {
+      "version": "3.9.0",
+      "from": "gulp@*",
+      "resolved": "https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz"
+    },
+    "html2jade": {
+      "version": "0.8.4",
+      "from": "html2jade@*",
+      "resolved": "https://registry.npmjs.org/html2jade/-/html2jade-0.8.4.tgz"
+    },
+    "htmltojsx": {
+      "version": "0.2.4",
+      "from": "htmltojsx@*",
+      "resolved": "https://registry.npmjs.org/htmltojsx/-/htmltojsx-0.2.4.tgz"
+    },
+    "http-server": {
+      "version": "0.8.5",
+      "from": "http-server@*",
+      "resolved": "https://registry.npmjs.org/http-server/-/http-server-0.8.5.tgz"
+    },
+    "iron-node": {
+      "version": "1.5.32",
+      "from": "iron-node@*",
+      "resolved": "https://registry.npmjs.org/iron-node/-/iron-node-1.5.32.tgz"
+    },
+    "jade": {
+      "version": "1.11.0",
+      "from": "jade@*",
+      "resolved": "https://registry.npmjs.org/jade/-/jade-1.11.0.tgz"
+    },
+    "jshint": {
+      "version": "2.8.0",
+      "from": "jshint@*",
+      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz"
+    },
+    "jspm": {
+      "version": "0.16.11",
+      "from": "jspm@0.16.11",
+      "resolved": "https://registry.npmjs.org/jspm/-/jspm-0.16.11.tgz"
+    },
+    "jsxhint": {
+      "version": "0.15.1",
+      "from": "jsxhint@*",
+      "resolved": "https://registry.npmjs.org/jsxhint/-/jsxhint-0.15.1.tgz"
+    },
+    "karma": {
+      "version": "0.13.10",
+      "from": "karma@0.13.10",
+      "resolved": "https://registry.npmjs.org/karma/-/karma-0.13.10.tgz"
+    },
+    "n": {
+      "version": "2.0.2",
+      "from": "n@*",
+      "resolved": "https://registry.npmjs.org/n/-/n-2.0.2.tgz"
+    },
+    "nesh": {
+      "version": "1.6.0",
+      "from": "nesh@*",
+      "resolved": "https://registry.npmjs.org/nesh/-/nesh-1.6.0.tgz"
+    },
+    "node-sass": {
+      "version": "3.3.2",
+      "from": "node-sass@*",
+      "resolved": "https://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz"
+    },
+    "npm": {
+      "version": "2.14.2"
+    },
+    "vantage": {
+      "version": "1.5.1",
+      "from": "vantage@*",
+      "resolved": "https://registry.npmjs.org/vantage/-/vantage-1.5.1.tgz"
+    },
+    "webpack": {
+      "version": "1.11.0",
+      "from": "webpack@*",
+      "resolved": "https://registry.npmjs.org/webpack/-/webpack-1.11.0.tgz"
+    },
+    "webpack-dev-server": {
+      "version": "1.10.1",
+      "from": "webpack-dev-server@*",
+      "resolved": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-1.10.1.tgz"
+    },
+    "wpt": {
+      "version": "0.5.6",
+      "from": "wpt@*",
+      "resolved": "https://registry.npmjs.org/wpt/-/wpt-0.5.6.tgz"
+    },
+    "yo": {
+      "version": "1.4.7",
+      "from": "yo@*",
+      "resolved": "https://registry.npmjs.org/yo/-/yo-1.4.7.tgz"
+    }
+  }
+}

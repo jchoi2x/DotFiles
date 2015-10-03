@@ -1,0 +1,15 @@
+[user]
+  name = James Choi
+  email = jchoi2012@knights.ucf.edu
+[credential]
+  helper = osxkeychain
+[push]
+  default = matching
+[core]
+  autocrlf = input
+[alias]
+  co = checkout
+  br = branch
+  st = status
+  co = commit
+  a = add
