@@ -1,500 +1,500 @@
-l
-cd Projects/ITSeq
 ls
-cd ITSeq.Web/
+ls -la
+cat .eslintrc 
+pip install pylint
+which babel-node
+npm install --global semistandard
+npm install tern --global
+subl --help
+subl --project express.sublime-project 
 ls
-sudo devtools-terminal --install
+cd /Users/kizzlebot/Library/Application\ Support
 ls
-devtools-terminal
-subl .
+ls Sublime\ Text\ 3/
+ls
+cd Sublime\ Text\ 3/
+ls
+ls Installed\ Packages/
+cd Installed\ Packages/
+ls
+rm TernJS.sublime-package 
+vim src/server.js 
+git ls-files
+git --version
+brew upgrade
+vim /usr/local/etc/bash_completion.d/git-completion.bash/local/etc/bash_completion.d/git-completion.bash 
+vim /usr/local/etc/bash_completion.d/git-completion.bash
+git list merge 
+git list merge strategie
+git list merge strategies
+vim /usr/local/etc/bash_completion.d/git-completion.bash
+git remotes
+vim /usr/local/etc/bash_completion.d/git-completion.bash
+source /usr/local/etc/bash_completion.d/git-completion.bash
+vim /usr/local/etc/bash_completion.d/git-completion.bash
+source /usr/local/etc/bash_completion.d/git-completion.bash
 cd
-dl
-git clone git@bitbucket.org:kizzlebot/rubixreact.git
 ls
-rm Hack-v2_015-ttf*
-ls
-rm xenon
-rm xenon.zip 
-ls
-rm Hack-v2_015-ttf/
-rm -r Hack-v2_015-ttf/
-ls
-rm Sublime\ Text\ 3.x\ \[SP\].zip
-ls
-rm -r Sublime\ Text\ 3.x\ \[SP\].app/
-ls
-rm -r Sublime\ Text\ Build\ 3083.dmg 
-ls
-rm -r fonts/ googlechrome.dmg  sass.pdf 2015-05-05-raspbian-wheezy.img 
-rm -fr fonts/ googlechrome.dmg  sass.pdf 2015-05-05-raspbian-wheezy.img 
 doc
+ls
+cat /Users/kizzlebot/.eslintrc 
+vim /Users/kizzlebot/.eslintrc 
+ls
+cd react-isomorphic-starterkit/
+npm link eslint
+which eslint 
+eslint 
+ls node_modules/.bin/eslint 
+ls
+npm install eslint babel-eslint --save-dev
+which eslint 
+vim package.json 
+npm run lint
+rm npm-debug.log 
+vim package.json 
+rm npm-debug.log 
+npm run lint
+npm install optionator
+npm install optionator --save
+npm install 
+cat /Users/kizzlebot/.eslintrc 
+vim /Users/kizzlebot/.eslintrc 
+cat /Users/kizzlebot/.eslintrc 
+vim /Users/kizzlebot/.eslintrc 
+cat /Users/kizzlebot/.eslintrc 
+vim /Users/kizzlebot/.eslintrc 
+cd ..
+subl .
+subl --project express.sublime-project 
+git status
+git remote show origin 
+git remote rm origin
+git add .
+git commit -m'init'
+git push origin master 
+ls
+vim /Users/kizzlebot/.eslintrc 
+eslint app/main.js 
+which eslint 
+npm unlink eslint
+which eslint 
+eslint
+npm install -g eslint 
+tern 
+npm start
+ls
+mkdir app/components/pages
+pbpaste> app/components/pages/home.jsx
+mv app/components/pages/home.jsx app/components/pages/home.js
+npm start
+eslint
+npm start
+ls
+cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/components/* ./app/components/
+cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/app-routes.jsx ./app/components/
+cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/app.jsx ./app/components/main.js
+npm start
+cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/components/pages/* ./app/components/pages/
+npm start
+ls
+cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/components/pages/* ./app/components/pages/
+npm start
+cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/components/pages/* ./app/components/pages/
+ls
+npm install -g optionator
+cd
+tmp
+git clone https://github.com/callemall/material-ui.git
+cd material-ui/
+ls
+cd examples/
+ls
+cd webpack-example/
+ls
+cd src/app/components/
+ls
+cd ..
+ls
+cd
+tmp
+cd material-ui/
+ls
+cd docs/src/
+ls
+cd app/components/
+ls
+cd pages/
+ls
+cp -rfq /Users/kizzlebot/Documents/webpack-express-boilerplate/app/components/pages/
+cp -rf /Users/kizzlebot/Documents/webpack-express-boilerplate/app/components/pages/
+cp -rf * /Users/kizzlebot/Documents/webpack-express-boilerplate/app/components/pages/
+ls
+cd ..
+ls
+cat master.jsx 
+ls
+lcd 
+cd ..
+git clone https://github.com/rackt/react-router.git
+npm install eslint-plugin-react --global
+ls
+cd react-router/
+ls
+cd examples/
+ls
+cat README.md 
+npm install 
+ls
+npm start
+subl 
+ls
+ls> /Users/kizzlebot/.tmp/installed
+cat /Users/kizzlebot/.tmp/installed 
+ls
+vim /Users/kizzlebot/.tmp/installed 
+cd ..
+ls
+ls Settings/
+ls
+cd ..
+ls
+cp -r  Sublime\ Text\ 3/ ~/.tmp
+rm -rf Sublime\ Text\ 3/
+rm -rf Sublime\ Text\ 2/
+ls
+cp /Users/kizzlebot/.tmp/Local/* Sublime\ Text\ 3/Local/
+ls
+ls /Users/kizzlebot/.tmp/Packages/User/Default\ \(OSX\).sublime-keymap ./Sublime\ Text\ 3/Packages/User/
+cp /Users/kizzlebot/.tmp/Packages/User/Default\ \(OSX\).sublime-keymap ./Sublime\ Text\ 3/Packages/User/
+ls
+cd Sublime\ Text\ 3/
+ls
+cd Packages/
+ls
+cp /Users/kizzlebot/.tmp/Packages/User/Preferences.sublime-settings ./User/
+ls
+ls User/
+cp /Users/kizzlebot/.tmp/Packages/User/Zeus-Sublime-Text-Darker.tmTheme .
+pbpaste >  /Users/kizzlebot/.tmp/Packages/User/Zeus-Sublime-Text-Darker.tmTheme 
+pbpaste >  /Users/kizzlebot/.tmp/Packages/User/Zeus-Sublime-Text.tmTheme 
+ls
+cdls
+ls
+mkdir Zeus
+mkdir Sublime\ Text 
+ls
+mv Zeus-Sublime-Text-Darker.tmTheme Zeus/
+mv Sublime\ Text/ Zeus/
+ls
+cd Zeus/
+ls
+mv Zeus-Sublime-Text-Darker.tmTheme Sublime\ Text/
+ls ../User/
+ls
+ls ../
+cd Sublime\ Text/
+ls
+pbpaste > Zeus-Sublime-Text.tmTheme 
+ls
+cd ..
+ls
+cd
+ls
+rm -r /Users/kizzlebot/.tmp/*
+rm -rf /Users/kizzlebot/.tmp/*
+npm install -g tern
+which tern 
+ls
+doc
+ls
+rm -r reactboiler/
+rm -rf reactboiler/
+ls
+npm install babel-eslint --global
+ls
+cd webpack-express-boilerplate/
+ls
+npm start
+git status
+git st
+git add .
+git a
+git a .
+git co -m'upate'
+git update -m'upate'
+git commit -m'upate'
+git push origin master 
+git branch renew
+git checkout renew
+ls
+git status
+git checkout master
+git reset --hard 
+ls
+git status
+git clean -f
+git clean -fd
+ls
+npm start
+ls
+mkdir .logs
+touch .logs/info-logs.log
+npm start
+git reset --hard
+npm start
+git reset --hard
+npm start
+git reset --hard
+npm start
+ls
+git status
+git checkout renew 
+git status
+git add .
+git commit -m'update'
+git push origin renew 
+ls
+git rm app/style/{App,common}.scss 
+rm app/style/{App,common}.scss 
+ls
+git add .
+git commit -m'remove unused scss files'
+git push origin renew 
+npm start
+p
+npm start
+git lfs
+git --version
+brew install git-lfs
+git lfs
+npm start
+s
+ls
+pbpaste > config/passport.js
+npm install bcrypt-nodejs mongoose --save
+feral
+ls
+vim server.js 
+ls
+vim server/app.js 
+ls
+cp -r ../webpack-express-boilerplate/config/ ./
+ls
+mkdir config
+mv logger.js passport.js middleware.config.js config
+ls
+cd config/
+ls
+cd ../
+ls
+mkdir models
+cp ../webpack-express-boilerplate/models/User.js ./models/
+ls
+vim server.js 
+mongod --dbpath /Users/kizzlebot/.mongo -vvv
+npm start
+nodemon server.js 
+nodemon --exec babel-node server.js 
+git add .
+git commit -m'need api working'
+git push 
+git push origin renew 
+cd ..
+git clone https://github.com/glenjamin/ultimate-hot-reloading-example.git
+ls
+cd ultimate-hot-reloading-example/
+ls
+npm install
+ls
+npm start
+ls
+vim server
+vim server.js 
+vim /Users/kizzlebot/.vimrc.local 
+vim server.js 
+npm start
+ls
+vim GulpFile.js 
+ls
+gulp --rtl --name app
+vim GulpFile.js 
+gulp --rtl --name app
+vim GulpFile.js 
+gulp --rtl --name app
+vim webpack.config.js 
+gulp --rtl --name app
+subl .
+npm install -g node-glob
+npm install -g glob
+ls
+nesh
+bpython
+tmp
+ls
+touch wrap.py
+pbpaste> wrap.py
+bpython
+ls
+vim wrap.py 
+bpython
+ipython
+pbpaste > wrap.py 
+bpython
+npm install -g wiredep 
+ls
+docs
 ls
 cd rubixreact/
 ls
-cd default/rubix-3.0/
+git status
 ls
-git b
-git branch
-git help
-git alias
-git --h
-vim /Users/kizzlebot/.inputrc 
-brew info nodejs
-n 
-for package in $(npm -g outdated --parseable --depth=0 | cut -d: -f3); do     echo $package; done
-bower --version
-npm install -g devtools-terminal
-devtools-terminal 
-devtools-terminal  --help
-devtools-terminal  --install
-sudo devtools-terminal  --install
-s
+cd default/
 ls
-cd Downloads/
+cd rubix-3.0/
 ls
-git clone https://github.com/powerline/fonts.git
+ls ../../
+npm install
+npm start
+vim package.json 
+npm start
+git remote show origin 
+feral
+doc
 ls
-rm -r rrubix/
-rm -r rubix
+git clone https://github.com/kizzlebot/DotFiles.git
+cd DotFiles/
 ls
-ls -la
-rm RTUSB_D2870-4.2.9.2_UI-4.0.9.6_2013_11_29.dmg 
+vim setup.sh 
 ls
-rm -r RubixReactTheme*
-rm -fr RubixReactTheme*
-ls
-rm DockerToolbox-1.8.2c.pkg  EnergiaFTDIDrivers2.2.18.pkg  35calibrate.docx  HoRNDIS.pkg  LCC* Tontec\ MZ61581\ Touch\ Screen\ Instructions\ -\ 20150905.docx  YouTube* addtrustexternalcaroot.* incommonca.* react-starter-kit-master.zip  vlc-2.2.1.dmg 
-rm -r DockerToolbox-1.8.2c.pkg  EnergiaFTDIDrivers2.2.18.pkg  35calibrate.docx  HoRNDIS.pkg  LCC* Tontec\ MZ61581\ Touch\ Screen\ Instructions\ -\ 20150905.docx  YouTube* addtrustexternalcaroot.* incommonca.* react-starter-kit-master.zip  vlc-2.2.1.dmg 
-lls
-ls
-mv themeforest-9059661-xenon-bootstrap-admin-theme-with-angularjs-v1.3.zip xenon.zip
-mkdir xenon
-cd xenon/
-unzip ../xenon.zip 
-ls
-cat readme
-cat readme.txt 
-ls
-cat Readme-GFXFree.Net.url 
-ls
-cd xenon-files/
-ls
-cd angular/
-ls
-cd ..
-ls
-cd ..
-ls
-cd docs/
-ls
-cd ..
-ls
-cat readme.txt 
-ls
-open xenon-files/angular/index.html 
-ls
-cd extras/
-ls
-cd ..
-ls
-cd xenon-files/
-ls
-cd angular/
-ls
-cat index.html 
-httpd
-ls
-kkkkkkkkkkkkkkkkkkcd ..
-cd ..
-ls
-npm init
-ls
-rm package.json 
-npm install http-server -g
-http-server 
-which npm
-npm --version
-npm install -g npm
-npm install -g n
-n
-n stable
-which node
-node --version
-gulp
-nesh
-npm outdated -g --depth=0
-npm install -g
-npm 
-npm update
-npm update --help
-npm update babel-eslint
-npm update -g babel-eslint
-npm update -g bower coffee-script eslint eslint-plugin-react jspm karma
-ls
-cd  Documents/
-ls
-cat browserified/GulpFile.js 
-cat browserified/GulpFile.js | less
-ls
-cd browserified/
-ls
-gist GulpFile.js  -d 'Gulpfile for browserified app'
-cd ..
-rm -r browserified/
-ls
-ls -la
-ls -la anglr/
-ls -la anglr/angulr_2.0.1/
-cd angular-webpack/
-ls
-cat README.md 
-ls
-cd ..
-rm -r ang
-rm -r angular-webpack/
-rm -fr angular-webpack/
-ls
-rm -r anglr/
-rm -fr anglr/
-ls
-vim .bashrc 
-vim ~/.bashrc 
-if [ -n "$BASH_ENV" ]; then echo "$BASH_ENV"; fi
-ls
-touch .bash_login
-ls
-vim /Users/kizzlebot/.bash_profile 
-source /Users/kizzlebot/.bash_profile 
-vim /Users/kizzlebot/.bash_profile 
-source /Users/kizzlebot/.bash_profile 
-vim /Users/kizzlebot/.bashrc 
+cd home/
 ls
 cd bash/
 ls
-brew --prefix`/etc/bash_completion
-echo `brew --prefix`/etc/bash_completion
-ls `brew --prefix`/etc/bash_completion
-cat `brew --prefix`/etc/bash_completion
-ls
-vim .bash_profile
-bash
-brew --prefix
-brew --prefix grc
-brew --prefix gls
-gls
-which gls
-brew --prefix --help
-which grc
-brew --prefix grc
-brew 
-brew grc
-brew ls grc
-brew ls gls
-brew installed
-brew 
-brew ls bash
-brew ls coreutils
-if [[ $(ls -A) ]]; then     echo "there are files"; else     echo "no files found"; fi
-if [[ $(brew ls coreutils) ]]; then     echo "there are files"; else     echo "no files found"; fi
-if [[ $(brew ls j) ]]; then     echo "there are files"; else     echo "no files found"; fi
-files=$(ls -A)
-if [[ $? != 0 ]]; then     echo "Command failed."; elif [[ $files ]]; then     echo "Files found."; else     echo "No files found."; fi
-files=$(ls -A)
-if [[ $? != 0 ]]; then     echo "Command failed."; elif [[ $files ]]; then     echo "Files found."; else     echo "No files found."; fi
-files=$(brew ls l)
-files=$(brew ls l) > /dev/null
-files=$(brew ls l) &> /dev/null
-files=$(brew ls l) > /dev/null 2&>1
-files=$(brew ls l) > /dev/null 2>/dev/null
-files=$(brew ls l) 1>&2 
-files=$(brew ls l) 2>/dev/null
-files=$(brew ls l) > 
-brew ls l > /dev/null 2>&1
-files=$(brew ls l) > /dev/null 2>&1
-files=$(brew ls l) > /dev/null 2>&1 > /dev/null 2>&1
-if  [[ `netstat -tlpn | grep 8080 | grep java` ]] &>/dev/null; then echo 'yes'; fi
-netstat -tlpn | grep 8080 | grep java > /dev/null 2>&1
-netstat -tlpn | grep 8080 | grep java > /dev/null 2>&1 
-netstat -tlpn | grep 8080 | grep java > /dev/null 2>&1 /dev/null
-netstat -tlpn | grep 8080 | grep java > /dev/null 2>&1 /dev/null 2>&1
-ls
-rm 1
-ls
 ls -la
-ls
-vim /Users/kizzlebot/.bash_profile 
-vim ~/.bashrc
-env
-which env
-ls /usr/bin/env
-/usr/bin/env bash
-vim ~/.bashrc
-bash
-/usr/bin/env bash
-vim ~/.bashrc
-vim /Users/kizzlebot/.bash_profile 
-rm /Users/kizzlebot/.vimswap/.bash_profile.swp .bash
-vim /Users/kizzlebot/.bash_profile 
-ipython
-env
-echo $TESTING
-ipython
-setkey --help
-help setkey
-info setkey
-ipython
-vim /Users/kizzlebot/.bash_profile 
-touch .py.bashrc
-vim .py.bashrc 
-ls
-mv .py.bashrc   .bashrc.py
-vim .bashrc
-ipython
-vim .bashrc.py 
-python .bashrc.py 
-vim .bashrc.py 
-python .bashrc.py 
-echo $MYVar
-vim .bashrc.py 
-echo $MYVar
-python .bashrc.py 
-echo $MYVar
-vim .bashrc.py 
-python .bashrc.py 
-echo $MYVar
-echo $MYvar
-echo $MyVar
-env
-enset bash_debug
-unset bash_debug
-env
-python .bashrc.py 
-vim .bashrc.py 
-python
-ipython 
-ls
-vim .bashrc.py 
-ls
-rm .bashrc.py 
-ls
-git status
-rm .bash_login 
-cd ..
-git add .
-ls ../system/
-ls -la ../system/
-git status
-cd ..
+cp /Users/kizzlebot/.{bash_aliases,bashrc,bash_profile} .
 ls
 git add .
-cd home/
-ls
+git commit -m'update'
+git push
 cd ..
 ls
-cd system/
-ls
-cd nodejs/
-ls
-mv npmlist.json package.json
-npm install -g
-vim package.json 
-mv package.json  ppackages.json
-npm init
-ls
-vim package.json 
-npm install -g
-node --version
-ls
-vim package.json 
-npm info nodejs
-npm updateqnode
-node -v
-ls
-npm install
-vim package.json 
-npm i -g
-ls
-rm ppackages.json 
-ls
-cd ..
-ls
-cd ..
-ls
-touch setup.sh
-vim setup.sh 
-source setup.sh 
-vim setup.sh 
-source setup.sh 
-cd
-git clone https://github.com/kizzlebot/DotFiles.git
-ls
-ls -la
-ls
-cd Do
-cd DotFiles/
-ls
-cd ..
-mv DotFiles/ Documents/
-cd Documents/
-cd DotFiles/
-ls
-cd home/
-ls
-cd bash
-ls
-ls -la
-diff .bashrc /Users/kizzlebot/.bashrc 
-diff .bashrc /Users/kizzlebot/.bashrc  --side-by-side
-diff .bashrc /Users/kizzlebot/.bashrc  --side-by-side| less
-cat /Users/kizzlebot/.bashrc  > ./.bashrc
-diff .bash_profile /Users/kizzlebot/.bash_profile --side-by-side| less
-diff .bash_profile /Users/kizzlebot/.bash_profile --side-by-side| less | 
-diff .bash_profile /Users/kizzlebot/.bash_profile --side-by-side| less 
-man sdiff
-which sdiff
-sdiff .bash_profile /Users/kizzlebot/.bash_profile --side-by-side| less 
-sdiff .bash_profile /Users/kizzlebot/.bash_profile | less 
-pip install diffc
-brew install colordiff
-ls
-sdiff .bash_profile /Users/kizzlebot/.bash_profile | less 
-sdiff .bash_profile /Users/kizzlebot/.bash_profile | colordiff | less 
-cat /Users/kizzlebot/.bash_profile 
-cat /Users/kizzlebot/.bash_profile ./.bash_profile
-cat /Users/kizzlebot/.bash_profile> ./.bash_profile
-git status
-ls
-cat .bash_aliases>  /Users/kizzlebot/.bash_aliases 
-cat /Users/kizzlebot/.bash_aliases > ./.bash_aliases 
-ls
-ls -la
-cd ..
-ls
-mkdir homebrew
-ls
-mkdir ../system ; mv homebrew/ ../system
-mkdir ../system/pip
-pip freeze >  ../system/pip/requirements.txt
-pip install --upgrade pip
-pip freeze >  ../system/pip/requirements.txt
-mkdir ../system/nodejs
-npm ls
-npm ls -g
-npm ls --help
-npm list installed
-npm list 
-npm list --help
-npm list --depth=0
-npm list -g --depth=0 
-npm list -g --depth=0  -json
-npm list -g --depth=0  
-npm list -g --depth=0  -json
-npm list -g --depth=0  -json > ../system/nodejs/npmlist.json
-npm 
-npm completion
-npm completion > ../home/.completions/npm
-mkdir ../home/.completions
-npm completion > ../home/.completions/npm
-cat /usr/local/etc/bash_completion.d/npm 
-diff /usr/local/etc/bash_completion.d/npm  ./.completions/npm 
-diff /usr/local/etc/bash_completion.d/npm  ./.completions/npm  -s
-diff /usr/local/etc/bash_completion.d/npm  ./.completions/npm  --side-by-side
-diff /usr/local/etc/bash_completion.d/npm  ./.completions/npm  --side-by-side | less
-brew info node
-which node
-brew 
-brew upgrade node
-brew upgrade nodejs
-brew install nodejs
-brew info
-brew info nodejs
-brew update
-grc
-function setNodeJS(){      pushd $PWD;     cd ./system/nodejs;     npm install -g;     popd; }
-setNodeJS 
-ls
-rm npm-debug.log 
-cd ..
-setNodeJS 
-function setNodeJS(){      pushd $PWD;     cd ./system/nodejs;     npm install -g;     popd 2&>1; }
-setNodeJS 
-
-cd ..
-setNodeJS 
-popd
-setNodeJS 
-cd ../../
-ls
-vim setup.sh 
-source setup.sh 
-setNodeJS 
-vim setup.sh 
-setNodeJS 
-source setup.sh 
-cd ..
-ls
-rm npm-debug.log 
-ls
-rm 1
-vim setup.sh 
-source setup.sh 
-setupPython 
-vim setup.sh 
-mknod --help
-source setup.sh 
-setupPython 
-:
-:$(ls)
-: $(ls)
-git b
-git br
-which git
-brew install git bash-completion
-ls
-ls node_modules/
-gulp
-npm install
-git-shell 
-cd ..
-vim setup.sh 
-source setup.sh 
-vim setup.sh 
-source setup.sh 
-vim setup.sh 
-source setup.sh 
-setNodeJS 
-vim setup.sh 
-setNodeJS 
-source setup.sh 
-setNodeJS 
-cd ../../
-ls
-rm 1
-setNodeJS 
-cd ..
-ls
-cd ..
-ls
-cd home/
-ls
-touch git
-rm git 
-mkdir git 
 cd git/
 ls
-cat /Users/kizzlebot/.gitconfig  > ./.gitconfig
+cat .gitconfig 
+cat /Users/kizzlebot/.gitconfig 
+vim /Users/kizzlebot/.gitconfig 
 vim .gitconfig 
-vim /Users/kizzlebot/.gitconfig 
-git config --global alias.co checkout
-vim /Users/kizzlebot/.gitconfig 
-git config --global alias.s status
-git config --global alias.a add
-vim /Users/kizzlebot/.gitconfig 
-git config --global alias.ci commit
-vim /Users/kizzlebot/.gitconfig 
-git a
-ls
 cat /Users/kizzlebot/.gitignore 
-cat /Users/kizzlebot/.gitignore > ./.gitignore
-vim /Users/kizzlebot/.gitignore 
-gulp
+cat .gitignore 
+cp /Users/kizzlebot/.gitignore  ./
+cd ..
+ls
+cd vim/
+ls
+cat /Users/kizzlebot/.vimrc.before.local 
+cat vimrc.local 
+cat /Users/kizzlebot/.vimrc.before.local 
+vim vimrc.local 
+cat /Users/kizzlebot/.vimrc.before.local 
+vim /Users/kizzlebot/.vimrc.before.local 
+cat /Users/kizzlebot/.vimrc.before.local 
+vim vimrc.local 
+vim /Users/kizzlebot/.vimrc.local 
+cat vimrc.local 
+vim /Users/kizzlebot/.vimrc.local 
+ls
+cp /Users/kizzlebot/.vimrc.local ./vimrc.local 
+ls -la
+for i in ./*; do echo $i; done
+for i in ./*; do echo ./$i; done
+for i in *; do echo ./$i; done
+for i in *; do echo ./.$i; done
+for i in *; do mv $i .$i; done
+ls
+ls -la
+git add .
+cd ..
+ls
+ls browser/
+ls -la browser/
+ls
+cd ..
+ls
+ls system/
+tmp
+ls
+pbpaste sudo.sh
+pbpaste > sudo.sh
+chmod +x sudo.sh 
+. sudo.sh 
+tmp
+pbpaste > sudo.sh
+chmod +x sudo.sh 
+../sudo.sh 
+./sudo.sh 
+vim sudo.sh 
+./sudo.sh 
+vim sudo.sh 
+which env
+vim sudo.sh 
+which env
+./sudo.sh 
+cat /.file 
+sudo su
+vim ~/.bashrc
+export bash_debug=1
+source ~/.bashrc
+vim ~/.bashrc
+export bash_debug='yes'
+source ~/.bashrc
+source /Users/kizzlebot/.bash_profile
+vim /Users/kizzlebot/.bashrc 
+source /Users/kizzlebot/.bashrc 
+vim /Users/kizzlebot/.bashrc 
+source /Users/kizzlebot/.bashrc 
+source /Users/kizzlebot/.bash_profile
+source /Users/kizzlebot/.bashrc 
+vim /Users/kizzlebot/.bash_profile
+source /Users/kizzlebot/.bashrc 
+vim /Users/kizzlebot/.bash_profile
+source /Users/kizzlebot/.bash_profile
+vim /Users/kizzlebot/.bash_profile
+sudo su
+sudo vim /var/root/.bash_profile
+sudo su
+ls
+tmux
+screen 
+ls /var/root/.bashrc 
+cat /var/root/.bashrc 
+
+ls
+sudo cp /Users/kizzlebot/.bash* /var/root/
+sudo su
+sudo cp /Users/kizzlebot/.bash* /var/root/
+sudo su
+vim /var/root/.bashrc 
+sudo vim /var/root/.bashrc 
+sudo su
+path$ /usr/libexec/path_helper
+/usr/libexec/path_helper
+sudo pip
+sudo which pip
+ls
+cp sudo.sh  /Users/kizzlebot/Documents/DotFiles/setup.sh 
+vim  /Users/kizzlebot/Documents/DotFiles/setup.sh 
+/Users/kizzlebot/Documents/DotFiles/setup.sh 
+. /Users/kizzlebot/Documents/DotFiles/setup.sh 
+vim  /Users/kizzlebot/Documents/DotFiles/setup.sh 
+. /Users/kizzlebot/Documents/DotFiles/setup.sh 
+vim  /Users/kizzlebot/Documents/DotFiles/setup.sh 
+. /Users/kizzlebot/Documents/DotFiles/setup.sh 
+vim  /Users/kizzlebot/Documents/DotFiles/setup.sh 
+. /Users/kizzlebot/Documents/DotFiles/setup.sh 
+sudo ls
+sudo ls / 
+sudo ls /.file 
+sudo cat /.file 
+sudo rm /.file 
+ls /
+ls -la /

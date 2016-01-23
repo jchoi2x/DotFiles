@@ -7,9 +7,30 @@
   default = matching
 [core]
   autocrlf = input
+  pager = less -r
 [alias]
   co = checkout
   br = branch
   st = status
-  co = commit
+  cm = commit
   a = add
+  ci = commit
+[color]
+  ui = true
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[url "https://"]
+  insteadOf = git://

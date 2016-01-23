@@ -7,17 +7,28 @@
 " .vimrc - spf13-vim vim configuration
 " .vimrc.fork - fork vim configuration
 " .vimrc.local - local user configuration
-UnBundle 'nathanaelkane/vim-indent-guides'
-UnBundle 'klen/python-mode'
 
-set tabstop=4
-set shiftwidth=4
+let g:rehash256=1
+set tabstop=2
+set shiftwidth=2
 set listchars=tab:¦\ ,extends:#,nbsp:. " Highlight problematic whitespace
 set nospell
-set tabpagemax=7
-set foldmethod=syntax
 
-"let b:syntastic_c_cflags = '-I/opt/local/msp430/include -I/Users/kizzlebot/Documents/Arduino/libraries/LCD4Bit_mod'
+
+
+set foldmethod=syntax   " fold based on syntax"
+set foldnestmax=10      " deepest fold is 10 levels
+set nofoldenable        " dont fold by default
+set foldlevel=1         " this is just what i use
+set mouse=""            " disable mouse in vim"
+
+
+"set shell="/usr/local/bin/bash"
+let NERDTreeIgnore=['^\.', '\~$']
+let NERDTreeChDirMode=1
+let NERDTreeHighlightCursorline=1
+let NERDTreeIgnore=['\~$', '.DS_Store', '\.git']
+
 
 map <leader><C-H> :tabp<CR>
 map <leader><C-L> :tabn<CR>
@@ -26,14 +37,3 @@ map <C-A><C-N> :tabn<CR>
 map <leader>et :tabe 
 nmap <leader>h :tabp<CR>
 nmap <leader>l :tabn<CR>
-
-" "let g:solarized_termcolors=16
-
-
-if !empty($VIM_CRONTAB)
-    set nobackup
-    set nowritebackup
-endif
-
-""set tags=~/.vimtags,;/./.tags
-color molokai

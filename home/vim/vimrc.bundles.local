@@ -1,4 +1,0 @@
-Bundle "sudar/vim-arduino-syntax"
-Bundle "jplaut/vim-arduino-ino"
-Bundle "mattn/emmet-vim"
-Bundle "walm/jshint.vim"

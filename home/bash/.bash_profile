@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
 
 ##### Debug ##### 
-# export bash_debug='yes'
+#export bash_debug='yes'
 if [[ "$bash_debug" == 'yes' ]]; then 
   printf '\e[38;5;37m\nbash_profile start\e[0m'
+  if [ -z "$PS1" ]; then
+    printf "\nNot running interactively"
+  else
+    printf "\nRunning interactively"
+  fi
+
 fi 
 ##### End Debug ##### 
 
@@ -32,16 +38,17 @@ if [ -x "$( which brew )" ]; then
 fi
 
 if [ -f /etc/bash_completion ]; then
-. /etc/bash_completion
+    . /etc/bash_completion
 fi
 
 if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
-. /opt/local/etc/profile.d/bash_completion.sh
+    . /opt/local/etc/profile.d/bash_completion.sh
 fi
 
 
 
 # If not running interactively, don't do anything
+# if length (-z) of "$PS1" is zero
 [ -z "$PS1" ] && return
 
 

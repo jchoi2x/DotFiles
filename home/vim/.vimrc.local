@@ -1,0 +1,62 @@
+" .vimrc.before - spf13-vim before configuration
+" .vimrc.before.fork - fork before configuration
+" .vimrc.before.local - before user configuration
+" .vimrc.bundles - spf13-vim bundle configuration
+" .vimrc.bundles.fork - fork bundle configuration
+" .vimrc.bundles.local - local user bundle configuration
+" .vimrc - spf13-vim vim configuration
+" .vimrc.fork - fork vim configuration
+" .vimrc.local - local user configuration
+
+let g:rehash256=1
+set tabstop=2
+set shiftwidth=2
+set listchars=tab:¦\ ,extends:#,nbsp:. " Highlight problematic whitespace
+set nospell
+
+
+set foldmethod=syntax   " fold based on syntax"
+set foldnestmax=10      " deepest fold is 10 levels
+set nofoldenable        " dont fold by default
+set foldlevel=1         " this is just what i use
+set mouse=""            " disable mouse in vim"
+
+
+" fix meta-keys which generate <Esc>a .. <Esc>z (http://goo.gl/2IWoUq)
+let c='a'
+while c <= 'z'
+  exec "set <M-".toupper(c).">=\e".c
+  exec "imap \e".c." <M-".toupper(c).">"
+  let c = nr2char(1+char2nr(c))
+endw
+
+
+"set shell="/usr/local/bin/bash"
+let NERDTreeIgnore=['^\.', '\~$']
+let NERDTreeChDirMode=1
+let NERDTreeHighlightCursorline=1
+let NERDTreeIgnore=['\~$', '.DS_Store', '\.git']
+
+
+map <leader><C-H> :tabp<CR>
+map <leader><C-L> :tabn<CR>
+map <C-A><C-P> :tabp<CR>
+map <C-A><C-N> :tabn<CR>
+map <leader>et :tabe 
+nmap <leader>h :tabp<CR>
+nmap <leader>l :tabn<CR>
+map <leader>B :Bookmark
+
+
+"cnoremap <C-a> <Home>
+"cnoremap <C-e> <End>
+"cnoremap <C-p> <Up>
+"cnoremap <C-n> <Down>
+cnoremap <C-b> <Left>
+cnoremap <C-f> <Right>
+cnoremap Â <S-Left>
+cnoremap Æ <S-Right>
+cnoremap <C-d> <Del>
+
+
+colorscheme molokai
