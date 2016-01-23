@@ -18,6 +18,13 @@ if [ $( uname ) == "Darwin" ]; then
   alias l='gls --color=always -lAh'
   alias fgrep='fgrep --color=always '
   alias egrep='egrep --color=always '
+
+  # less Preserve colors
+  alias less='less -r'
+
+  # Finder show/hide hidden files
+  alias showhidden='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+  alias hidehidden='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 else 
   alias grep='grep --color -E'
   alias ls='ls --color=always -h'
@@ -76,8 +83,10 @@ alias mspdebug='mspdebug rf2500 '
 ####################################################################################################
 ####### Misc Aliases
 ####################################################################################################
-alias feral='ssh -i ~/.ssh/id_rsa thrice43@thrice43.morpheus.feralhosting.com'
-alias beagle='ssh -i ~/.ssh/id_rsa kizzlebot@192.168.7.2'
+alias feral='ssh -i ~/.ssh/id_rsa thrice43@antiphates.feralhosting.com'
+alias beagle='ssh -i ~/.ssh/id_rsa debian@192.168.7.2'
+#alias beaglesync='autorsync --exclude=.gitignore  $1 root@$beagle $2'
+alias beaglesync='scp $1 root@$beagle:~/'
 alias koding='ssh vm-3.thrice43.koding.kd.io'
 #alias vim='nvim '
 
@@ -184,6 +193,7 @@ function 256_colors () {
     echo #New line
   done
 }
+
 # msp430-gcc -Os -mmcu=msp430x2012 -o main.elf main.c
 # msp430-objcopy -O ihex main.elf main.hex # generate hex file
 # mspdebug rf2500 "prog main.hex" # download to the launchpad

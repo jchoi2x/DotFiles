@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 ##### Debug ##### 
 # export bash_debug='yes'
 if [[ "$bash_debug" == 'yes' ]]; then 
@@ -12,21 +14,31 @@ fi
 # Enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
+if [ -x "$( which brew )" ]; then
+    if [ -f `brew --prefix`/etc/bash_completion ]; then
+        . `brew --prefix`/etc/bash_completion
+    fi
+
+    if [ -r `brew --repository`/Library/Contributions/brew_bash_completion.sh ]; then
+      source `brew --repository`/Library/Contributions/brew_bash_completion.sh
+    fi
+
+    GRC=$( brew --prefix grc  )
+    if [[ $? == 0 ]]; then
+        if [ -d "$GRC" ]; then
+            source $GRC/etc/grc.bashrc
+        fi
+    fi
 fi
+
 if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
+. /etc/bash_completion
 fi
+
 if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
-    . /opt/local/etc/profile.d/bash_completion.sh
-fi
-if [ -r `brew --repository`/Library/Contributions/brew_bash_completion.sh ]; then
-  source `brew --repository`/Library/Contributions/brew_bash_completion.sh
+. /opt/local/etc/profile.d/bash_completion.sh
 fi
 
-
-source "`brew --prefix grc`/etc/grc.bashrc"
 
 
 # If not running interactively, don't do anything
@@ -36,8 +48,8 @@ source "`brew --prefix grc`/etc/grc.bashrc"
 
 
 # don't put duplicate lines in the history. See bash(1) for more options
-# don't overwrite GNU Midnight Commander's setting of `ignorespace'.
 export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
+# don't overwrite GNU Midnight Commander's setting of `ignorespace'.
 export HISTCONTROL=ignoreboth
 
 # Append to the history file, don't overwrite it
@@ -45,12 +57,7 @@ case "$TERM" in
     xterm-color) color_prompt=yes;;
 esac
 
-
-
 force_color_prompt=yes
-
-
-
 
 # if force_color_prompt is a string with length greather than zero
 if [ -n "$force_color_prompt" ]; then
@@ -66,56 +73,109 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-if [ "$color_prompt" = yes ]; then
-    PS1="$PS1"
-else
-    PS1="$PS1"
-fi
 
-
-if [ $USER == 'root' ] ; then
-    PS1="$PS1"
-fi
-
-
+# Set default TERM
 export TERM=xterm-256color
-#################################################################################
-####### Set default cscope editor 
-#################################################################################
+
+# Set default cscope editor 
 export CSCOPE_EDITOR=vim
 
-#################################################################################
-####### Set bash ps1 colors 
-#################################################################################
 # Set bash prompt style colors
 export PS1='[\[\e[38;5;26m\]\A\[\e[0m\]] \[\e[38;5;241m\]\u\[\e[0m\] \[\e[38;5;24m\]\w\[\e[0m\] \$ '
 
-#################################################################################
-####### Android - file descriptor limit
-#################################################################################
-ulimit -S -n 1024
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #################################################################################
-####### Man Page Color Settings | Less options 
+####### Add to path Runtime Environments
 #################################################################################
-export EDITOR=`which nano`
-export LESS_TERMCAP_mb=$'\E[01;31m'       # begin blinking
-export LESS_TERMCAP_md=$'\E[01;38;5;74m'  # begin bold
-export LESS_TERMCAP_me=$'\E[0m'           # end mode
-export LESS_TERMCAP_se=$'\E[0m'           # end standout-mode
-export LESS_TERMCAP_so=$'\E[38;5;246m'    # begin standout-mode - info box
-export LESS_TERMCAP_ue=$'\E[0m'           # end underline
-export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 
-######################## 
-##### LESS options ##### 
-######################## 
-export LESS='-R'
-export LESSOPEN='|~/.lessfilter %s'
-export LS_OPTIONS='--color=auto'
-export CLICOLOR=1
-export GREP_OPTIONS='--color=auto'
+# ruby version manager if exists
+if [ -d "$HOME/.rvm/bin" ]; then
+    export PATH="$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
+    # If rvm script exists, load RVM into a shell session *as a function*
+    [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+elif [ -d "$HOME/.rbenv/bin" ]; then
+    # otherwise try rubyenv
+    export PATH="$HOME/.rbenv/bin:$PATH"
+    eval "$(rbenv init -)"
+else
+    export PATH=$PATH
+fi
+
+
+# rbenv
+#if [ -d "$HOME/.rbenv/bin" ]; then
+#    export PATH="$HOME/.rbenv/bin:$PATH"
+#    eval "$(rbenv init -)"
+#fi
+
+# nodeenv: Set if found in HOME
+if [ -f "$HOME/.node/bin/activate" ]; then
+    NODE_VIRTUAL_ENV_DISABLE_PROMPT=1
+    . "$HOME/.node/bin/activate"
+fi
+
+# virtualenv: Set if found in HOME
+if [ -f "$HOME/.python/bin/activate" ]; then
+    VIRTUAL_ENV_DISABLE_PROMPT=1
+    . "$HOME/.python/bin/activate"
+fi
+
+
+
+# bin folder in home directory
+if [ -d "$HOME/.bin" ]; then
+    export PATH="$HOME/.bin:$PATH"
+fi
+
+
+
+# cross-compilers: Set if found in directory
+if [ -d "/usr/local/linaro/arm-linux-gnueabihf/bin" ]; then
+    export PATH="$PATH:/usr/local/linaro/arm-linux-gnueabihf/bin"
+    export CROSS_COMPILE="arm-linux-gnueabihf-"
+fi
+
+
+#if [ -d "/usr/local/opt/coreutils/libexec/gnubin" ]; then
+#    export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+#    export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:/usr/share/man:/usr/local/share/man:$MANPATH"
+#fi
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -124,86 +184,34 @@ export GREP_OPTIONS='--color=auto'
 #################################################################################
 ####### Source other rc files and include paths
 #################################################################################
-if [ -f "$HOME/.bashrc" ]; then 
-  ##### Debug ##### 
-  if [[ "$bash_debug" == 'yes' ]]; then 
-    printf '\e[38;5;37m\nsourcing bashrc.. \e[0m'
-  fi 
+# only source bashrc and bash_aliases if login shell
+if [ ${0:0:1} == '-'  ] ; then 
+    if [ -f "$HOME/.bashrc" ]; then 
+        ##### Debug ##### 
+        if [[ "$bash_debug" == 'yes' ]]; then 
+            printf '\e[38;5;37m\nsourcing bashrc.. \e[0m'
+        fi 
+        source "$HOME/.bashrc"
+    fi
 
-  source "$HOME/.bashrc"
+    if [ -f "$HOME/.bash_aliases" ] ; then
+      ##### Debug ##### 
+      if [[ "$bash_debug" == 'yes' ]]; then 
+        printf '\e[38;5;37m\nsourcing bash_aliases.. \e[0m'
+      fi 
+      ##### End Debug ##### 
+      source "$HOME/.bash_aliases"
+    fi
 fi
-
-if [ -f "$HOME/.bash_aliases" ] ; then
-  ##### Debug ##### 
-  if [[ "$bash_debug" == 'yes' ]]; then 
-    printf '\e[38;5;37m\nsourcing bash_aliases.. \e[0m'
-  fi 
-  ##### End Debug ##### 
-  source "$HOME/.bash_aliases"
-fi
-
-
-
-
-
-
-# LS_COLORS='no=38;5;244:fi=38;5;132:rs=0:di=38;5;33:ln=38;5;37:mh=00:pi=38;5;136:so=38;5;136:do=38;5;136:bd=38;5;38:cd=38;5;94:or=40;31;01:su=36;4;10:sg=35;9;12:ca=38;5;45:tw=38;5;45:st=37;44:ex=38;5;106:*.tar=38;5;61:*.tgz=38;5;61:*.arj=38;5;61:*.taz=38;5;61:*.lzh=38;5;61:*.lzma=38;5;61:*.tlz=38;5;61:*.txz=38;5;61:*.zip=38;5;61:*.z=38;5;61:*.Z=38;5;61:*.dz=38;5;61:*.gz=38;5;61:*.lz=38;5;61:*.xz=38;5;61:*.bz2=38;5;61:*.bz=38;5;61:*.tbz=38;5;61:*.tbz2=38;5;61:*.tz=38;5;61:*.rar=38;5;61:*.cpio=38;5;61:*.7z=38;5;61:*.rz=38;5;61:*.deb=38;5;98:*.dmg=38;5;98:*.pkg=38;5;98:*.rpm=38;5;98:*.jar=38;5;98:*.apk=38;5;98:*.ace=38;5;98:*.zoo=38;5;98:*.gem=38;5;98:*.jpg=38;5;139:*.JPG=38;5;139:*.jpeg=38;5;139:*.gif=38;5;139:*.bmp=38;5;139:*.pbm=38;5;139:*.pgm=38;5;139:*.ppm=38;5;139:*.tga=38;5;139:*.xbm=38;5;139:*.xpm=38;5;139:*.tif=38;5;139:*.tiff=38;5;139:*.png=38;5;139:*.svg=38;5;139:*.svgz=38;5;139:*.mng=38;5;139:*.pcx=38;5;139:*.dl=38;5;139:*.xcf=38;5;139:*.xwd=38;5;139:*.yuv=38;5;139:*.cgm=38;5;139:*.emf=38;5;139:*.eps=38;5;139:*.CR2=38;5;139:*.ico=38;5;139:*.tex=38;5;245:*.rdf=38;5;245:*.owl=38;5;245:*.n3=38;5;245:*.ttl=38;5;245:*.nt=38;5;245:*.torrent=38;5;245:*Makefile=38;5;245:*Rakefile=38;5;245:*build.xml=38;5;245:*.rc=38;5;202:*.xml=38;5;202:*.html=38;5;202:*.cfg=38;5;202:*.conf=38;5;202:*.ini=38;5;202:*.nfo=38;5;202:*README=38;5;214:*README.txt=38;5;214:*readme.txt=38;5;214:*README.markdown=38;5;214:*.md=38;5;214:*.yml=38;5;214:*.cpp=38;5;124:*.c=38;5;124:*.py=38;5;124:*.cc=38;5;124:*.java=38;5;124:*.js=38;5;124:*.css=38;5;124:*.in=38;5;2:*.log=38;5;2:*.bak=38;5;2:*.aux=38;5;2:*.lof=38;5;2:*.lol=38;5;2:*.lot=38;5;2:*.toc=38;5;2:*.bbl=38;5;2:*.blg=38;5;2:*.part=38;5;9:*.incomplete=38;5;9:*.cache=38;5;9:*.swp=38;5;9:*.tmp=38;5;9:*.temp=38;5;9:*.o=38;5;106:*.pyc=38;5;106:*.class=38;5;106:*.out=38;5;106:*.aac=38;5;166:*.au=38;5;166:*.flac=38;5;166:*.mid=38;5;166:*.midi=38;5;166:*.mka=38;5;166:*.mp3=38;5;166:*.mpc=38;5;166:*.ogg=38;5;166:*.ra=38;5;166:*.wav=38;5;166:*.m4a=38;5;166:*.axa=38;5;166:*.oga=38;5;166:*.spx=38;5;166:*.xspf=38;5;166:*.mov=38;5;166:*.mpg=38;5;166:*.mpeg=38;5;166:*.m2v=38;5;166:*.mkv=38;5;166:*.ogm=38;5;166:*.mp4=38;5;166:*.m4v=38;5;166:*.mp4v=38;5;166:*.vob=38;5;166:*.qt=38;5;166:*.nuv=38;5;166:*.wmv=38;5;166:*.asf=38;5;166:*.rm=38;5;166:*.rmvb=38;5;166:*.flc=38;5;166:*.avi=38;5;166:*.fli=38;5;166:*.flv=38;5;166:*.gl=38;5;166:*.m2ts=38;5;166:*.divx=38;5;166:*.webm=38;5;166:*.axv=38;5;166:*.anx=38;5;166:*.ogv=38;5;166:*.ogx=38;5;166:*.pdf=38;5;21:*.app=38;5;34:'; export LS_COLORS
-export LS_COLORS='no=00;38;5;244:rs=0:di=00;38;5;33:ln=01;38;5;37:mh=00:pi=48;5;230;38;5;136;01:so=48;5;230;38;5;136;01:do=48;5;230;38;5;136;01:bd=48;5;230;38;5;244;01:cd=48;5;230;38;5;244;01:or=48;5;235;38;5;160:su=48;5;160;38;5;230:sg=48;5;136;38;5;230:ca=30;41:tw=48;5;64;38;5;230:ow=48;5;235;38;5;33:st=48;5;33;38;5;230:ex=01;38;5;64:*.tar=00;38;5;61:*.tgz=01;38;5;61:*.arj=01;38;5;61:*.taz=01;38;5;61:*.lzh=01;38;5;61:*.lzma=01;38;5;61:*.tlz=01;38;5;61:*.txz=01;38;5;61:*.zip=01;38;5;61:*.z=01;38;5;61:*.Z=01;38;5;61:*.dz=01;38;5;61:*.gz=01;38;5;61:*.lz=01;38;5;61:*.xz=01;38;5;61:*.bz2=01;38;5;61:*.bz=01;38;5;61:*.tbz=01;38;5;61:*.tbz2=01;38;5;61:*.tz=01;38;5;61:*.deb=01;38;5;61:*.rpm=01;38;5;61:*.jar=01;38;5;61:*.rar=01;38;5;61:*.ace=01;38;5;61:*.zoo=01;38;5;61:*.cpio=01;38;5;61:*.7z=01;38;5;61:*.rz=01;38;5;61:*.apk=01;38;5;61:*.gem=01;38;5;61:*.jpg=00;38;5;136:*.JPG=00;38;5;136:*.jpeg=00;38;5;136:*.gif=00;38;5;136:*.bmp=00;38;5;136:*.pbm=00;38;5;136:*.pgm=00;38;5;136:*.ppm=00;38;5;136:*.tga=00;38;5;136:*.xbm=00;38;5;136:*.xpm=00;38;5;136:*.tif=00;38;5;136:*.tiff=00;38;5;136:*.png=00;38;5;136:*.svg=00;38;5;136:*.svgz=00;38;5;136:*.mng=00;38;5;136:*.pcx=00;38;5;136:*.dl=00;38;5;136:*.xcf=00;38;5;136:*.xwd=00;38;5;136:*.yuv=00;38;5;136:*.cgm=00;38;5;136:*.emf=00;38;5;136:*.eps=00;38;5;136:*.CR2=00;38;5;136:*.ico=00;38;5;136:*.tex=01;38;5;245:*.rdf=01;38;5;245:*.owl=01;38;5;245:*.n3=01;38;5;245:*.ttl=01;38;5;245:*.nt=01;38;5;245:*.torrent=01;38;5;245:*.xml=01;38;5;245:*Makefile=01;38;5;245:*Rakefile=01;38;5;245:*build.xml=01;38;5;245:*rc=01;38;5;245:*1=01;38;5;245:*.nfo=01;38;5;245:*README=01;38;5;245:*README.txt=01;38;5;245:*readme.txt=01;38;5;245:*.md=01;38;5;245:*README.markdown=01;38;5;245:*.ini=01;38;5;245:*.yml=01;38;5;245:*.cfg=01;38;5;245:*.conf=01;38;5;245:*.c=01;38;5;245:*.cpp=01;38;5;40:*.c=03;38;5;40:*.cc=01;38;5;40:*.in=03;38;5;52:*.log=00;38;5;240:*.bak=00;38;5;240:*.aux=00;38;5;240:*.lof=00;38;5;240:*.lol=00;38;5;240:*.lot=00;38;5;240:*.out=03;38;5;28:*.toc=00;38;5;240:*.bbl=00;38;5;240:*.blg=00;38;5;240:*~=00;38;5;240:*#=00;38;5;240:*.part=00;38;5;240:*.incomplete=00;38;5;240:*.swp=00;38;5;240:*.tmp=00;38;5;240:*.temp=00;38;5;240:*.o=00;38;5;240:*.pyc=00;38;5;240:*.class=00;38;5;240:*.cache=00;38;5;240:*.aac=00;38;5;166:*.au=00;38;5;166:*.flac=00;38;5;166:*.mid=00;38;5;166:*.midi=00;38;5;166:*.mka=00;38;5;166:*.mp3=00;38;5;166:*.mpc=00;38;5;166:*.ogg=00;38;5;166:*.ra=00;38;5;166:*.wav=00;38;5;166:*.m4a=00;38;5;166:*.axa=00;38;5;166:*.oga=00;38;5;166:*.spx=00;38;5;166:*.xspf=00;38;5;166:*.mov=01;38;5;166:*.mpg=01;38;5;166:*.mpeg=01;38;5;166:*.m2v=01;38;5;166:*.mkv=01;38;5;166:*.ogm=01;38;5;166:*.mp4=01;38;5;166:*.m4v=01;38;5;166:*.mp4v=01;38;5;166:*.vob=01;38;5;166:*.qt=01;38;5;166:*.nuv=01;38;5;166:*.wmv=01;38;5;166:*.asf=01;38;5;166:*.rm=01;38;5;166:*.rmvb=01;38;5;166:*.flc=01;38;5;166:*.avi=01;38;5;166:*.fli=01;38;5;166:*.flv=01;38;5;166:*.gl=01;38;5;166:*.m2ts=01;38;5;166:*.divx=01;38;5;166:*.webm=01;38;5;166:*.axv=01;38;5;166:*.anx=01;38;5;166:*.ogv=01;38;5;166:*.ogx=01;38;5;166:*.dmg=03;38;5;202:*.pkg=03;38;5;202:*.pdf=03;38;5;21:*.app=38;5;34'
-
-# Terminal colours 
-NM="\[\033[0;38m\]"  #means no background and white lines
-HI="\[\033[0;37m\]"  #change this for letter colors
-HII="\[\033[0;31m\]" #change this for letter colors
-SI="\[\033[0;33m\]"  #this is for the current directory
-IN="\[\033[0;37m\]"
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
-
-
-
-
-
-
-
-
-#################################################################################
-####### Source other rc files and include paths
-#################################################################################
-if [ -f "$HOME/.bashrc" ]; then 
-  ##### Debug ##### 
-  if [[ "$bash_debug" == 'yes' ]]; then 
-    printf '\e[38;5;37m\nsourcing bashrc.. \e[0m'
-  fi 
-
-  source "$HOME/.bashrc"
-fi
-
-if [ -f "$HOME/.bash_aliases" ] ; then
-  ##### Debug ##### 
-  if [[ "$bash_debug" == 'yes' ]]; then 
-    printf '\e[38;5;37m\nsourcing bash_aliases.. \e[0m'
-  fi 
-  ##### End Debug ##### 
-  source "$HOME/.bash_aliases"
-fi
-
-
-
-
-
-
-
 
 
 
 
 ##### Debug ##### 
 if [[ "$bash_debug" == 'yes' ]]; then 
-  printf '\e[38;5;37m\nbash_profile end\e[0m'
+  printf '\e[38;5;37m\nbash_profile end\e[0m\n'
 fi 
 ##### End Debug ##### 
 
-# export MACPORTS_PREFIX="/opt/local"
-# export CPATH="$MACPORTS_PREFIX/include:$CPATH"
 
 
