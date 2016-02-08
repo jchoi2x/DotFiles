@@ -2,23 +2,32 @@
 /* my keybindings */
 
 {
+  "^l"  = ("centerSelectionInVisibleArea:");  /* C-l          Recenter */
+
+  /*
+   * Navigation
+   */
   "^p"  = ("moveUp:");
   "^n"  = ("moveDown:");
   "^b"  = ("moveLeft:");
   "^f"  = ("moveRight:");
-
-  "^-"  = ("undo:");                          /* C-_          Undo                  */
-
-  "^ "  = ("setMark:");                       /* C-Spc        Set mark              */
-  "^w"  = ("deleteToMark:");                  /* C-w          Delete to mark        */
-
 
   "~f"  = ("moveWordForward:");               /* M-f          Move forward word     */
   "~b"  = ("moveWordBackward:");              /* M-b          Move backward word    */
   "~d"  = ("deleteWordForward:");             /* M-d          Delete word forward   */
   "^~h" = ("deleteWordBackward:");            /* M-C-h        Delete word backward  */
 
+  /*
+   * Editing
+   */
+  "^-"  = ("undo:");                          /* C-_          Undo                  */
+  "^ "  = ("setMark:");                       /* C-Spc        Set mark              */
+  "^w"  = ("deleteToMark:");                  /* C-w          Delete to mark        */
+
+
+
   "~m" = ("moveToBeginningOfLine:", "moveWordForward:", "moveWordBackward:");
+  "~\\" = ("moveToBeginningOfLine:", "moveWordForward:", "moveWordBackward:", "deleteToBeginningOfLine:");
 
   "^v"  = ("scrollPageDown:"); 
   "~v"  = ("scrollPageUp:");
