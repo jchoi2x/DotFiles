@@ -1,0 +1,522 @@
+./rbenv  init
+nslookup 
+curl ifconfig.me
+man dig 
+dig +short myip.opendns.com @resolver1.opendns.com
+feral 
+pw
+pwf
+pwd
+ifconfig
+ifconfig en0
+ifconfig | less
+echo 7C:91:22:6F:73:24| sed -i 's/:/-/g'
+echo 7C:91:22:6F:73:24| sed -e 's/:/-/g'
+echo 7C:91:22:6F:73:24| sed -e 's/:/-/g' | pbcopy
+pbpaste| sed -e 's/:/-/g' | pbcopy
+ssh -N -R 2222:localhost:22 thrice43@antiphates.feralhosting.com
+ssh -N -R -v 2222:localhost:22 thrice43@antiphates.feralhosting.com
+man ssh
+ssh -v -N -R 2222:localhost:22 thrice43@antiphates.feralhosting.com
+which ssh
+brew search ssh
+brew info  pssh
+brew info nssh
+brew info gssh
+fearl
+feral
+
+rbenv init
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+rbenv install -l
+which ruby
+ruby --version
+rbenv install 2.3.0
+which gme
+which gem
+gem install gist
+gist --help
+ls
+cd ~/.rbenv/
+ls
+ls completions/
+rbenv completions 
+rbenv completions help
+gist --login
+gist -help
+gist --list kizzlebot
+feral
+ls
+dl
+ls
+man aria2c 
+cat ~/.bash_history 
+ls
+cat ~/.bash_history 
+vim ~/.bashrc
+echo $HISTCONTROL 
+man tcpdump 
+man aria2c 
+man tcpdump 
+echo $HISTCONTROL 
+echo $HISTCONTROL 
+vim ~/.bashrc
+cat /tmp/wifi-ZsC0S7.log
+cat /tmp/wifi-TEBsIr.log
+cat /tmp/wifi-ZCpeDN.log
+wifi-4I3dTn.log
+cat /tmp/wifi-4I3dTn.log
+wifi-4I3dTn.log
+cat /tmp/wifi-YlxAkC.log
+cat /tmp/wifi-YlxAkC.log | less
+ls /var/log/authd.log
+cat /var/log/authd.log
+cat /var/log/authd.log |less
+cat /var/log/authd.log.0.gz 
+gzip -d /var/log/authd.log.0.gz 
+gzip -dc /var/log/authd.log.0.gz 
+gzip -dc /var/log/authd.log.0.gz | less
+ls
+ls /var/
+ls /var/log/opendirectoryd.log
+cat /var/log/opendirectoryd.log
+ls
+doc
+ls
+cd devmusic/
+ls
+cat package.json 
+cat package.json | less
+ls
+cd ..
+ls
+cd react-webpack-express-boilerplate/
+ls
+cat package.json | less
+[[ -v name_of_var ]]
+[[ -v $HOME ]]
+[[ -v $HOME ]] && echo 'yes'
+vim ~/.bashrc
+vim ~/.bashrc
+[ -v $HOME ] && echo 'yes'
+[ -v $HOME ] && echo 'yes'
+[ -z $HOME ] && echo 'yes'
+[ -z $HOME ] && echo 'yes'
+vim ~/.bashrc
+[ -z "$HOME" ] && echo 'yes'
+[ -z "$HOME" ] && printf 'yes'
+[ -z "$HOME" ] 
+[ -z "$HOME" ] && ls
+[ -z "$HOME" ] && ls
+vim ~/.bashrc
+[ -z "$PS!" ] && ls || ps
+[ -z "$var" ] && echo "Empty"
+[ -z "$var" ] && echo "Empty" || make
+[ -z "$HOME" ] && echo "Empty" || make
+ls
+vim package.json 
+npm run fun
+vim package.json 
+npm run fun
+npm run fun
+npm run fun
+vim package.json 
+npm run fun
+man test
+test $HOME
+test "$HOME"
+test $HOME
+test $HOME
+man test
+test -z $HOME
+man test
+man test
+man 
+test 2 = 2
+vim package.json 
+test 2 = 2
+npm run fun
+npm run 
+test -z "$HOME"
+test -z "$HOME" && echo 'hi'
+test -z "$HOME" && echo 'hi' || echo 'what'
+vim package.json 
+npm run 
+npm run fun
+vim package.json 
+npm run fun
+test -z "$HME" && printf "hi" || printf 'ok'
+test -z "$HOME" && printf "hi" || printf 'ok'
+test -z "$HOME" && make install || echo 'oo'
+test -z "$HOE" && make install || echo 'oo'
+echo test -z "$HOE" && make install || echo 'oo' | pbcopy
+vim package.json 
+echo test -z $HOE && make install || echo 'oo' | pbcopy
+echo test -z $HOME && make install || echo 'oo' | pbcopy
+echo test -z '$HOME' && make install || echo 'oo' | pbcopy
+echo test -z '$HOME' && make install || echo 'oo
+ test -z '$HOME' && make install || echo 'oo
+ test -z '$HOME' && make install || echo 'oo'
+ test -z '$OME' && make install || echo 'oo'
+ test -z "$HOME" && make install || echo 'oo'
+ test -z "$HOM" && make install || echo 'oo'
+ test -z "$DEV" && echo 'oo' || make install 
+ test -z "$DEV" && make install || echo 'yo
+'
+ test -z "$DEV" && make install || return 
+ test -z "$HOME" && make install || return 
+ test -z "$HOME" && make install || return  0
+ test -z "$HOME" && make install || return;
+ test -z "$HOME" && make install || return
+ test -z "$HOME" && make install
+ test -n "$HOME" && make install
+ test -n "$DEV" && make install
+vim package.json 
+ test -n "$DEV" && make install
+npm run-script fun
+vim package.json 
+npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+ls
+rm okay 
+vim package.json 
+HME=1 npm run-script fun
+ls
+rm okay 
+npm run-script fun
+vim package.json 
+npm run-script fun
+vim package.json 
+npm run-script fun
+ls
+test -n "$DEV" && make install
+DEV=1; test -n "$DEV" && make install
+DEV=1; [ -n "$DEV" ] && make install
+[ -n "$DEV" ] && make install
+DEV
+echo $DEV
+unset DEV
+[ -n "$DEV" ] && make install
+DEV=1 [ -n "$DEV" ] && make install
+DEV=1 &&  [ -n "$DEV" ] && make install
+DEV &&  [ -n "$DEV" ] && make install
+DEV=0 &&  [ -n "$DEV" ] && make install
+H=1 &&  [ -n "$DEV" ] && make install
+DEV
+echo $DEV
+unset $DEV
+vim package.json 
+npm run-script fun
+vim package.json 
+no
+npm run-script fun
+vim package.json 
+npm run-script fun
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+npm run-script fun
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+ls
+rm okay 
+npm run-script fun
+ls
+rm okay 
+echo $HME
+ls
+vim package.json 
+vim package.json 
+npm run-script fun
+vim package.json 
+npm run-script fun
+ls
+vim package.json 
+ls
+npm run-script fun
+npm run-script fun --production
+vim package.json 
+npm run-script fun --production
+cat okay 
+rm okay 
+vim package.json 
+npm run-script fun --production
+npm run-script fun
+vim package.json 
+npm run-script fun
+man test
+vim package.json 
+man test
+npm run-script fun
+man test
+npm run-script fun
+vim package.json 
+npm run-script fun
+vim package.json 
+npm run-script fun
+npm run-script fun --production
+vim package.json 
+npm run-script fun --production
+npm run-script fun
+npm run-script fun
+npm run-script fun
+vim package.json 
+npm run-script fun
+npm run-script fun --production
+npm install --production
+npm run
+npm run ls
+bash
+sh
+fing
+vim /Users/kizzlebot/.bashrc 
+traceroute 10.230.32.206
+rbenv completions help
+gist --login
+gist -help
+gist --list kizzlebot
+feral
+dl
+man aria2c 
+cat ~/.bash_history 
+cat ~/.bash_history 
+vim ~/.bashrc
+echo $HISTCONTROL 
+man tcpdump 
+man aria2c 
+man tcpdump 
+echo $HISTCONTROL 
+source /Users/kizzlebot/.bash_profile 
+airport -s
+tcpdump --help
+airport --help
+airport --channel=36,+1
+sudo airport --channel=36,+1
+sudo airport --channel=40,-1
+airport -d
+airport -z
+sudo airport --channel=40,1
+sudo airport --channel=40,+1
+sudo airport -z
+airport --channel
+sudo airport -s
+airport en0 sniff 1
+airport en0 sniff 2
+rm /tmp/airportSniff*
+airport en0 sniff 
+history
+history| less
+ls ~/.ssh/config 
+cat ~/.ssh/config 
+cd /tmp
+ls
+ls -la
+ls -t
+ls -lat
+vim /Users/kizzlebot/.bash_profile 
+[ -z "$PS1" ] && return
+if test -n "HI"
+if test -n "HI" ; thne
+if test -n "HI" ; then echo 'hi' ; fi
+if test -n "$HOME" ; then echo 'hi' ; fi
+if test -n "$HOM" ; then echo 'hi' ; fi
+if test "$NODE_ENV" == 'production' ^C then echo 'hi' ; fi
+if test "$NODE_ENV" == 'production' ; then echo 'hi' ; fi
+test "$NODE_ENV" == 'production' && echo 'hi'
+traceroute 10.230.32.206
+history 
+history  | less
+arp -a
+sudo fing
+npm run ls
+traceroute 10.230.32.206
+vim /Users/kizzlebot/.bashrc 
+history 
+history |grep traceroute
+vim /Users/kizzlebot/.bash_history 
+ifconfig en0
+fing -i
+fing --help
+fing -s
+fing -n
+fing -d
+wireshark 
+echo aria2c -x10 http://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Office_2016_Installer.pkg
+echo aria2c -x10 http://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Office_2016_Installer.pkg |pbcopy
+cl
+dl
+aria2c -x10 http://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Office_2016_Installer.pkg
+aria2c -x10 -s10 http://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Office_2016_Installer.pkg
+open Microsoft_Office_2016_Installer.pkg 
+dns-sd -q Jamess-MacBook-Pro.local
+ssh 10.254.130.143
+pin kizzlebot@10.254.130.143
+ping 10.254.130.143
+ping Jamess-MacBook-Pro.local
+ssh Jamess-MacBook-Pro.local
+ssh kizzlebot@Jamess-MacBook-Pro.local
+arp -a
+ssh kizzlebot@Jamess-MacBook-Pro.local
+
+ping kizzlebot@Jamess-MacBook-Pro.local
+ping Jamess-MacBook-Pro.local
+dmesg
+sudo dmesg
+arp -na
+dig 10.254.24.1 
+dig 10.254.25.92
+sudo dmesg
+arp
+arp -d Jamess-MacBook Pro
+ping kizzlebot@Jamess-MacBook-Pro.local
+netstat 
+ping Jamess-MacBook-Pro.local
+arp
+arp -d 10.254.130.143
+arp -na
+cat /System/Library/LaunchDaemons/ssh.plist 
+cat /var/log/asl/2016.02.22.*
+cat /var/log/asl/2016.02.22.G80.asl 
+1;2cgrep sshd /var/log/system.log
+grep sshd /var/log/system.log
+cat /var/log/system.log
+cat /var/log/system.log| less
+arp -na
+/System/Library/PrivateFrameworks/Apple80211.framework/\
+cd /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport
+cd /System/Library/PrivateFrameworks/Apple80211.framework/
+ls
+cd Versions/
+ls
+ls -la Current
+cd A/
+ls
+ls Resources/
+ls
+cd Resources/
+ls
+./airport 
+cd ../../
+ls
+cd Current 
+ls
+cd Resources/
+ls
+ln -s airport /usr/local/bin/
+airport
+rm /usr/local/bin/airport 
+ln -s $PWD/airport /usr/local/bin/airport
+airport 
+sudo airport sniff en1
+ifconfig
+ifconfig|less
+sudo airport sniff en0
+sudo airport en0 -s
+ls
+cat talagent.log.0 
+cat talagent.log.0  | less
+ls -la
+cat talagent.log
+ls CloudServices/
+ls accountsd/
+airport -s
+arp -na
+man arp
+arp -a
+man arp
+arp -a
+hostname -i
+hostname 
+hostname -help
+man hostname
+hostname -s
+man hostname
+hostname 
+arp -a
+arp -a| less
+arp -a| grep 10.195.8.147
+arp -a| grep D0:25
+arp -a| grep 10.195.8.147
+arp -a| grep f4:5c
+arp -a| grep D0:25
+arp -a| grep 
+arp -a| less
+cd
+ls
+cd Desktop/
+ls
+tcpdump -qns 0 -A -r 2016.02.23_19-45-18-EST.wcap 
+ls
+airport en0 sniff 11
+tcpdump -qns 0 -A -r /tmp/airportSniffz7HW9G.cap 
+airport --channel=48
+sudo airport --channel=48
+sudo airport en1 -s
+sudo airport en0 -s
+sudo airport --channel=1
+sudo airport --help
+sudo airport --getinfo
+sudo airport --channel=1
+sudo airport --getinfo
+sudo airport --channel=+1
+sudo airport --getinfo
+sudo airport --channel=12
+sudo airport --getinfo
+arp -a
+arp -n
+arp -na
+arp -na -i en0
+ifconfig en0
+airport -s
+sudo airport -s
+tcpdump -I -P -i en0 -w /tmp/airportSniffz7HW9G.cap 
+tcpdump -I -P -i en0 -w /tmp/airportSniffz7HW9G.pcap 
+tcpdump -qns 0 -A -r /tmp/airportSniffz7HW9G.pcap 
+ifconfig en0
+man tcpdump 
+tcpdump -nni en0 -v -w /tmp/tcpdump.pcap
+tcpdump -nni en0 -v -w /tmp/"capture_`date '+%m_%d-%Y[%H:%M:%S]'`.pcap"
+tcpdump -nni en0 -v -w /tmp/"capture_`date '+%m_%d-%Y\[%H:%M:%S\]'`.pcap"
+rm /tmp/capture_02_23-2016*
+tcpdump -nni en0 -v -w /tmp/"capture_`date '+%m_%d-%Y\[%H:%M:%S\]'`.pcap"
+rm /tmp/capture_02_23-2016\\\[20\:27\:16\\\].pcap 
+tcpdump -nni en0 -v -w /tmp/"capture_`date '+%m_%d-%Y[%H:%M:%S]'`.pcap"
+tcpdump -nni en0 -v -w /tmp/"capture_`date '+%m_%d-%Y_%H:%M:%S_'`.pcap"
+tcpdump -nni en0 -v -w /tmp/"capture_`date '+%m_%d-%Y(%H:%M:%S)'`.pcap"
+rm /tmp/capture_02_23-2016*
+tcpdump -nni en0 -v -w /tmp/"capture_`date '+%m_%d-%Y(%H:%M:%S)'`.pcap"
+tcpdump -ennr /tmp/capture_02_23-2016\(20\:31\:46\).pcap '(type mgt subtype beacon)' | awk '{print $13, $17}' | sed "s/[()]//g;s/......//"  | sort | uniq
+tcpdump -nni en0 -v -w /tmp/"capture_`date '+%m_%d-%Y(%H:%M:%S)'`.pcap"
+history 
+history  | less
+man test
+npm run-script fun
+npm run-script fun --production
+npm install --production
+npm run
+npm run ls
+vim /Users/kizzlebot/.bash_profile 
+vim /Users/kizzlebot/.bash_aliases 
+vim /etc/bashrc
+vim /etc/profile 
+vim /Users/kizzlebot/.bashrc 
+bash_debug
+bash_debug=1
+export bash_debug=1
+export bash_debug='yes'
+bash
+brew info aircrack-ng
+brew install aircrack-ng-oui-update
+brew install aircrack-ng
+ifconfig
+dmesg
+sudo dmesg
+sudo dmesg| less

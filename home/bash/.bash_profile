@@ -54,10 +54,12 @@ fi
 
 
 
-# don't put duplicate lines in the history. See bash(1) for more options
-export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
+
 # don't overwrite GNU Midnight Commander's setting of `ignorespace'.
 export HISTCONTROL=ignoreboth
+# don't put duplicate lines in the history. See bash(1) for more options
+export HISTCONTROL=$HISTCONTROL${HISTCONTROL+:}ignoredups:erasedups
+
 
 # Append to the history file, don't overwrite it
 case "$TERM" in
@@ -133,10 +135,10 @@ fi
 
 
 # rbenv
-#if [ -d "$HOME/.rbenv/bin" ]; then
-#    export PATH="$HOME/.rbenv/bin:$PATH"
-#    eval "$(rbenv init -)"
-#fi
+if [ -d "$HOME/.rbenv/bin" ]; then
+    export PATH="$HOME/.rbenv/bin:$PATH"
+    eval "$(rbenv init -)"
+fi
 
 # nodeenv: Set if found in HOME
 if [ -f "$HOME/.node/bin/activate" ]; then
@@ -144,18 +146,27 @@ if [ -f "$HOME/.node/bin/activate" ]; then
     . "$HOME/.node/bin/activate"
 fi
 
+if [ -d "$HOME/.nvm" ]; then
+  export NVM_DIR="$HOME/.nvm"
+  if [ -s "$(brew --prefix nvm)/nvm.sh" ] ; then 
+    . "$(brew --prefix nvm)/nvm.sh"
+  fi
+  # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm if nvm.sh exists
+fi
+
+
 # virtualenv: Set if found in HOME
 if [ -f "$HOME/.python/bin/activate" ]; then
     VIRTUAL_ENV_DISABLE_PROMPT=1
     . "$HOME/.python/bin/activate"
 fi
 
-
-
 # bin folder in home directory
 if [ -d "$HOME/.bin" ]; then
     export PATH="$HOME/.bin:$PATH"
 fi
+
+export NODE_REPL_HISTORY="$HOME/.node_repl_history"
 
 
 
@@ -165,7 +176,7 @@ if [ -d "/usr/local/linaro/arm-linux-gnueabihf/bin" ]; then
     export CROSS_COMPILE="arm-linux-gnueabihf-"
 fi
 
-
+export HOMEBREW_GITHUB_API_TOKEN=602f1bcd196538065a4ba93c5b683bd25faf4e2a
 #if [ -d "/usr/local/opt/coreutils/libexec/gnubin" ]; then
 #    export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 #    export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:/usr/share/man:/usr/local/share/man:$MANPATH"
@@ -219,6 +230,5 @@ if [[ "$bash_debug" == 'yes' ]]; then
   printf '\e[38;5;37m\nbash_profile end\e[0m\n'
 fi 
 ##### End Debug ##### 
-
 
 

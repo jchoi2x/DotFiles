@@ -11,11 +11,22 @@ fi
 ###################################################################################################
 # If on Mac OS X then alias ls to use GNU binutils
 if [ $( uname ) == "Darwin" ]; then 
+
   alias grep='grep --color -E'
-  alias dircolors='gdircolors'
-  alias ls='gls --color=always -h'
-  alias ll='gls --color=always -lh'
-  alias l='gls --color=always -lAh'
+  if hash ggrep 2>/dev/null; then
+    alias ggrep='ggrep --color=always'
+  fi
+  if hash gls 2>/dev/null; then
+		alias dircolors='gdircolors'
+		alias ls='gls --color=always -h'
+		alias ll='gls --color=always -lh'
+		alias l='gls --color=always -lAh'
+	else
+		alias ls='ls -G'	
+		alias ll='ls -G'
+		alias l='ls -G'
+  fi
+
   alias fgrep='fgrep --color=always '
   alias egrep='egrep --color=always '
 
@@ -52,6 +63,14 @@ alias ..="cd .."
 alias tree='tree -CA'
 alias scat='pygmentize -g '
 
+
+# Aliases for git projects
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+
+
+
 # hide/unhide folders from Finder
 alias hide='chflags hidden '
 alias unhide='chflags nohidden ' 
@@ -83,7 +102,12 @@ alias mspdebug='mspdebug rf2500 '
 ####################################################################################################
 ####### Misc Aliases
 ####################################################################################################
-alias feral='ssh -i ~/.ssh/id_rsa thrice43@antiphates.feralhosting.com'
+alias feral='ssh thrice43@antiphates.feralhosting.com'
+function feralcp(){
+    scp "$@" thrice43@antiphates.feralhosting.com:$1 $2
+}
+
+
 alias beagle='ssh -i ~/.ssh/id_rsa debian@192.168.7.2'
 #alias beaglesync='autorsync --exclude=.gitignore  $1 root@$beagle $2'
 alias beaglesync='scp $1 root@$beagle:~/'

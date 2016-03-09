@@ -1,500 +1,500 @@
-ls
-ls -la
-cat .eslintrc 
-pip install pylint
-which babel-node
-npm install --global semistandard
-npm install tern --global
-subl --help
-subl --project express.sublime-project 
-ls
-cd /Users/kizzlebot/Library/Application\ Support
-ls
-ls Sublime\ Text\ 3/
-ls
-cd Sublime\ Text\ 3/
-ls
-ls Installed\ Packages/
-cd Installed\ Packages/
-ls
-rm TernJS.sublime-package 
-vim src/server.js 
-git ls-files
-git --version
-brew upgrade
-vim /usr/local/etc/bash_completion.d/git-completion.bash/local/etc/bash_completion.d/git-completion.bash 
-vim /usr/local/etc/bash_completion.d/git-completion.bash
-git list merge 
-git list merge strategie
-git list merge strategies
-vim /usr/local/etc/bash_completion.d/git-completion.bash
-git remotes
-vim /usr/local/etc/bash_completion.d/git-completion.bash
-source /usr/local/etc/bash_completion.d/git-completion.bash
-vim /usr/local/etc/bash_completion.d/git-completion.bash
-source /usr/local/etc/bash_completion.d/git-completion.bash
-cd
-ls
-doc
-ls
-cat /Users/kizzlebot/.eslintrc 
-vim /Users/kizzlebot/.eslintrc 
-ls
-cd react-isomorphic-starterkit/
-npm link eslint
-which eslint 
-eslint 
-ls node_modules/.bin/eslint 
-ls
-npm install eslint babel-eslint --save-dev
-which eslint 
-vim package.json 
-npm run lint
-rm npm-debug.log 
-vim package.json 
-rm npm-debug.log 
-npm run lint
-npm install optionator
-npm install optionator --save
-npm install 
-cat /Users/kizzlebot/.eslintrc 
-vim /Users/kizzlebot/.eslintrc 
-cat /Users/kizzlebot/.eslintrc 
-vim /Users/kizzlebot/.eslintrc 
-cat /Users/kizzlebot/.eslintrc 
-vim /Users/kizzlebot/.eslintrc 
-cd ..
-subl .
-subl --project express.sublime-project 
-git status
-git remote show origin 
-git remote rm origin
-git add .
-git commit -m'init'
-git push origin master 
-ls
-vim /Users/kizzlebot/.eslintrc 
-eslint app/main.js 
-which eslint 
-npm unlink eslint
-which eslint 
-eslint
-npm install -g eslint 
-tern 
-npm start
-ls
-mkdir app/components/pages
-pbpaste> app/components/pages/home.jsx
-mv app/components/pages/home.jsx app/components/pages/home.js
-npm start
-eslint
-npm start
-ls
-cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/components/* ./app/components/
-cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/app-routes.jsx ./app/components/
-cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/app.jsx ./app/components/main.js
-npm start
-cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/components/pages/* ./app/components/pages/
-npm start
-ls
-cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/components/pages/* ./app/components/pages/
-npm start
-cp -r /Users/kizzlebot/.tmp/material-ui/docs/src/app/components/pages/* ./app/components/pages/
-ls
-npm install -g optionator
-cd
-tmp
-git clone https://github.com/callemall/material-ui.git
-cd material-ui/
-ls
-cd examples/
-ls
-cd webpack-example/
-ls
-cd src/app/components/
-ls
-cd ..
-ls
-cd
-tmp
-cd material-ui/
-ls
-cd docs/src/
-ls
-cd app/components/
-ls
-cd pages/
-ls
-cp -rfq /Users/kizzlebot/Documents/webpack-express-boilerplate/app/components/pages/
-cp -rf /Users/kizzlebot/Documents/webpack-express-boilerplate/app/components/pages/
-cp -rf * /Users/kizzlebot/Documents/webpack-express-boilerplate/app/components/pages/
-ls
-cd ..
-ls
-cat master.jsx 
-ls
-lcd 
-cd ..
-git clone https://github.com/rackt/react-router.git
-npm install eslint-plugin-react --global
-ls
-cd react-router/
-ls
-cd examples/
-ls
-cat README.md 
-npm install 
-ls
-npm start
-subl 
-ls
-ls> /Users/kizzlebot/.tmp/installed
-cat /Users/kizzlebot/.tmp/installed 
-ls
-vim /Users/kizzlebot/.tmp/installed 
-cd ..
-ls
-ls Settings/
-ls
-cd ..
-ls
-cp -r  Sublime\ Text\ 3/ ~/.tmp
-rm -rf Sublime\ Text\ 3/
-rm -rf Sublime\ Text\ 2/
-ls
-cp /Users/kizzlebot/.tmp/Local/* Sublime\ Text\ 3/Local/
-ls
-ls /Users/kizzlebot/.tmp/Packages/User/Default\ \(OSX\).sublime-keymap ./Sublime\ Text\ 3/Packages/User/
-cp /Users/kizzlebot/.tmp/Packages/User/Default\ \(OSX\).sublime-keymap ./Sublime\ Text\ 3/Packages/User/
-ls
-cd Sublime\ Text\ 3/
-ls
-cd Packages/
-ls
-cp /Users/kizzlebot/.tmp/Packages/User/Preferences.sublime-settings ./User/
-ls
-ls User/
-cp /Users/kizzlebot/.tmp/Packages/User/Zeus-Sublime-Text-Darker.tmTheme .
-pbpaste >  /Users/kizzlebot/.tmp/Packages/User/Zeus-Sublime-Text-Darker.tmTheme 
-pbpaste >  /Users/kizzlebot/.tmp/Packages/User/Zeus-Sublime-Text.tmTheme 
-ls
-cdls
-ls
-mkdir Zeus
-mkdir Sublime\ Text 
-ls
-mv Zeus-Sublime-Text-Darker.tmTheme Zeus/
-mv Sublime\ Text/ Zeus/
-ls
-cd Zeus/
-ls
-mv Zeus-Sublime-Text-Darker.tmTheme Sublime\ Text/
-ls ../User/
-ls
-ls ../
-cd Sublime\ Text/
-ls
-pbpaste > Zeus-Sublime-Text.tmTheme 
-ls
-cd ..
-ls
-cd
-ls
-rm -r /Users/kizzlebot/.tmp/*
-rm -rf /Users/kizzlebot/.tmp/*
-npm install -g tern
-which tern 
-ls
-doc
-ls
-rm -r reactboiler/
-rm -rf reactboiler/
-ls
-npm install babel-eslint --global
-ls
-cd webpack-express-boilerplate/
-ls
-npm start
-git status
-git st
-git add .
-git a
-git a .
-git co -m'upate'
-git update -m'upate'
-git commit -m'upate'
-git push origin master 
-git branch renew
-git checkout renew
-ls
-git status
-git checkout master
-git reset --hard 
-ls
-git status
-git clean -f
-git clean -fd
-ls
-npm start
-ls
-mkdir .logs
-touch .logs/info-logs.log
-npm start
-git reset --hard
-npm start
-git reset --hard
-npm start
-git reset --hard
-npm start
-ls
-git status
-git checkout renew 
-git status
-git add .
-git commit -m'update'
-git push origin renew 
-ls
-git rm app/style/{App,common}.scss 
-rm app/style/{App,common}.scss 
-ls
-git add .
-git commit -m'remove unused scss files'
-git push origin renew 
-npm start
-p
-npm start
-git lfs
-git --version
-brew install git-lfs
-git lfs
-npm start
-s
-ls
-pbpaste > config/passport.js
-npm install bcrypt-nodejs mongoose --save
-feral
-ls
-vim server.js 
-ls
-vim server/app.js 
-ls
-cp -r ../webpack-express-boilerplate/config/ ./
-ls
-mkdir config
-mv logger.js passport.js middleware.config.js config
-ls
-cd config/
-ls
-cd ../
-ls
-mkdir models
-cp ../webpack-express-boilerplate/models/User.js ./models/
-ls
-vim server.js 
-mongod --dbpath /Users/kizzlebot/.mongo -vvv
-npm start
-nodemon server.js 
-nodemon --exec babel-node server.js 
-git add .
-git commit -m'need api working'
-git push 
-git push origin renew 
-cd ..
-git clone https://github.com/glenjamin/ultimate-hot-reloading-example.git
-ls
-cd ultimate-hot-reloading-example/
-ls
-npm install
-ls
-npm start
-ls
-vim server
-vim server.js 
-vim /Users/kizzlebot/.vimrc.local 
-vim server.js 
-npm start
-ls
-vim GulpFile.js 
-ls
-gulp --rtl --name app
-vim GulpFile.js 
-gulp --rtl --name app
-vim GulpFile.js 
-gulp --rtl --name app
-vim webpack.config.js 
-gulp --rtl --name app
-subl .
-npm install -g node-glob
-npm install -g glob
-ls
-nesh
-bpython
-tmp
-ls
-touch wrap.py
-pbpaste> wrap.py
-bpython
-ls
-vim wrap.py 
-bpython
-ipython
-pbpaste > wrap.py 
-bpython
-npm install -g wiredep 
-ls
-docs
-ls
-cd rubixreact/
-ls
-git status
-ls
-cd default/
-ls
-cd rubix-3.0/
-ls
-ls ../../
-npm install
-npm start
-vim package.json 
-npm start
-git remote show origin 
-feral
-doc
-ls
-git clone https://github.com/kizzlebot/DotFiles.git
-cd DotFiles/
-ls
-vim setup.sh 
-ls
-cd home/
-ls
-cd bash/
-ls
-ls -la
-cp /Users/kizzlebot/.{bash_aliases,bashrc,bash_profile} .
-ls
-git add .
-git commit -m'update'
-git push
-cd ..
-ls
-cd git/
-ls
-cat .gitconfig 
-cat /Users/kizzlebot/.gitconfig 
-vim /Users/kizzlebot/.gitconfig 
-vim .gitconfig 
-cat /Users/kizzlebot/.gitignore 
-cat .gitignore 
-cp /Users/kizzlebot/.gitignore  ./
-cd ..
-ls
-cd vim/
-ls
-cat /Users/kizzlebot/.vimrc.before.local 
-cat vimrc.local 
-cat /Users/kizzlebot/.vimrc.before.local 
-vim vimrc.local 
-cat /Users/kizzlebot/.vimrc.before.local 
-vim /Users/kizzlebot/.vimrc.before.local 
-cat /Users/kizzlebot/.vimrc.before.local 
-vim vimrc.local 
-vim /Users/kizzlebot/.vimrc.local 
-cat vimrc.local 
-vim /Users/kizzlebot/.vimrc.local 
-ls
-cp /Users/kizzlebot/.vimrc.local ./vimrc.local 
-ls -la
-for i in ./*; do echo $i; done
-for i in ./*; do echo ./$i; done
-for i in *; do echo ./$i; done
-for i in *; do echo ./.$i; done
-for i in *; do mv $i .$i; done
-ls
-ls -la
-git add .
-cd ..
-ls
-ls browser/
-ls -la browser/
-ls
-cd ..
-ls
-ls system/
-tmp
-ls
-pbpaste sudo.sh
-pbpaste > sudo.sh
-chmod +x sudo.sh 
-. sudo.sh 
-tmp
-pbpaste > sudo.sh
-chmod +x sudo.sh 
-../sudo.sh 
-./sudo.sh 
-vim sudo.sh 
-./sudo.sh 
-vim sudo.sh 
-which env
-vim sudo.sh 
-which env
-./sudo.sh 
-cat /.file 
-sudo su
-vim ~/.bashrc
-export bash_debug=1
-source ~/.bashrc
-vim ~/.bashrc
-export bash_debug='yes'
-source ~/.bashrc
-source /Users/kizzlebot/.bash_profile
-vim /Users/kizzlebot/.bashrc 
-source /Users/kizzlebot/.bashrc 
-vim /Users/kizzlebot/.bashrc 
-source /Users/kizzlebot/.bashrc 
-source /Users/kizzlebot/.bash_profile
-source /Users/kizzlebot/.bashrc 
-vim /Users/kizzlebot/.bash_profile
-source /Users/kizzlebot/.bashrc 
-vim /Users/kizzlebot/.bash_profile
-source /Users/kizzlebot/.bash_profile
-vim /Users/kizzlebot/.bash_profile
-sudo su
-sudo vim /var/root/.bash_profile
-sudo su
-ls
-tmux
-screen 
-ls /var/root/.bashrc 
-cat /var/root/.bashrc 
+{ print RSTART }
+END { print "Num:", n }
+' 
+airport -s | awk '
+BEGIN { if (match("$1", /[0-9]{2}:/)){ ++n }
 
+END
+
+'
+airport -s | awk '
+BEGIN { if (match("$1", /[0-9]{2}:/)){ ++n }
+
+END'
+airport -s | awk '
+BEGIN { if (match("$1", /[0-9]{2}:/)){ ++n }'
+airport -s | awk '
+BEGIN { if (match(\"$1\", /[0-9]{2}:/)){ ++n }'
+airport -s | awk '
+BEGIN { if (match("$1", /[0-9]{2}:/)){ ++n }'
+airport -s | awk '
+if (match("$1", /[0-9]{2}:/)){ print $1 }'
+airport -s | awk '
+if (match("$1", /[0-9]{2}:/)){ print "$1" }'
+airport -s | awk '
+{ if (match("$1", /[0-9]{2}:/)){ print "$1" } }'
+airport -s | awk '
+{ if (match("$1", /[0-9]{2}:/)){ print $1 } }'
+airport -s | awk '
+{ if (match($1, /[0-9]{2}:/)){ print $1 } }'
+airport -s | awk '
+{ if (match("9C:", /[0-9a-zA-Z]{2}:/)){ print $1 } }'
+airport -s | awk '
+{ if (match($1, /[0-9a-zA-Z]{2}:/)){ print $1 } }'
+airport -s | awk '
+{ if (match($1, /[0-9a-zA-Z]{2}/)){ print $1 } }'
+airport -s | awk '
+{ if (match($1, /[0-9a-zA-Z]{2}/)){ print RSTART } }'
+airport -s | awk '
+{ if (match($1, /[0-9a-zA-Z]{2}:/)){ print RSTART } }'
+airport -s | awk '
+{ if (match($1, /[.]{2}:/)){ print RSTART } }'
+airport -s | awk '
+{ if (match($1, /.{2}:/)){ print RSTART } }'
+airport -s | awk '
+{ if (match($1, /[:print:]{}:/)){ print RSTART } }'
+airport -s | awk '
+{ if (match($1, /[A-Za-z0-9]/)){ print RSTART } }'
+airport -s | awk '
+{ if (match($1, /[A-Za-z0-9]:/)){ print RSTART } }'
+airport -s | awk '
+{ if (match($1, /[A-Za-z0-9]\:/)){ print RSTART } }'
+airport -s | grep -ie /[A-Za-z0-9]/
+airport -s | grep -ie '[A-Za-z0-9]'
+airport -s | grep -ie '[A-Za-z0-9]:'
+airport -s | grep -ie '[A-Za-z0-9]{2}:'
+airport -s | grep -ie '([A-Za-z0-9]{2}:){5}'
+
+airport -s | awk '
+{ /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/ { print $1 }'
+airport -s | awk '
+ /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/ { print $1 }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($1, regex)){ print $1 }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($1, regex)){ print $1 }}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($1, regex)){ print $1 }}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ print RSTART }}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ print sub(\*\*, " ") }}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ x = sub(\*\*, " ") ; print x}}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){  split($0, a, regex, seps }}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){  split($0, a, regex, seps) }}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){  split($0, a, /0/, seps) } }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){  }
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){  } }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ split($0, a, ":", sep)  } }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ split($0, a, "\:", sep)  } }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ split($0, a, "9c", sep)  } }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ split($0, a, \"9c\", sep)  } }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ split($0, a, sep)  } }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ split($0, a, sep)  } 
+{ print a }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ split($0, a, sep)  } 
+{ print a }}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ split($0, a, sep)  } 
+{ print a[0] }}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{ if(match($0, regex)){ split($0, a, sep)  } 
+{ print a[1] }}'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, sep)  } 
+{ print a }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, sep)  } 
+{ print a[0] }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, " ", sep)  } 
+{ print a[0] }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, \" \", sep)  } 
+{ print a[0] }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, "\ ", sep)  } 
+{ print a[0] }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, " ")  } 
+{ print a[0] }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, " ")  } 
+{ print a[1] }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, " ")  } 
+{ print a[2] }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, regex)  } 
+{ print a[2] }'
+airport -s | awk '
+ BEGIN { regex = /([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/}
+{split($0, a, regex)  } 
+{ print a[1] }'
+airport -s | sed 's/^[^(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})]//'
+airport -s | grep '([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}'
+airport -s | cut -d'([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}'
+airport -s | cut -d/([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}/
+echo "US/Central - 10:26 PM (CST)" | grep -oP "\-\s+\K\d{2}:\d{2}"
+echo "US/Central - 10:26 PM (CST)" | grep -oE '[0-9]{2}
+'
+echo "US/Central - 10:26 PM (CST)" | grep -oE '[0-9]{2}'
+airport -s | grep -oE '([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}'
+airport -s | grep -oE '*(?=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+airport -s | grep -oE '(?=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+airport -s | grep -oE '(?=(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+airport -s | grep -oE '(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+airport -s | grep  '(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+airport -s | grep  '?=(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+airport -s | grep  '?=(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+airport -s | grep  '\w+(?=(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+airport -s | grep  '(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+airport -s | grep -o  '(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+brew tap homebrew/dupes; brew install grep
+brew info grep
+brew install grep --with-default-names
+grep -
+grep -P
+grep --help
+echo $GREP_OPTIONS 
+/usr/bin/grep 
+/usr/bin/grep --help
+man grep 2
+man grep 1
+man
+man man
+man grep(1)
+man 1 grep
+man -k grep
+brew uninstall grep
+brew install grep 
+ggrep 
+ggrep --help
+man ggrep
+man grep
+airport -s | grep  '(?=(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+which grep
+grep
+spoof-mac en0 fc:c2:de:74:45:ce 
+spoof-mac set en0 fc:c2:de:74:45:ce 
+sudo spoof-mac set  fc:c2:de:74:45:ce  en0
+cd
+cd .bin
 ls
-sudo cp /Users/kizzlebot/.bash* /var/root/
+cat listwifi.py
+spoof-mac list --wifi
+spoof-mac set  fc:c2:de:74:45:ce  en0
+airport 
+networksetup -setairportnetwork en0 GUEST
+networksetup -setairportnetwork en0 NSU
+airport -s | tail -n 
+airport -s | tail -n1
+airport -s | tail -n1 | awk `{print $2}'
+airport -s | tail -n1 | awk '{print $2}'
+airport -s | head -n1 | awk '{print $2}'
+airport -s | head -n+1 | awk '{print $2}'
+airport -s | tail -n+1 | awk '{print $2}'
+feral
+vim ~/.bashrc
+vim /Users/kizzlebot/.bash_aliases 
+grep
+cat ~/.bashrc | grep 'GREP_OPTIONS'
+bpython
+vim listwifi.py
+echo api_keyf74ad94585be959288a43cfbfc18c0e8methodauth.getSessiontoken262dff1fc42b5cd9ade56a3455d2d78f
+echo $LASTFM_KEY 
+echo api_keyf74ad94585be959288a43cfbfc18c0e8methodauth.getSessiontoken262dff1fc42b5cd9ade56a3455d2d78f | md5 | pbcopy
+echo api_keyf74ad94585be959288a43cfbfc18c0e8methodauth.getSessiontoken262dff1fc42b5cd9ade56a3455d2d78f | md5
+echo api_keyf74ad94585be959288a43cfbfc18c0e8methodauth.getSessiontokenaa28dcc83c9bd784757347b78a48cb03 | md5 | pbcopy
+echo api_keyxxxxxxxxmethodauth.getSessiontokenxxxxxxxmysecret
+echo api_keyxxxxxxxxmethodauth.getSessiontokenxxxxxxx$LASTFM_KEY
+npm start
+cd test/
+touch t.js
+nesh
+npm install xml2js
+npm install xml2js --save
+node t.js 
+vim t.js 
+gist --help
+gist --list
+vim ~/.irbrc
+vim /Users/kizzlebot/.irbrc 
+irb
+ls .env
+cat .env
+cat .env| less
+mongod --version
+heroku login
+vim /Users/kizzlebot/.bashrc 
+vim /Users/kizzlebot/.bash_profile 
+ls /etc/paths.d/
+cat /etc/paths
+echo $PATH
+which heroku
+ls -la /usr/local/bin/heroku 
+heroku create
+heroku apps
+heroku addons:create mongolab
+heroku help create 
+heroku apps:create devmusic
+heroku 
+heroku addons
+heroku help addons
+git remote list show
+git remote  show
+git remote set-url heroku https://git.heroku.com/devmusic.git
+git push heroku master 
+vim .env
+mv dist/DefaultTrackers-0.1-py2.7.egg  ~/Downloads/
+mv 'Let The Winds Blow Phantasy Star Online episode III C.A.R.D. Revolution Original Sound Track [FLAC] (2003) [320].torrent' "Let The Winds Blow (2003) [320].torrent"
+mv 'Let The Winds Blow Phantasy Star Online episode III C.A.R.D. Revolution Original Sound Track [FLAC] (2003) [V2].torrent' 'Let The Winds Blow (2003) [V2].torrent' lcc3.9.3.zip'
+mv 'Let The Winds Blow Phantasy Star Online episode III C.A.R.D. Revolution Original Sound Track [FLAC] (2003) [V2].torrent' 'Let The Winds Blow (2003) [V2].torrent' 
+fdl
+ping google.com
+dl
+rm *.torrent
+ls *.egg
+rm *.egg
+rm ./LCC\ Installer.app/
+rm -r ./LCC\ Installer.app/
+rm lcc3.9.3.zip 
+rm Angry\ IP\ Scanner.app/
+rm -r Angry\ IP\ Scanner.app/
+rm -r Wireshark\ 2.0.1\ Intel\ 64.dmg digilent.waveforms_v3.2.6.dmg jre-8u73-macosx-x64.dmg ipscan-mac-3.4.1.zip 
+rm -r en_windows_10_multiple_editions_version_1511_x64_dvd_7223712.iso 
+rm Resume.pdf Lab2.docx Lab2.pdf Tunnelblick_3.5.7_build_4270.4517.dmg emacs.icns internshipResume.pdf prey-mac-1.5.0-x86.pkg unifying1.10.421.dmg 
+./radio 
+cat HARDWARE-INFO.md 
+which ruby
+gem install whatcd
+gem install bond
+gist --help
+gist --list
+vim ~/.irbrc
+vim /Users/kizzlebot/.irbrc 
+irb
+mongod --dbpath ~/.mongo
+mongod --dbpath ~/.mongo --help
+mongod --dbpath ~/.mongo --help | less
+mongod --dbpath ~/.mongo -vvvvv
+mongo ds023448.mlab.com:23448/kizzlebase -u kizzlebot -p tree444
+vim .env.example 
+source ~/.bashrc
+npm start
+git commit -m'removed sensitive keys'
+git push 
+rm npm-debug.log 
+cat .env.example 
+cat .env.example  | less
+cat .env
+cat .env | less
+vim ~/.bashrc
+git commit -m'remove twitter key
+'
+git push origin master 
+git status
+vim .env
+git add .
+git commit -m'removed instagram key
+'
+git push origin master
+git push heroku master 
+vim
+pbpaste | md5
+pbpaste | md5 |pbcopy
+vim test/t.js 
+node test/t.js 
+gpg --gen-key
+fing
+ifconfig
+ifconfig en0
+ping C0:18:85:03:C7:F7
+ping 192.168.2.9
+ssh 192.168.2.9
+ssh 192.168.2.8
+ssh root@192.168.2.8
+echo $LASTFM_KEY 
+echo $LASTFM_KEY |pbcopy
+ifconfig en0
+sudo spoof reset en0
+ping antiphates.feralhosting.com
+ls ~/Library/Application\ Support/Textual/
+cat ~/Library/Application\ Support/Textual/Textual_Trial_Information.plist 
+rm -r  ~/Library/Application\ Support/Textual/
+sudo rm -r  ~/Library/Application\ Support/Textual/
+
+mount
+ls /Volumes/Textual\ 5.2.9\ by\ Macbed.com/Textual.app/Contents/MacOS/
+hexdump /Volumes/Textual\ 5.2.9\ by\ Macbed.com/Textual.app/Contents/MacOS/Textual 
+hexdump -C /Volumes/Textual\ 5.2.9\ by\ Macbed.com/Textual.app/Contents/MacOS/Textual 
+hexdump -C /Volumes/Textual\ 5.2.9\ by\ Macbed.com/Textual.app/Contents/MacOS/Textual  | less
+hexdump -C /Volumes/Textual\ 5.2.9\ by\ Macbed.com/Textual.app/Contents/MacOS/Textual  
+mtp
+tpm
+tmp
+hexdump -C /Volumes/Textual\ 5.2.9\ by\ Macbed.com/Textual.app/Contents/MacOS/Textual  > ./cracked.txt
+hexdump -C /Volumes/Textual\ 5/Textual.app/Contents/MacOS/Textual > ./clean.txt
+diff clean.txt cracked.txt 
+diff --side-by-side clean.txt cracked.txt 
+diff --side-by-side clean.txt cracked.txt |less
+feral
+history 
+pip install SpoofMAC
+cd /Library/LaunchDaemons/
+cat com.prey.agent.plist 
+curl https://raw.githubusercontent.com/feross/SpoofMAC/master/misc/local.macspoof.plist > ./local.macspoof.plist
 sudo su
-sudo cp /Users/kizzlebot/.bash* /var/root/
-sudo su
-vim /var/root/.bashrc 
-sudo vim /var/root/.bashrc 
-sudo su
-path$ /usr/libexec/path_helper
-/usr/libexec/path_helper
-sudo pip
-sudo which pip
+cd Documents/
+vim /etc/hosts
+sudo vim /etc/hosts
+ls Packages/
+cd Installed\ Packages/
+cd Settings/
+ls ../
+mv ~/Downloads/Sublime-Packages-master/Default/ ./
+cd Default/
+cd /Applications/Sublime\ Text.app/Contents/Resources/
+cd MacOS/
+cat Default.sublime-package 
+cd SharedSupport/
+cd bin/
+cd .././
+ls */*
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/
+cd Packages/
+rm -r Default/
+rm User/fold.py 
+python
+cd Local/
+cd ..
+rtee
+brew install tree
+tree -d2
+tree -L2
+tree
+tree -d
+tree -h
+tree --help
+tree --
+tree -dj-
+tree -L1
+tree -L 
+tree -L 1
+tree -L 2
+cd /Applications/Sublime\ Text.app/
+find . -name *.py
+cd Contents/MacOS/
+ipython
+cd
+cd .bin/
+rm listwifi.sh 
+python listwifi.py
+airport -s
+airport -s | tail -1
+man tail
 ls
-cp sudo.sh  /Users/kizzlebot/Documents/DotFiles/setup.sh 
-vim  /Users/kizzlebot/Documents/DotFiles/setup.sh 
-/Users/kizzlebot/Documents/DotFiles/setup.sh 
-. /Users/kizzlebot/Documents/DotFiles/setup.sh 
-vim  /Users/kizzlebot/Documents/DotFiles/setup.sh 
-. /Users/kizzlebot/Documents/DotFiles/setup.sh 
-vim  /Users/kizzlebot/Documents/DotFiles/setup.sh 
-. /Users/kizzlebot/Documents/DotFiles/setup.sh 
-vim  /Users/kizzlebot/Documents/DotFiles/setup.sh 
-. /Users/kizzlebot/Documents/DotFiles/setup.sh 
-sudo ls
-sudo ls / 
-sudo ls /.file 
-sudo cat /.file 
-sudo rm /.file 
-ls /
-ls -la /
+./listwifi.py 
+vim listwifi.py
+brew install grep 
+ggrep 
+ggrep --help
+man ggrep
+man grep
+airport -s | grep  '(?=(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+which grep
+grep
+history 
+airport -s | grep -o  '(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+airport -s | grep -oE  '(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+airport -s | grep -oE  '([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+airport -s | grep -oE  '([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}'
+airport -s | grep -oP  '([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}'
+airport -s | ggrep -oP  '([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}'
+airport -s | ggrep -oP  '(?=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+airport -s | ggrep -oP  '(?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo '78 FR 12345' | ggrep -oP  '(?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo '78 FR 12345' | ggrep -oP  '(?<=\d\d )FR(?= \d\d\d\d\d)
+'
+unset GREP_OPTIONS 
+vim /Users/kizzlebot/.bash_aliases 
+source /Users/kizzlebot/.bash_aliases 
+echo '78 FR 12345' | ggrep -oP  '(?<=\d\d )FR(?= \d\d\d\d\d)'
+echo '78 FR 12345' | ggrep -oP  '.+?(?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo '9c:1c:12:9e:01:93' | ggrep -oP  '.+?(?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '.+?(?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '.+? (?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '.+'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '.+?'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '.+ (?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '.* (?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '\w+ (?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '\w+(?<=([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '\w+(?!([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '\w+(?!(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2}))'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '(([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '(?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+echo 'abcd 9c:1c:12:9e:01:93' | ggrep -oP  '\w+ (?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+airport -s | ggrep -oP  '\w+ (?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+airport -s
+airport -s | ggrep -oP  '[A-Za-z0-9]+ (?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+airport -s | ggrep -oP  '[A-Za-z0-9 ]+ (?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+airport -s | ggrep -oP  '.+ (?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+airport -s | ggrep -oP  '\A.+ (?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+airport -s | ggrep -oP  '^\s+.+ (?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+airport -s | ggrep -oP  '^\s+ (?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+airport -s | ggrep -oP  '^\s (?=((([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+airport -s | pbcopy
+airport -s | ggrep -oP  '\S.+(?=( (([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))'
+echo airport -s | ggrep -oP  '\S.+(?=( (([A-Za-z0-9]{2}:){5}[A-Za-z0-9]{2})))' |pbcopy 
+kill 47770
+kill 47769
+kill 47753
+ps x
+vim
+vim listwifi.py
+vim
+cd .bin/
+rm ~/.vimswap/listwifi.py.swp 
+vim listwifi.py
+ls
+cat listwifi.py
+gist 
+gist  --list
+ping google.com
+ping google.com
+cd Documents/
+ls

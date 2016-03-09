@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #################### 
 ##### Debug ######## 
 #################### 
@@ -23,6 +25,25 @@ fi
 
 
 export beagle='192.168.7.2'
+
+export FACEBOOK_ID=871589006273384
+export FACEBOOK_SECRET=a1b1e5bebe6854ddd912bb7c0b253805
+export GOOGLE_ID=736815987942-8hvllo62jus0n6ig5bq7mk1p3fghgsae.apps.googleusercontent.com
+export GOOGLE_SECRET=3_tAYNDNGWvvqlZD8hXmNO3C
+export GITHUB_ID=13eaed80a6d2bf680d30
+export GITHUB_SECRET=a943989a89b3d6a6c7a3340d72b223f9de03f070
+export INSTAGRAM_ID=23a045f060d0427eb1956d82231b411f
+export INSTAGRAM_SECRET=37910220052d47dc8cfe374fa743cef4
+export LASTFM_KEY=f74ad94585be959288a43cfbfc18c0e8
+export LASTFM_SECRET=262dff1fc42b5cd9ade56a3455d2d78f
+export MONGODB=mongodb://kizzlebot:tree444@ds023448.mlab.com:23448/kizzlebase
+export MONGOLAB_URI=mongodb://kizzlebot:tree444@ds023448.mlab.com:23448/kizzlebase
+export TWITTER_KEY=ybeD3t1Y6kf5vL9h6Jm3683yC
+export TWITTER_SECRET=FICMSA3x4LHmiUUyvtYX7MOuSPvoBMH2n3JS81iRmGwM5ppaMz
+
+
+
+
 export HOMEBREW_GITHUB_API_TOKEN=d1d4f393eaae829fb8a83b85dc8581e047687775
 
 
@@ -45,7 +66,7 @@ export LESS='-R'
 export LESSOPEN='|~/.lessfilter %s'
 export LS_OPTIONS='--color=auto'
 export CLICOLOR=1
-export GREP_OPTIONS='--color=auto'
+#export GREP_OPTIONS='--color=auto'
 
 
 

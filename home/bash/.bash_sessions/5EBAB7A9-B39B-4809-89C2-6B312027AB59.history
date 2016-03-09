@@ -1,0 +1,498 @@
+alias nvm
+nvm
+which nvm
+whereis nvm
+doc
+ls
+cd awesomeproj/
+ls
+subl .
+which flow 
+brew info flow
+brew uninstall flow
+brew uninstall --force flow
+brew versions flow
+brew version flow
+brew search flow
+vim /Users/kizzlebot/.bash_profile 
+source /Users/kizzlebot/.bash_profile 
+echo $HOMEBREW_GITHUB_API_TOKEN 
+brew search flow
+brew update
+brew versions
+brew info flow
+brew install flow
+npm install react-native-router --save
+ls
+nvm use system
+npm uninstall eslint
+npm uninstall eslint -g
+npm ls | grep eslint
+which esl
+which eslint
+eslint
+npm
+which npm
+nvm ls
+nvm use v5.5.0
+eslint 
+which nvm
+brew install nvm
+which nvm
+alias 
+function 
+ls
+mv ~/.nvm/ ~/Documents/nvm_back
+which node
+which npm
+which nvm
+nvm
+brew install nvm
+brew link nvm
+brew unlink nvm
+brew link nvm
+brew info nvm
+mkdir ~/.nvm
+vim /Users/kizzlebot/.bash_profile 
+nvm
+which nvm
+ls
+brew info nvm
+vim /Users/kizzlebot/.bash_profile 
+source /Users/kizzlebot/.bash_profile 
+vim /Users/kizzlebot/.bash_profile 
+source /Users/kizzlebot/.bash_profile 
+which nvm
+cd ~/Documents/
+ls
+npm -g ls
+which npm
+npm -g ls --depth=0
+npm uninstall -g babel-cli babel-core babel-eslint emmet esbeautifier esformatter-jsx eslint eslint-plugin-babel eslint-plugin-react gulp htmltojsx jest jest-cli mocha modulus nesh nodemon react-native-cli request tern webpack webpack-dev-server
+npm -g ls --depth=0
+which nvm
+npm
+which npm
+brew link nvm
+"$( brew --prefix )"
+ls "$( brew --prefix )"
+ls "$( brew --prefix nvm )"/
+ls "$( brew --prefix nvm )"/nvm.sh
+nvm
+nvm install v5.5.0
+nvm use v5.5.0
+which node
+echo npm install -g babel-cli babel-core babel-eslint emmet esbeautifier esformatter-jsx eslint eslint-plugin-babel eslint-plugin-react gulp htmltojsx jest jest-cli mocha modulus nesh nodemon react-native-cli request tern webpack webpack-dev-server
+echo npm install -g babel-cli babel-core babel-eslint emmet esbeautifier esformatter-jsx eslint eslint-plugin-babel eslint-plugin-react gulp htmltojsx jest jest-cli mocha modulus nesh nodemon react-native-cli request tern webpack webpack-dev-server | pbcopy
+npm install -g babel-cli babel-core babel-eslint emmet esbeautifier esformatter-jsx eslint eslint-plugin-babel eslint-plugin-react gulp htmltojsx jest jest-cli mocha modulus nesh nodemon react-native-cli request tern webpack webpack-dev-server
+dl
+ls *.tco
+ls
+ls *.tcc
+dl
+ls
+open .
+ls
+feral
+ssh -T
+ssh -T git@github.com
+ssh -T kizzlebot@github.com
+ssh-agent -s
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub |pbcopy
+ssh -T git@github.com
+vim /Users/kizzlebot/.ssh/config
+echo "$SSH_AUTH_SOCK"
+ls
+cd
+ls
+doc
+ls
+rm -rf nvm_back/
+cp hackathon-starter/.env  ./devmusic/
+cd devmusic/
+ls
+ls
+rm IMG_0*
+ls
+rm Crossed\ Swords\ \,\ Sengoku\ Densyo\ \(1991\)\ \[PCCB-00076\]\ \[FLAC\]\ \[*
+ls
+rm dynamic*
+ls
+rm -r dynamic*
+
+rm The\ Complete\ New\ Yorker\ Update\ Disk\ 1.3\ \(February\ 1998\ -\ April\ 2008\).torrent 
+ls
+rm *.tcc
+ls
+rm *.torrent
+ls
+rm -r ndless
+feral
+cat ~/.ssh/id_rsa.pub 
+cat ~/.ssh/id_rsa.pub  |pbcopy
+doc
+ls
+git clone https://github.com/kizzlebot/devmusic
+cd devmusic/
+npm i
+npm start
+npm install -g nodemon
+npm start
+ls
+npm link nodemon
+ls
+npm install nodemon --save-dev
+npm lin
+npm link nodemon --save-dev
+
+npm install nodemon --save-dev
+cat package.json 
+ls
+cd ..
+ls
+vim ~/.bashrc
+export PS1='[\[\e[38;5;26m\]\A\[\e[0m\]] \[\e[38;5;241m\]\u\[\e[0m\] \[\e[38;5;24m\]\w\[\e[0m\] \$ '
+ls
+export PS1='[\[\e[38;5;26m\]\A\[\e[0m\]] \[\e[38;5;241m\]\u\[\e[0m\] \[\e[38;5;24m\]\w\[\e[0m\] \$ '
+export PS1='[\[\e[38;5;26m\]\A\[\e[0m\]] \[\e[38;5;241m\]\u\[\e[0m\] \[\e[38;5;24m\]\w\[\e[0m\ \$ '
+ls
+export PS1='[\[\e[38;5;26m\]\A\[\e[0m\]] \[\e[38;5;241m\]\u\[\e[0m\] \[\e[38;5;24m\]\w\[\e[0m \$ '
+ls
+mongod
+mongod --dbpath ~/.mongo
+feral
+php --version
+ls
+rm Roth_Kinney_Fundamentals.Of.Logic.Design.6th.Ed.pdf 
+rm -r steam.dmg octicons/ TI-Nspire\ CAS\ Teacher\ Software\ v3.2.0.1212/ Microelectronics\ Solutions\ Manual.pdf  *.torrent Computer\ Networks\ 5th\ edition.pdf 
+ls
+cd
+ls
+doc
+ls
+mount
+ls /dev
+ount
+mount
+sudo reboot
+sudo reboot 
+nslookup 127.0.0.1
+alias getmyip='dig +short myip.opendns.com @resolver1.opendns.com'
+getmyip 
+getmyip  |pbcopy
+hostname -i
+hostname -
+hostname -a
+sudo hostname -a
+sudo hostname 
+sudo hostname -f
+sudo hostname -s
+gem install gist 
+brew update
+brew install rbenv
+which ruby
+brew uninstall rbenv
+brew install ruby
+brew install rbenv
+rbenv
+rbenv init
+vim /Users/kizzlebot/.bash_profile 
+source /Users/kizzlebot/.bash_profile 
+which rbenv
+rbenv install -l
+type rbenv
+which rbenv
+brew uninstall rbenv
+brew cleanup 
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+cd ~/.rbenv && src/configure && make -C src
+source ~/.bash_profile 
+which rbenv
+type rbenv
+rbenv init
+rbenv
+ls
+cd bin/
+s
+ls
+./rbenv 
+./rbenv  init
+nslookup 
+curl ifconfig.me
+man dig 
+dig +short myip.opendns.com @resolver1.opendns.com
+feral 
+pw
+pwf
+pwd
+ifconfig
+ifconfig en0
+ifconfig | less
+echo 7C:91:22:6F:73:24| sed -i 's/:/-/g'
+echo 7C:91:22:6F:73:24| sed -e 's/:/-/g'
+echo 7C:91:22:6F:73:24| sed -e 's/:/-/g' | pbcopy
+pbpaste| sed -e 's/:/-/g' | pbcopy
+ssh -N -R 2222:localhost:22 thrice43@antiphates.feralhosting.com
+ssh -N -R -v 2222:localhost:22 thrice43@antiphates.feralhosting.com
+man ssh
+ssh -v -N -R 2222:localhost:22 thrice43@antiphates.feralhosting.com
+which ssh
+brew search ssh
+brew info  pssh
+brew info nssh
+brew info gssh
+fearl
+feral
+
+rbenv init
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+rbenv install -l
+which ruby
+ruby --version
+rbenv install 2.3.0
+which gme
+which gem
+gem install gist
+gist --help
+ls
+cd ~/.rbenv/
+ls
+ls completions/
+rbenv completions 
+rbenv completions help
+gist --login
+gist -help
+gist --list kizzlebot
+feral
+ls
+dl
+ls
+man aria2c 
+cat ~/.bash_history 
+ls
+cat ~/.bash_history 
+vim ~/.bashrc
+echo $HISTCONTROL 
+man tcpdump 
+man aria2c 
+man tcpdump 
+echo $HISTCONTROL 
+echo $HISTCONTROL 
+vim ~/.bashrc
+cat /tmp/wifi-ZsC0S7.log
+cat /tmp/wifi-TEBsIr.log
+cat /tmp/wifi-ZCpeDN.log
+wifi-4I3dTn.log
+cat /tmp/wifi-4I3dTn.log
+wifi-4I3dTn.log
+cat /tmp/wifi-YlxAkC.log
+cat /tmp/wifi-YlxAkC.log | less
+ls /var/log/authd.log
+cat /var/log/authd.log
+cat /var/log/authd.log |less
+cat /var/log/authd.log.0.gz 
+gzip -d /var/log/authd.log.0.gz 
+gzip -dc /var/log/authd.log.0.gz 
+gzip -dc /var/log/authd.log.0.gz | less
+ls
+ls /var/
+ls /var/log/opendirectoryd.log
+cat /var/log/opendirectoryd.log
+ls
+doc
+ls
+cd devmusic/
+ls
+cat package.json 
+cat package.json | less
+ls
+cd ..
+ls
+cd react-webpack-express-boilerplate/
+ls
+cat package.json | less
+[[ -v name_of_var ]]
+[[ -v $HOME ]]
+[[ -v $HOME ]] && echo 'yes'
+vim ~/.bashrc
+vim ~/.bashrc
+[ -v $HOME ] && echo 'yes'
+[ -v $HOME ] && echo 'yes'
+[ -z $HOME ] && echo 'yes'
+[ -z $HOME ] && echo 'yes'
+vim ~/.bashrc
+[ -z "$HOME" ] && echo 'yes'
+[ -z "$HOME" ] && printf 'yes'
+[ -z "$HOME" ] 
+[ -z "$HOME" ] && ls
+[ -z "$HOME" ] && ls
+vim ~/.bashrc
+[ -z "$PS!" ] && ls || ps
+[ -z "$var" ] && echo "Empty"
+[ -z "$var" ] && echo "Empty" || make
+[ -z "$HOME" ] && echo "Empty" || make
+ls
+vim package.json 
+npm run fun
+vim package.json 
+npm run fun
+npm run fun
+npm run fun
+vim package.json 
+npm run fun
+man test
+test $HOME
+test "$HOME"
+test $HOME
+test $HOME
+man test
+test -z $HOME
+man test
+man test
+man 
+test 2 = 2
+vim package.json 
+test 2 = 2
+npm run fun
+npm run 
+test -z "$HOME"
+test -z "$HOME" && echo 'hi'
+test -z "$HOME" && echo 'hi' || echo 'what'
+vim package.json 
+npm run 
+npm run fun
+vim package.json 
+npm run fun
+test -z "$HME" && printf "hi" || printf 'ok'
+test -z "$HOME" && printf "hi" || printf 'ok'
+test -z "$HOME" && make install || echo 'oo'
+test -z "$HOE" && make install || echo 'oo'
+echo test -z "$HOE" && make install || echo 'oo' | pbcopy
+vim package.json 
+echo test -z $HOE && make install || echo 'oo' | pbcopy
+echo test -z $HOME && make install || echo 'oo' | pbcopy
+echo test -z '$HOME' && make install || echo 'oo' | pbcopy
+echo test -z '$HOME' && make install || echo 'oo
+ test -z '$HOME' && make install || echo 'oo
+ test -z '$HOME' && make install || echo 'oo'
+ test -z '$OME' && make install || echo 'oo'
+ test -z "$HOME" && make install || echo 'oo'
+ test -z "$HOM" && make install || echo 'oo'
+ test -z "$DEV" && echo 'oo' || make install 
+ test -z "$DEV" && make install || echo 'yo
+'
+ test -z "$DEV" && make install || return 
+ test -z "$HOME" && make install || return 
+ test -z "$HOME" && make install || return  0
+ test -z "$HOME" && make install || return;
+ test -z "$HOME" && make install || return
+ test -z "$HOME" && make install
+ test -n "$HOME" && make install
+ test -n "$DEV" && make install
+vim package.json 
+ test -n "$DEV" && make install
+npm run-script fun
+vim package.json 
+npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+ls
+rm okay 
+vim package.json 
+HME=1 npm run-script fun
+ls
+rm okay 
+npm run-script fun
+vim package.json 
+npm run-script fun
+vim package.json 
+npm run-script fun
+ls
+test -n "$DEV" && make install
+DEV=1; test -n "$DEV" && make install
+DEV=1; [ -n "$DEV" ] && make install
+[ -n "$DEV" ] && make install
+DEV
+echo $DEV
+unset DEV
+[ -n "$DEV" ] && make install
+DEV=1 [ -n "$DEV" ] && make install
+DEV=1 &&  [ -n "$DEV" ] && make install
+DEV &&  [ -n "$DEV" ] && make install
+DEV=0 &&  [ -n "$DEV" ] && make install
+H=1 &&  [ -n "$DEV" ] && make install
+DEV
+echo $DEV
+unset $DEV
+vim package.json 
+npm run-script fun
+vim package.json 
+no
+npm run-script fun
+vim package.json 
+npm run-script fun
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+npm run-script fun
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+vim package.json 
+HME=1 npm run-script fun
+ls
+rm okay 
+npm run-script fun
+ls
+rm okay 
+echo $HME
+ls
+vim package.json 
+vim package.json 
+npm run-script fun
+vim package.json 
+npm run-script fun
+ls
+vim package.json 
+ls
+npm run-script fun
+npm run-script fun --production
+vim package.json 
+npm run-script fun --production
+cat okay 
+rm okay 
+vim package.json 
+npm run-script fun --production
+npm run-script fun
+vim package.json 
+npm run-script fun
+man test
+vim package.json 
+man test
+npm run-script fun
+man test
+npm run-script fun
+vim package.json 
+npm run-script fun
+vim package.json 
+npm run-script fun
+npm run-script fun --production
+vim package.json 
+npm run-script fun --production
+npm run-script fun
+npm run-script fun
+npm run-script fun
+vim package.json 
+npm run-script fun
+npm run-script fun --production
+npm install --production
+npm run
+npm run ls
+bash
+sh
+fing
