@@ -31,8 +31,8 @@ if [ -f "$HOME/.protected_env" ]; then
   source "$HOME/.protected_env"
 fi
 
-export NVM_DIR="/Users/kizzlebot/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+
 
 
 
@@ -120,6 +120,3 @@ if [[ "$bash_debug" == 'yes' ]]; then
   printf '\e[38;5;26m\nbashrc end\e[0m\n'
 fi 
 ##### End Debug ##### 
-
-
-
