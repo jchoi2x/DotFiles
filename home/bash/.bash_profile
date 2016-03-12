@@ -116,6 +116,7 @@ export PS1='[\[\e[38;5;26m\]\A\[\e[0m\]] \[\e[38;5;241m\]\u\[\e[0m\] \[\e[38;5;2
 
 
 
+
 #################################################################################
 ####### Add to path Runtime Environments
 #################################################################################
@@ -146,12 +147,12 @@ if [ -f "$HOME/.node/bin/activate" ]; then
     . "$HOME/.node/bin/activate"
 fi
 
+# NVM: if directory in home, and found in homebrew
 if [ -d "$HOME/.nvm" ]; then
   export NVM_DIR="$HOME/.nvm"
   if [ -s "$(brew --prefix nvm)/nvm.sh" ] ; then 
     . "$(brew --prefix nvm)/nvm.sh"
   fi
-  # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm if nvm.sh exists
 fi
 
 
@@ -176,7 +177,7 @@ if [ -d "/usr/local/linaro/arm-linux-gnueabihf/bin" ]; then
     export CROSS_COMPILE="arm-linux-gnueabihf-"
 fi
 
-export HOMEBREW_GITHUB_API_TOKEN=602f1bcd196538065a4ba93c5b683bd25faf4e2a
+
 #if [ -d "/usr/local/opt/coreutils/libexec/gnubin" ]; then
 #    export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 #    export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:/usr/share/man:/usr/local/share/man:$MANPATH"
@@ -230,5 +231,3 @@ if [[ "$bash_debug" == 'yes' ]]; then
   printf '\e[38;5;37m\nbash_profile end\e[0m\n'
 fi 
 ##### End Debug ##### 
-
-
